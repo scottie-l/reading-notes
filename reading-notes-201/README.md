@@ -12,7 +12,7 @@ Hide Markdown content by putting the content in HTML comment. `<!-- text -->`
 
 ***Table of Contents***
 
-* *Daily Readings* *
+**Daily Readings**
 
 1. <a href="https://github.com/scottie-l/Reading-notes-201/blob/main/class-01.md">Day 1</a>
   -HTML Introduction (p.2-11)
@@ -93,3 +93,5 @@ Hide Markdown content by putting the content in HTML comment. `<!-- text -->`
   -<a href = "https://codepen.io/kieranfivestars/pen/MYdQxX">"404"</a>
   -<a href = "https://codepen.io/dp_lewis/pen/gCfBv">"Pure CSS Bounce Animation"</a>
   -<a href = "https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">"What Google learned from its quest to build the pefect team"</a>
+
+  <a href = "https://github.com/scottie-l/reading-notes">Back</a>

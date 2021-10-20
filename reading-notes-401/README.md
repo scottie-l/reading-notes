@@ -1,6 +1,6 @@
-# Code 301 Reading-notes
+# Code 401 Reading-notes
 
-### All reading notes can be navigated to from here for code 301.
+### All reading notes can be navigated to from here for code 401.
 
 Ignore Markdown use \ before Markdown character.
 
@@ -14,6 +14,6 @@ Hide Markdown content by putting the content in HTML comment. `<!-- text -->`
 
 **Daily Readings**
 
-1.  <a href="https://github.com/scottie-l/reading-notes-301/blob/main/class-01.md">Day 1</a>
+1.  <a href="https://github.com/scottie-l/reading-notes-401/blob/main/class-01.md">Day 1</a>
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>
