@@ -6,5 +6,6 @@
 
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-201">Code 201 - Foundations of Software Development</a>
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Code 301 - Intermediate Software Defelopment</a>
+<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Code 301 - Intermediate Software Development</a>
 
+<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Code 401 - Advanced Software Development</a>
