@@ -6,6 +6,6 @@
 
 **Daily Readings**
 
-1.  <a href="https://github.com/scottie-l/reading-notes-301/blob/main/class-01.md">Day 1</a>
+1.  <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-01.md">Day 1</a>
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>

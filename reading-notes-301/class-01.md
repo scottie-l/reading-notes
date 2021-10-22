@@ -116,13 +116,13 @@ How are props used in React? Step by step Ex.
 - A prop is an Object; we will render the props object by using string interpolation: `{props}`
 - In JavaScript, can access object elements with dot(.) notation. So we can render our text property with an interpolation:
 
-<!-- const ChildComponent = (props) => {  
+const ChildComponent = (props) => {  
   return <p>{props.text}</p>; 
-}; -->
+};
 
 - Do the same for other child components:
 
-<!-- class ParentComponent extends Component {  
+class ParentComponent extends Component {  
   render() {
     return (
       <h1>
@@ -133,7 +133,7 @@ How are props used in React? Step by step Ex.
       </h1>
     );
   }
-} -->
+}
 
 - Each ChildComponent will render its own prop data. This is how we use Props to pass data and convert static components into dynamic ones.
 
@@ -141,7 +141,7 @@ How are props used in React? Step by step Ex.
 
 <b>Ch. ""
 
-<a href="https://github.com/scottie-l/reading-notes-301">Back</a>
+<a href="https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
 
 (Ref. on pg , Jon Duckett, JavaScript & JQuery.)
 (Ref. on pg , Jon Duckett, HTML & CSS.)
