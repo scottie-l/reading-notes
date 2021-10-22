@@ -101,15 +101,15 @@ How are props used in React? Step by step Ex.
 - Passing props is like we pass arguments to a function; we pass props into a React component, and props bring all the necessary data.
 - Arguments passed to a function:
 
-<!-- const addition = (firstNum, secondNum) => {  
-  return firstNum + secondNum; 
-}; -->
+const addition = (firstNum, secondNum) => {  
+  return firstNum + secondNum;
+};
 
 - Arguments passed to a React component:
 
-<!-- const ChildComponent = (props) => {  
-  return <p>I'm the 1st child!</p>; 
-}; -->
+const ChildComponent = (props) => {  
+  return `<p>I'm the 1st child!</p>;`
+};
 
 3. Render the Props Data.
 
@@ -117,7 +117,7 @@ How are props used in React? Step by step Ex.
 - In JavaScript, can access object elements with dot(.) notation. So we can render our text property with an interpolation:
 
 const ChildComponent = (props) => {  
-  return <p>{props.text}</p>; 
+  return `<p>{props.text}</p>;`
 };
 
 - Do the same for other child components:
@@ -125,12 +125,12 @@ const ChildComponent = (props) => {
 class ParentComponent extends Component {  
   render() {
     return (
-      <h1>
+      `<h1>`
         I'm the parent component.
-        <ChildComponent text={"I'm the 1st child"} />
-        <ChildComponent text={"I'm the 2nd child"} />
-        <ChildComponent text={"I'm the 3rd child"} />
-      </h1>
+        `<ChildComponent text={"I'm the 1st child"} />`
+        `<ChildComponent text={"I'm the 2nd child"} />`
+        `<ChildComponent text={"I'm the 3rd child"} />`
+      `</h1>`
     );
   }
 }
