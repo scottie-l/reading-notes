@@ -2,15 +2,7 @@
 
 ### All reading notes can be navigated to from here for code 301.
 
-Ignore Markdown use \ before Markdown character.
-
-Call out code or commands inside a sentence using single backticks `. Text inside the backticks will not be formatted. Use 3 backticks for multiple lines of code.
-
-`<!-- This content will not appear in the rendered Markdown -->`
-
-Hide Markdown content by putting the content in HTML comment. `<!-- text -->`
-
-***Table of Contents***
+## ***Table of Contents***
 
 **Daily Readings**
 

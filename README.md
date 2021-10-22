@@ -1,3 +1,10 @@
+To comment out lines of code use:
+- " ctrl + / " comment out
+- backticks ( ` ) " `comment out` ". Use 3 backticks ( ``` ) for multiple lines of code.
+- HTML: <!-- comment out -->
+- CSS: /* comment out */
+- JavaScript: // comment out
+
 # Table of Contents
 
 ## Things I want to know more about
