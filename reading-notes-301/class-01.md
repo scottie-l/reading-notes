@@ -165,21 +165,67 @@ You can compose and render custom React components. Ex. we can refer to the whol
 Building a Tic-Tac-Toe game: Starter code used from Reactjs.org
 
 `class Square extends React.Component {`
+
+C. First, we’ll add a constructor to the class to initialize the state:
+
+  `constructor(props) {`
+
+  `super(props);`
+
+    `this.state = {`
+
+        `value: null,`
+
+    `};`
+
+`}`
+
   `render() {`
+
     `return (`
-      `<button className="square">`
-        `{/* TODO */}`
+
+B. Change the button tag that is returned from the Square component’s render() function to this:
+
+      `<button className="square">` change to: `<button className = "square" onClick = {() => console.log('click')}>`
+
+C. Replace this.props.value with this.state.value inside the `<button>` tag.
+
+`<button className = "square" onClick = {() => console.log('click')}>` change to: 
+
+`<button`
+
+    className = "square"
+
+    onClick = {() => this.setState({value: 'X'})}
+
+`>`
+
+    {this.state.value}
+
+A. In Board’s renderSquare method, change the code to pass a prop called value to the Square:
+
+        `{/* TODO */}` change to: `{this.props.value}
+
       `</button>`
+
     `);`
+
   `}`
+
 `}`
 
 `class Board extends React.Component {`
+
   `renderSquare(i) {`
-    `return <Square />;`
+
+A. In Board’s renderSquare method, change the code to pass a prop called value to the Square:
+
+    `return <Square />;` change to: `return <Square value = {i} />;
+
   `}`
 
   `render() {`
+
     `const status = 'Next player: X';`
 
     `return (`
@@ -224,8 +270,11 @@ Building a Tic-Tac-Toe game: Starter code used from Reactjs.org
 `========================================`
 
 `ReactDOM.render(`
+
   `<Game />,`
+
   `document.getElementById('root')`
+
 `);`
 
 We have three React components:
@@ -234,21 +283,87 @@ We have three React components:
 - Board
 - Game
 
-The Square component renders a single `<button>` and the Board renders 9 squares. The Game component renders a board with placeholder values which we’ll modify later. There are currently no interactive components.
+The "Square" component renders a single `<button>` and the "Board" renders 9 squares. The "Game" component renders a board with placeholder values, which we’ll modify later. There are currently no interactive components.
 
+To pass some data from our Board component to our Square component, see Ex. "A" above.
 
+To make interactive, let’s fill the Square component with an “X” when we click it. See Ex. "B" above.
 
+We want the Square component to “remember” that it got clicked, and fill it with an “X” mark. To “remember” things, components use state.
 
+React components can have state by setting this.state in their constructors. this.state should be considered as private to a React component that it’s defined in. To store the current value of the Square in this.state, and change it when the Square is clicked, see Ex. "C" above. We’ll also change the Square’s render method to display the current state’s value when clicked. See Ex. "C" above.
 
+The React Devtools extension for Chrome lets you inspect a React component tree with your browser’s developer tools. The React DevTools let you check the props and the state of your React components.
 
+After installing React DevTools, can right-click on any element on page, click “Inspect” to open the developer tools, and the React tabs (“⚛️ Components” and “⚛️ Profiler”) will appear as the last tabs to the right. Use “⚛️ Components” to inspect the component tree.
 
 <b><a href = "https://reactjs.org/docs/hello-world.html">"React Docs - Hello world"</a>
 
 <b><a href = "https://reactjs.org/docs/introducing-jsx.html">"React Docs - Introducing JSX"</a>
 
+JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”.
+
+React embraces the fact that rendering logic is inherently coupled with other UI logic: how events are handled, how the state changes over time, and how the data is prepared for display.
+
+Instead of separating technologies by putting markup and logic in separate files, React separates concerns with loosely coupled units called “components” that contain both.
+
+React doesn’t require using JSX, but most people find it helpful as a visual aid when working with UI inside the JavaScript code. It also allows React to show more useful error and warning messages.
+
+You can put any valid JavaScript expression inside curly braces in JSX.
+
+We split JSX over multiple lines for readability. It isn’t required, we also recommend wrapping it in parentheses to avoid the pitfalls of automatic semicolon insertion.
+
+After compilation, JSX expressions become regular JavaScript function calls and evaluate to JavaScript objects. This means you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions.
+
+You may use quotes to specify string literals as attributes. May also use curly braces to embed a JavaScript expression in an attribute.
+
+Don’t put quotes around curly braces when embedding a JavaScript expression in an attribute. You should either use quotes (for string values) or curly braces (for expressions), but not both in the same attribute.
+
+If a tag is empty, you may close it immediately with />, like XML. JSX tags may contain children.
+
+It is safe to embed user input in JSX. By default, React DOM escapes any values embedded in JSX before rendering them. Thus it ensures that you can never inject anything that’s not explicitly written in your application. Everything is converted to a string before being rendered. This helps prevent XSS (cross-site-scripting) attacks.
+
+Babel compiles JSX down to React.createElement() calls. These objects are called “React elements”. You can think of them as descriptions of what you want to see on the screen. React reads these objects and uses them to construct the DOM and keep it up to date.
+
 <b><a href = "https://reactjs.org/docs/rendering-elements.html">"React Docs - Rendering elements"</a>
 
+An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
+
+Let’s say there is a `<div>` somewhere in your HTML file: We call this a “root” DOM node because everything inside it will be managed by React DOM.
+
+Applications built with just React usually have a single root DOM node. If you are integrating React into an existing app, you may have as many isolated root DOM nodes as you like. To render a React element into a root DOM node, pass both to ReactDOM.render():
+
+React elements are immutable. Once you create an element, you can’t change its children or attributes. An element is like a single frame in a movie: it represents the UI at a certain point in time. With our knowledge so far, the only way to update the UI is to create a new element, and pass it to ReactDOM.render().
+
+React DOM compares the element and its children to the previous one, and only applies the DOM updates necessary to bring the DOM to the desired state.
+
+Even though we create an element describing the whole UI tree on every tick, only the text node whose contents have changed gets updated by React DOM.
+
 <b><a href = "https://reactjs.org/docs/components-and-props.html">"React Docs - Components and props"</a>
+
+Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+
+The simplest way to define a component is to write a JavaScript function:
+
+`function Welcome(props) {`
+
+  `return <h1>Hello, {props.name}</h1>;`
+
+`}`
+
+This function is a valid React component because it accepts a single “props” (which stands for properties) object argument with data and returns a React element. We call such components “function components” because they are literally JavaScript functions.
+
+You can also use an ES6 class to define a component:
+
+`class Welcome extends React.Component {`
+  `render() {`
+    `return <h1>Hello, {this.props.name}</h1>;`
+  `}`
+`}`
+
+The above two components are equivalent from React’s point of view.
+
+###Rendering a Component left off here...
 
 
 
