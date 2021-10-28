@@ -54,7 +54,7 @@ UNSAFE_componentWillReceiveProps(), instead of componentWillReceiveProps, use st
 
 4. What are some ex. of things that we could store in state? Things to display something to user.  
 
-<b><a href = "https://reactjs.org/docs/state-and-lifecycle.html">"State and Lifecycle"</a>
+<b><a href = "https://reactjs.org/docs/state-and-lifecycle.html">"React Docs - State and Lifecycle"</a>
 
 When `<Clock />` is passed to ReactDOM.render(), React calls the constructor of the Clock component. Since Clock needs to display the current time, it initializes this.state with an object including the current time. We will later update this state.
 
@@ -68,8 +68,8 @@ If the Clock component is ever removed from the DOM, React calls the componentWi
 
 The only place where you can assign this.state is the constructor.
 
-<b><a href = "https://reactjs.org/docs/handling-events.html">"Handling Events"</a>
+<b><a href = "https://reactjs.org/docs/handling-events.html">"React Docs - Handling Events"</a>
 
-<b><a href = "https://reactjs.org/tutorial/tutorial.html">"Tutorial through Dev tools"</a>
+<b><a href = "https://reactjs.org/tutorial/tutorial.html">"React Docs - Tutorial through Dev tools"</a>
 
-<a href="https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>

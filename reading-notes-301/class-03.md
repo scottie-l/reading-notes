@@ -194,8 +194,8 @@ Conclusion: Spread operator can expand another item by spliting an iterable elem
 
 4. How does the child component invoke a method that was passed to it from a parent component? Pass the increment function to the child, using this.props.increment(this.props.name)
 
-<b><a href = "https://reactjs.org/tutorial/tutorial.html">"Declaring a Winner"</a>
+<b><a href = "https://reactjs.org/tutorial/tutorial.html">"Reasct Docs - Declaring a Winner"</a>
 
-<b><a href = "https://reactjs.org/docs/lifting-state-up.html">"Lifting State Up"</a>
+<b><a href = "https://reactjs.org/docs/lifting-state-up.html">"React Docs - Lifting State Up"</a>
 
-<a href="https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>

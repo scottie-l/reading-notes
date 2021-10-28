@@ -12,6 +12,8 @@
 
 3. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-03.md">Day 3</a>
 
-<!-- 4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-04.md">Day 4</a> -->
+4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-04.md">Day 4</a>
+
+5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-05.md">Day 5</a>
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>

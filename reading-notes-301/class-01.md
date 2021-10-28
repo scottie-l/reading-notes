@@ -545,4 +545,4 @@ Some functions are called “pure” because they do not attempt to change their
 
 React is pretty flexible but it has a single strict rule: All React components must act like pure functions with respect to their props.
 
-<a href="https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
