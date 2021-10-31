@@ -8,12 +8,57 @@
 
 1. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-01.md">Day 1</a>
 
+- <a href = "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm">"Component based Architecture"</a>
+- <a href = "https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0">"What is Props and How to Use it in React"</a>
+- <a href = "https://reactjs.org/tutorial/tutorial.html">"React Tutorial" through ‘Passing Data Through Props’</a>
+- <a href = "https://reactjs.org/docs/hello-world.html">"React Docs - Hello world"</a>
+- <a href = "https://reactjs.org/docs/introducing-jsx.html">"React Docs - Introducing JSX"</a>
+- <a href = "https://reactjs.org/docs/rendering-elements.html">"React Docs - Rendering elements"</a>
+- <a href = "https://reactjs.org/docs/components-and-props.html">"React Docs - Components and props"</a>
+
 2. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-02.md">Day 2</a>
+
+- <a href = "https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093">"React Lifecycle"</a>
+- <a href = "https://www.youtube.com/watch?v=IYvD9oBCuJI">"React state Vs Props"</a>
+- <a href = "https://reactjs.org/docs/state-and-lifecycle.html">"React Docs - State and Lifecycle"</a>
+- <a href = "https://reactjs.org/docs/handling-events.html">"React Docs - Handling Events"</a>
+- <a href = "https://reactjs.org/tutorial/tutorial.html">"React Docs - Tutorial through Dev tools"</a>
 
 3. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-03.md">Day 3</a>
 
+- <a href = "https://reactjs.org/docs/lists-and-keys.html">"Lists and Keys"</a>
+- <a href = "https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab">"The Spread operator"</a>
+- <a href = "https://www.youtube.com/watch?v=c05OL7XbwXU">"How to pass Functions Between Components"</a>
+- <a href = "https://reactjs.org/tutorial/tutorial.html">"Reasct Docs - Declaring a Winner"</a>
+- <a href = "https://reactjs.org/docs/lifting-state-up.html">"React Docs - Lifting State Up"</a>
+
 4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-04.md">Day 4</a>
 
+- <a href = "https://reactjs.org/docs/forms.html">"Forms"</a>
+- <a href = "https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff">"The Conditional (Ternery) Operator Explained"</a>
+- <a href = "https://react-bootstrap.github.io/components/forms/">"React Bootstrap Forms"</a>
+- <a href = "https://reactjs.org/docs/conditional-rendering.html">"React Docs - Conditional Rendering"</a>
+
 5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-05.md">Day 5</a>
+
+- <a href = "https://reactjs.org/docs/thinking-in-react.html">"Thinking in React"</a>
+- <a href = "https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK">"Higher Order Functions"
+
+6. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-06.md">Day 6</a>
+
+- <a href = "https://www.sitepoint.com/an-introduction-to-node-js/">"Intro to Node.js"</a>
+- <a href = "https://www.codefellows.org/blog/6-reasons-for-pair-programming/">"6 reasons for pair programming"</a>
+- <a href = "https://locationiq.com/">"Geocoding API Docs"</a>
+- <a href = "https://www.npmjs.com/package/axios">"Axios Docs"</a>
+- <a href = "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await">"MCN async and await"</a>
+
+<!-- 
+7. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-07.md">Day 7</a>
+
+8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-08.md">Day 8</a>
+
+9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-09.md">Day 9</a>
+
+10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-10.md">Day106</a> -->
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>
