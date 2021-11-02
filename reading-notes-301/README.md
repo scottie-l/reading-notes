@@ -52,10 +52,13 @@
 - <a href = "https://www.npmjs.com/package/axios">"Axios Docs"</a>
 - <a href = "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await">"MCN async and await"</a>
 
-<!-- 
+
 7. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-07.md">Day 7</a>
 
-8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-08.md">Day 8</a>
+- <a href = "https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">"What Google learned from its quest to Build the perfect team"</a>
+- <a href = "https://gist.github.com/brookr/5977550">"How I explained REST to my brother"</a>
+
+<!-- 8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-08.md">Day 8</a>
 
 9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-09.md">Day 9</a>
 
