@@ -1,6 +1,6 @@
 # Code 301 Reading-notes
 
-### All reading notes can be navigated to from here for code 301.
+### All reading notes can be navigated to from here for code 301
 
 ## ***Table of Contents***
 
@@ -52,16 +52,20 @@
 - <a href = "https://www.npmjs.com/package/axios">"Axios Docs"</a>
 - <a href = "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await">"MCN async and await"</a>
 
-
 7. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-07.md">Day 7</a>
 
 - <a href = "https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">"What Google learned from its quest to Build the perfect team"</a>
 - <a href = "https://gist.github.com/brookr/5977550">"How I explained REST to my brother"</a>
 
-<!-- 8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-08.md">Day 8</a>
+8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-08.md">Day 8</a>
 
-9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-09.md">Day 9</a>
+- <a href = "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design">"RESTful web API design"</a>
+- <a href = "https://regexr.com/">"Regexr"</a>
+- <a href = "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285">"Regexer Cheatsheet"</a>
+- <b><a href = "https://regex101.com/">"Regexr 101 Testing"</a>
 
-10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-10.md">Day106</a> -->
+<!-- 9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-09.md">Day 9</a> -->
+
+<!-- 10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-10.md">Day106</a> -->
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>
