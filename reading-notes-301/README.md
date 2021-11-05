@@ -69,6 +69,8 @@
 - <a href = "https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa">"Functional Programming Concepts"</a>
 - <a href = "https://www.youtube.com/watch?v=xHLd36QoS4k">"Node JS Tutorial for Beginners #6 - Modules & Require()"</a>
 
-<!-- 10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-10.md">Day106</a> -->
+10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-10.md">Day10</a>
+
+<!-- 10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-11.md">Day11/a> -->
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>
