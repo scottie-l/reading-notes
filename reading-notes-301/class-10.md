@@ -8,7 +8,7 @@
 
 4. Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
 
-    <img src = "assets/images/LIFO stack.png">
+    <img src = "assets/images/LIFO Stack.png"/>
 
 5. What causes a Stack Overflow? A recursice function without an exit point.
 
