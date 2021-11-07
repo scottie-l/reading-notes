@@ -71,6 +71,23 @@
 
 10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-10.md">Day10</a>
 
-<!-- 10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-11.md">Day11/a> -->
+- <a href = "https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/">"Understanding the JS Call Stack"</a>
+- <a href = "https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c">"JS error messages"</a>
+- <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors">"JS errors ref. on MDN"</a>
+
+11. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-11.md">Day11/a>
+
+- <a href = "https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool">"NoSQL vs SQL"</a>
+- <a href = "https://mongoosejs.com/docs/api.html#Model">"Mongoose API"</a>
+- <a href = "https://v5.reactrouter.com/web/api/BrowserRouter">"React Router"</a>
+- <a href = "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y">"NoSQL vs SQL (Video)"</a>
+
+<!-- 12. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-12.md">Day11/a> -->
+
+<!-- 13. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-13.md">Day11/a> -->
+
+<!-- 14. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-14.md">Day11/a> -->
+
+<!-- 15. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-15.md">Day11/a> -->
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>
