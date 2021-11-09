@@ -75,19 +75,22 @@
 - <a href = "https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c">"JS error messages"</a>
 - <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors">"JS errors ref. on MDN"</a>
 
-11. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-11.md">Day11/a>
+11. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-11.md">Day11</a>
 
 - <a href = "https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool">"NoSQL vs SQL"</a>
 - <a href = "https://mongoosejs.com/docs/api.html#Model">"Mongoose API"</a>
 - <a href = "https://v5.reactrouter.com/web/api/BrowserRouter">"React Router"</a>
 - <a href = "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y">"NoSQL vs SQL (Video)"</a>
 
-<!-- 12. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-12.md">Day11/a> -->
+12. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-12.md">Day12</a>
 
-<!-- 13. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-13.md">Day11/a> -->
+- <a href = "https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/">"Status Codes Based On REST Methods"</a>
+- <a href = "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw">"Build A REST API With Node.js, Express, & MongoDB - Video - 1st 20 minutes"</a>
 
-<!-- 14. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-14.md">Day11/a> -->
+<!-- 13. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-13.md">Day13</a> -->
 
-<!-- 15. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-15.md">Day11/a> -->
+<!-- 14. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-14.md">Day14</a> -->
+
+<!-- 15. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-15.md">Day15</a> -->
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>
