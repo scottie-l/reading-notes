@@ -87,7 +87,11 @@
 - <a href = "https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/">"Status Codes Based On REST Methods"</a>
 - <a href = "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw">"Build A REST API With Node.js, Express, & MongoDB - Video - 1st 20 minutes"</a>
 
-<!-- 13. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-13.md">Day13</a> -->
+13. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-13.md">Day13</a>
+
+- <a href = "https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding">"Consider the history: That Time When Women Stopped Coding"</a>
+- <a href = "https://informationisbeautiful.net/visualizations/diversity-in-tech/">"Review the data: Employee breakdown of key technology companies"</a>
+- <a href = "https://www.usatoday.com/story/tech/columnist/2015/07/21/why-diversity-matters-your-tech-company/30419871/">"Ask the question: Why diversity matters to your tech company"</a>
 
 <!-- 14. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-14.md">Day14</a> -->
 
