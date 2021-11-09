@@ -10,11 +10,11 @@
 
 5. 400’s = Client error codes. Invalid requests from client sent to server.
 
-6. 500’s = Server erroe codes. Indicate a problem with the server side.
+6. 500’s = Server error codes. Indicate a problem with the server side.
 
 7. What is a status code 202? Accepted. Often used with async function.
 
-8. What is a status code 308? Pemanent Redirect. Tells them a new URL to go to.
+8. What is a status code 308? Permanent Redirect. Tells them a new URL to go to.
 
 9. What code would you use if an update didn’t return data to a client? 204.
 
@@ -47,9 +47,9 @@ Sometimes there are multiple codes we could use for one particular case, the imp
 
 4. What does the /:id mean in a route? It means that it's a parameter.
 
-5. What is the difference beween PUT and PATCH? Put creates new entry in router. Patch will update just 1 field, not entire entry.
+5. What is the difference between PUT and PATCH? Put creates new entry in router. Patch will update just 1 field, not entire entry.
 
-6. How do you make a defalut value in a schema? default: Date.now(or other value you want defaulted).
+6. How do you make a default value in a schema? default: Date.now(or other value you want defaulted).
 
 7. What does a 500 error status code mean? There is an error on the server, not the user or client.
 
