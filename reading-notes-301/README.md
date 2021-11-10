@@ -93,7 +93,11 @@
 - <a href = "https://informationisbeautiful.net/visualizations/diversity-in-tech/">"Review the data: Employee breakdown of key technology companies"</a>
 - <a href = "https://www.usatoday.com/story/tech/columnist/2015/07/21/why-diversity-matters-your-tech-company/30419871/">"Ask the question: Why diversity matters to your tech company"</a>
 
-<!-- 14. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-14.md">Day14</a> -->
+14. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-14.md">Day14</a>
+
+- <a href = "https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html">"What is OAuth"</a>
+- <a href = "https://auth0.com/docs/authorization/flows">"Authorization and Authentication flows"</a>
+- <a href = "https://auth0.com/docs/libraries/auth0-react">"Auth0 for single page apps"</a
 
 <!-- 15. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-15.md">Day15</a> -->
 
