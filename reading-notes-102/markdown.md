@@ -18,9 +18,9 @@ Use (**) `**Text**` or (__) `__Text__` for
 
 **bold**
 
-<https://google.com> - automatic links
+`<https://google.com>` - automatic links
 
-[google](https://google.com)
+`[google](https://google.com)`
 
 Lists
 
