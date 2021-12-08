@@ -10,7 +10,7 @@
 
     <img src = "assets/images/LIFO Stack.png"/>
 
-5. What causes a Stack Overflow? A recursice function without an exit point.
+5. What causes a Stack Overflow? A recursive function without an exit point.
 
 The key takeaways from the call stack are:
     - It is single-threaded. Meaning it can only do one thing at a time.
@@ -20,9 +20,9 @@ The key takeaways from the call stack are:
 
 <b><a href = "https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c">"JS error messages"</a>
 
-1. What is a ‘refrence error’? When you try to use a variable that has not yet been declared.
+1. What is a ‘reference error’? When you try to use a variable that has not yet been declared.
 
-2. What is a ‘syntax error’? This occurs when you have something that cannot be parsred in terms of syntax.
+2. What is a ‘syntax error’? This occurs when you have something that cannot be parsed in terms of syntax.
 
 3. What is a ‘range error’? Try to manipulate an object with some kind of length & give it an invalid length.
 
@@ -32,7 +32,7 @@ The key takeaways from the call stack are:
 
 6. What does the word ‘debugger’ do in your code? It stops the execution of your program where you inserted it.
 
-Chrome developer tools - open pg with your JS code (Ctrl + o in Windows) and choose your file to debug, click the line you wanna debug and refresh your page again(F5).
+Chrome developer tools - open pg with your JS code (Ctrl + o in Windows) and choose your file to debug, click the line you want to debug and refresh your page again(F5).
 
 <b><a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors">"JS errors ref. on MDN"</a>
 

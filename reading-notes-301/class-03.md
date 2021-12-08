@@ -182,7 +182,7 @@ One of the benefits of using spread operator is it will create new reference to 
 
 Watch out for the deeply-nested Gotcha! When JavaScript objects, including arrays, are deeply nested, spread operator only copies first level with new reference, but deeper values are still linked together. This problem called "creating a deep copy". Deep copies can be made using lodash or R.clone() method from the Ramda functional programming library.
 
-Conclusion: Spread operator can expand another item by spliting an iterable element like string or array into individual elements. The spread operator … is useful for working with arrays and objects in JS.
+Conclusion: Spread operator can expand another item by splitting an iterable element like string or array into individual elements. The spread operator … is useful for working with arrays and objects in JS.
 
 <b><a href = "https://www.youtube.com/watch?v=c05OL7XbwXU">"How to pass Functions Between Components"</a>
 

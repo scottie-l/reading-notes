@@ -1,6 +1,6 @@
 <b><a href = "https://reactjs.org/docs/thinking-in-react.html">"Thinking in React"</a>
 
-1. What is the single responsibility principle and how does it apply to components? A component should ideally only do one thing. It if it grows, it should be decomposed into smaller subcomponenets. Each component should match 1 piece of your data model.
+1. What is the single responsibility principle and how does it apply to components? A component should ideally only do one thing. It if it grows, it should be decomposed into smaller sub components. Each component should match 1 piece of your data model.
 
 2. What does it mean to build a ‘static’ version of your application?  A build version that takes your data model and renders it to UI but has no interactivity.
 
@@ -114,13 +114,13 @@ Add instance property this.state = {filterText: '', inStockOnly: false} to Filte
 
 Want to make sure that whenever user changes form, we update state to reflect user input. Since components should only update own state, FilterableProductTable will pass callbacks to SearchBar that will fire whenever state should be updated. Can use onChange event on inputs to be notified of. Callbacks passed by FilterableProductTable will call setState(), and app will be updated.
 
-<b><a href = "https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK">"Higher Order Functions"
+<b><a href = "https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK">"Higher Order Functions"</a>
 
 1. What is a “higher-order function”? Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
 
 2. Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing? Evaluating if m is less than n.
 
-3. Explain how either map or reduce operates, with regards to higher-order functions? The first function builds array by applying function to all its elements from returned data. Another function uses this newly created arrya to apply its function to all elements and use its returned data for another function.
+3. Explain how either map or reduce operates, with regards to higher-order functions? The first function builds array by applying function to all its elements from returned data. Another function uses this newly created array to apply its function to all elements and use its returned data for another function.
 
 Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
 

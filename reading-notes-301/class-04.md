@@ -50,9 +50,9 @@ Alternatives to Controlled Components:
 
 Can sometimes be tedious to use controlled components, because need to write event handler for every way data can change and pipe all input state through a React component. Can become annoying when converting preexisting codebase to React, or integrating React application with non-React library. Might want to check out uncontrolled components, alternative technique for implementing input forms.
 
-<b><a href = "https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff">"The Conditional (Ternery) Operator Explained"</a>
+<b><a href = "https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff">"The Conditional (Ternary) Operator Explained"</a>
 
-1. Why would we use a ternary operator? To write a more succint line of code to evaluate a condition using a boolean value.
+1. Why would we use a ternary operator? To write a more succinct line of code to evaluate a condition using a Boolean value.
 
 2. Rewrite the following statement using a ternary statement: x===y ? true : false;
 
@@ -94,9 +94,9 @@ if ( condition ) {
 
 Now, the ternary operator:
 
-condition -  ? value if true, : value if false
+condition - ? value if true, : value if false
 
-The condition is what you’re actually testing. Result of your condition should be true or false or at least coerce to either boolean value.
+The condition is what you’re actually testing. Result of your condition should be true or false or at least coerce to either Boolean value.
 
 A " ? " separates our conditional from our true value. Anything between the ? and the : is what is executed if condition evaluates to true.
 

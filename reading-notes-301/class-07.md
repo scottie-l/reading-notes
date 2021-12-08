@@ -4,7 +4,7 @@ Ref. reading-notes-201 Day 14
 
 <b><a href = "https://gist.github.com/brookr/5977550">"How I explained REST to my brother"</a>
 
-1. Who is Roy Fielding? He helped write the 1st web servers that sent docs via the net. Authored a lot of research papers explianing how the internet works.
+1. Who is Roy Fielding? He helped write the 1st web servers that sent docs via the net. Authored a lot of research papers explaining how the internet works.
 
 2. Why don’t the techniques that we use today work well when we need to be able to talk to all of the machines in the world? The machines were mostly made to communicate in small groups.
 

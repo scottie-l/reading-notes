@@ -6,9 +6,9 @@
 |-----------------------------------------------|-------------------------------------------------                  |
 | Called as relational DB (RDBMS)               | Called as non-relational or distributed DB                        |
 | Table based DB's                              | Document based, key-value pairs, graph DB's or wide-column stores |
-| Predefined schema                             | Dynamic schema for unstrictured data                              |
+| Predefined schema                             | Dynamic schema for unstructured data                              |
 | Vertically scalable                           | Horizontally scalable                                             |
-| Uses SQL for defining & manipulating data     | Queries forcused on collection of documents                       |
+| Uses SQL for defining & manipulating data     | Queries focused on collection of documents                       |
 
 2. What kind of data is a good fit for an SQL database? SQL databases are good fit for complex query intensive environments. SQL databases are best fit for heavy duty transactional type applications.
 
@@ -34,7 +34,7 @@ Docs for React route.
 
 1. What does SQL stand for? Structured Query language.
 
-2. What is a relational database? Works with certainn assumptions. Works with tables. Each entry has unique id to relate to other tables.
+2. What is a relational database? Works with certain assumptions. Works with tables. Each entry has unique id to relate to other tables.
 
 3. What type of structure does a relational database work with? DB tables.
 
@@ -42,7 +42,7 @@ Docs for React route.
 
 5. What is a NoSQL database? They use a collection (like a table).
 
-6. Howo does it work? Each collection has documents, or rows in table and don't use a structured schema.
+6. How does it work? Each collection has documents, or rows in table and don't use a structured schema.
 
 7. What is inside of a Mongo database? Documents.
 

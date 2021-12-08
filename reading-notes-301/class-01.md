@@ -3,7 +3,7 @@
 What is a "Component"?
 
 - Software object, intended to interact with other components, encapsulating certain functionality or set of functionalities.
-- Can be defined as a unit of composition with contractually specififed interface and explicit context dependencies only.
+- Can be defined as a unit of composition with contractually specified interface and explicit context dependencies only.
 
 What are the characteristics of a component?
 
@@ -16,7 +16,7 @@ What are the characteristics of a component?
 - Independent − Components are designed to have minimal dependencies on other components.
 - An obviously defined interface and conforms to a recommended behavior common to all components within the architecture.
 
-What are the advantages of using a component-based arcitecture?
+What are the advantages of using a component-based architecture?
 
 - Reduced time in market and the development cost by reusing existing components.
 - Ease of deployment − As new compatible versions become available, it's easier to replace existing versions with no impact on other components or system as a whole.
@@ -28,13 +28,13 @@ What are the advantages of using a component-based arcitecture?
 - System maintenance and evolution − Easy to change and update implementation without affecting rest of system.
 - Independent − Independency and flexible connectivity of components. Independent development of components by different group in parallel. Productivity for the software development and future software development.
 
-Focuses on decomposition of the design into individula functional or logical components that represent well defined communication interfaces containing methods events and properties.
+Focuses on decomposition of the design into individual functional or logical components that represent well defined communication interfaces containing methods events and properties.
 
 Provides higher level of abstraction and divides the problem into subproblems.
 
 Can have 3 different views:  
 
-- Object oriented view: 1 or more cooperating classes. Each problem domain class and infrastructure class are explianed to id all attributes & operations that apply to its implementation. Also involves defining interfaces that enable classes to communicate and cooperate.
+- Object oriented view: 1 or more cooperating classes. Each problem domain class and infrastructure class are explained to id all attributes & operations that apply to its implementation. Also involves defining interfaces that enable classes to communicate and cooperate.
 - Conventional view: It's viewed as functional element or module of program that integrates the processing logic, the internal data structures that are required to implement processing logic and interface that enables component to be invoked, and data to be passed to it.
 - Process-related view: Instead of creating each component from scratch system is building from existing components maintained in library. As software architecture is formulated, components are selected from library and used to populate the architecture.
   - User interface component includes grids, buttons, referred as controls, and utility components expose a specific subset of functions used in other components.
@@ -81,7 +81,7 @@ Recognizes all design classes that correspond to the problem domain as defined i
 
 <b><a href = "https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0">"What is Props and How to Use it in React"</a>
 
-React is component-based library that divides UI into little reusable pieces. Those components need to communicate and the way to pass data between components is by using props.Furthermore, props data is read-only (immutable), which means that data coming from the parent should not be changed by child components.
+React is component-based library that divides UI into little reusable pieces. Those components need to communicate and the way to pass data between components is by using props. Furthermore, props data is read-only (immutable), which means that data coming from the parent should not be changed by child components.
 
 What is "props" short for? “Props” is a special keyword in React, which stands for properties. Used for passing data from one component to another.
 

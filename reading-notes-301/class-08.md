@@ -4,7 +4,7 @@
 
 2. REST APIs are designed around a what? Resources, a kind of object, data, or service that can be accessed by the client.
 
-3. What is an identifer of a resource? A unique URI for that resource.
+3. What is an identifier of a resource? A unique URI for that resource.
     - Give an example. https://adventure-works.com/orders/1
 
 4. What are the most common HTTP verbs? GET, POST, PUT, PATCH, DELETE.
@@ -14,7 +14,7 @@
 6. Give an example of a good URI. /collection/item/collection.
 
 7. What does it mean to have a ‘chatty’ web API? The client app sends multiple requests to find data it requires.
-    - Is this a good or a bad thing? Making many requests can use up resources, but making too karge a request can use up bandwidth.
+    - Is this a good or a bad thing? Making many requests can use up resources, but making too large a request can use up bandwidth.
 
 8. What status code does a successful GET request return? 200 (ok).
 
@@ -60,7 +60,7 @@ Summary: As discussed, the application fields of regex can be multiple, here's a
 - data wrangling (transform data from “raw” to another format)
 - string parsing (for example catch all URL GET parameters, capture text inside a set of parenthesis)
 - string replacement (for example, even during a code session using a common IDE to translate a Java or C# class in the respective JSON object — replace “;” with “,” make it - - - lowercase, avoid type declaration, etc.)
-- syntax highlightning, file renaming, packet sniffing and many other applications involving strings (where data need not be textual)
+- syntax highlighting, file renaming, packet sniffing and many other applications involving strings (where data need not be textual)
 
 ##### <b><a href = "https://regex101.com/">"Regexr 101"</a>
 

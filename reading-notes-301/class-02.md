@@ -34,7 +34,7 @@ GetSnapshotBeforeUpdate() Another rarely used method that allows to capture pict
 
 componentDidUpdate() Method is useful for performing network requests after change has occurred.
 
-componentWillUnmount() Method allows you to clean up DOM and netwrok requests/subscriptions.
+componentWillUnmount() Method allows you to clean up DOM and network requests/subscriptions.
 
 UNSAFE Lifecycle Events: React 17 these will no longer be able to be used without the UNSAFE tag in front of them.
 
@@ -48,7 +48,7 @@ UNSAFE_componentWillReceiveProps(), instead of componentWillReceiveProps, use st
 
 1. What types of things can you pass in the props? Things you would pass to a function, like your initialized counter or how you'd like it to render.
 
-2. What's the difference between props and state? State is inside componenet and changes inside componenet, props are handled outside and changed outside, usually static.
+2. What's the difference between props and state? State is inside component and changes inside component, props are handled outside and changed outside, usually static.
 
 3. When do we rerender our app? When state changes, or props is passed new state.
 

@@ -62,7 +62,7 @@
 - <a href = "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design">"RESTful web API design"</a>
 - <a href = "https://regexr.com/">"Regexr"</a>
 - <a href = "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285">"Regexer Cheatsheet"</a>
-- <b><a href = "https://regex101.com/">"Regexr 101 Testing"</a>
+- <b><a> href = "https://regex101.com/">"Regexr 101 Testing"</b></a>
 
 9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-09.md">Day 9</a>
 
@@ -98,7 +98,5 @@
 - <a href = "https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html">"What is OAuth"</a>
 - <a href = "https://auth0.com/docs/authorization/flows">"Authorization and Authentication flows"</a>
 - <a href = "https://auth0.com/docs/libraries/auth0-react">"Auth0 for single page apps"</a
-
-<!-- 15. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-15.md">Day15</a> -->
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>

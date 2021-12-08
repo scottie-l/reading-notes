@@ -86,7 +86,7 @@ Conclusion: Node.js is an event-based, non-blocking, asynchronous I/O runtime th
 
 <b><a href = "https://www.codefellows.org/blog/6-reasons-for-pair-programming/">"6 reasons for pair programming"</a>
 
-1. What are the 6 reasons for pair programming? Greater efficentcy, Engaged colaboration, Learning from fellow developers, Social skills, job interview readiness, & work environment readiness.
+1. What are the 6 reasons for pair programming? Greater efficiency, Engaged collaboration, Learning from fellow developers, Social skills, job interview readiness, & work environment readiness.
 
 2. In your experience, which of these reasons have you found most beneficial? The ability to learn my fellow students/devs.
 
