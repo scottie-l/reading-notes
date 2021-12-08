@@ -61,9 +61,9 @@ Border-radius used to round corners on boxes, or make circles. Ref. on pg 321-32
 
 <b>Ch.2 review
 
-Arrays store multiple varibles. Consider using with lists, or a set of values related to each other. 
+Arrays store multiple variables. Consider using with lists, or a set of values related to each other.
 
-Create arrays same as varibles. Values sit inside [ ] and are separated with commas. They can be any data type and mixed.
+Create arrays same as variables. Values sit inside [ ] and are separated with commas. They can be any data type and mixed.
 
 Each item in an array is given a number. It starts at <b>0 not 1.
 
@@ -75,7 +75,7 @@ Switch= starts with variable called switch value. Each case indicates possible v
 
 Falsey values= treated as false, or 0.
 
-Truthy values= treated as true, or 1. Arrays are often truthy. 
+Truthy values= treated as true, or 1. Arrays are often truthy.
 
 Logic operators are processed from left to right & stop @ result, but will return a value it stopped at.
 
@@ -101,4 +101,4 @@ Keywords for loops:
 
         continue; stop iteration, update & check condition again.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

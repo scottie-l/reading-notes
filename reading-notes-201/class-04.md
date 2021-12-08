@@ -1,18 +1,18 @@
 <b>Ch.4 "Links"
 
-Use `<a>` tags to create links with a href="website" inside quotes. Add some text after the URL, but before closing tag to let user see what the link is.
+Use `<a>` tags to create links with a href = "website" inside quotes. Add some text after the URL, but before closing tag to let user see what the link is.
 
-Ex. `<a href="http://website.com"> website </a>`
+Ex. `<a href = "http://website.com"> website </a>`
 
-To get an external (absolue) site you must use the full web address, or URL (Universal Resource Locator), `https://website.com`.
+To get an external (absolute) site you must use the full web address, or URL (Universal Resource Locator), `https://website.com`.
 
-For files located inside wesite you can just link by using file name and location.
+For files located inside website you can just link by using file name and location.
 
 For Email, use `<a mailto:emailaddress@email.com>Email</a>`
 
-Target used to open window to external website. `<a href="http://website.com" target="_blank">website</a>`
+Target used to open window to external website. `<a href = "http://website.com" target="_blank">website</a>`
 
-To link within a page, use `<div>` to divide up page then use h ref=id of div. `<p><a href="top"></a><p>` 
+To link within a page, use `<div>` to divide up page then use h ref=id of div. `<p><a href = "top"></a><p>`
 
 <b>Ch.15 "Layout"
 
@@ -28,11 +28,11 @@ Absolute Position: When given absolute, box is taken out of normal flow & no lon
 
 Fixed Position: Like absolute, but requires values.
 
-Overlapping Elements: Z-index= Used when boxes overlap. Use Z-index to choose which elememt is forward. The higher the number, the more forward it is.
+Overlapping Elements: Z-index= Used when boxes overlap. Use Z-index to choose which element is forward. The higher the number, the more forward it is.
 
 Floating Elements: Move elements left or right.
 
-Colunms: Use `<div>` then width, float & margin.
+Columns: Use `<div>` then width, float & margin.
 
 Fixed width v. Liquid Layout= Fix will remain the same size, whereas liquid will stretch to fit the screen. Fix uses pixels & liquid uses %.
 
@@ -46,7 +46,7 @@ Functions: A series of statements together to perform a specific task. To create
 
 Make parameters by placing them inside (), then telling what to do with them in the code block. The values inside the code block are called arguments.
 
-Local variables are called within the function and only there. 
+Local variables are called within the function and only there.
 
 Global variables are in memory and can be called anywhere.
 
@@ -58,4 +58,4 @@ Global variables are in memory and can be called anywhere.
 
 Pair programming takes slightly more time, but produces much better code, reducing bugs and rework. Thus saving time overall.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

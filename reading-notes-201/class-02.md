@@ -1,8 +1,8 @@
 <b>Ch.2 "TEXT"
 
-    Tags (known as markup) provide extra menaing & allow browsers to show users appropriate structure.
+    Tags (known as markup) provide extra meaning & allow browsers to show users appropriate structure.
 
-Structual markup 
+Structural markup
 
         `<h1> through <h6>`
 
@@ -18,10 +18,10 @@ Structual markup
         
         <br> creates line break.
         
-        <hr /> horiziontal line break.
+        <hr /> horizontal line break.
 
 Semantic markup:
-        
+
         `<strong>` reads as bold with strong emphasis
         
         `<em>` reads as italics with emphasis
@@ -34,7 +34,7 @@ Semantic markup:
         
         `<cite> Used to cite a source.
         
-        `<dfn> Used to indicate a defininition of a new term.
+        `<dfn> Used to indicate a definition of a new term.
         
         `<address> Used to contain contact info for author of page.
         
@@ -42,20 +42,19 @@ Semantic markup:
         
         `<s>` Item no longer accurate but still needs to be seen on page.
 
-
-<b>Ch.10 "Introducting CSS"
+<b>Ch.10 "Introducing CSS"
 
 Block level elements look like they start on new line where inline elements flow within text.
 
 CSS has 2 parts: 1- selector= which element rule applies to.
 
-                 2- declaration= how element is refered to.
+                 2- declaration= how element is referred to.
 
 Declarations sit inside curly brackets & have a property and a value, separated by a colon.
 
 `<link>` is used in HTML doc to tell browser where to find CSS file. `<href>` specifies path.
 
-CSS cascades, meaning it will use the last style for an item. Add: !important to show it should be considedered more important than others.
+CSS cascades, meaning it will use the last style for an item. Add: !important to show it should be considered more important than others.
 
 CSS Selectors can be (Ref. on pg 238, Jon Duckett, HTML & CSS.)
 
@@ -72,7 +71,7 @@ Variable is keyword used with a variable name (identifier). Once created, you ca
 
 Data types are numeric (numbers) strings (letters and characters) or Booleans( true false) Null & undefined.
 
-Variable naming rules  
+Variable naming rules:  
 1. Begin with letter, $, or _. Can't begin with a number.
 2. Can't use - or . in variable names
 3. Can't use keywords or reserved words.
@@ -89,7 +88,7 @@ String operators use "+" to join strings together.
 
 <b>Ch.4 "Decisions & Loops"
 
-2 components of a decision. 1. Expression is evaluatesd which returns a value.
+2 components of a decision. 1. Expression is evaluated which returns a value.
 
                             2. Conditional statement says what to do in given situation.
 
@@ -99,7 +98,7 @@ String operators use "+" to join strings together.
 
 === strictly equal to
 
-!== strictly not equal to 
+!== strictly not equal to
 
 `>`= greater than or equal to
 
@@ -117,4 +116,4 @@ if statements: evaluates a condition. If evaluates to true any subsequent code b
 
 If else statement: if evaluates to false runs second code block.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

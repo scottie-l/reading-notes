@@ -4,15 +4,15 @@ The reason why some puzzles are so hard, is because you can’t really see what 
 
 The same thing happens when writing code. Writing code is like putting together a jigsaw puzzle. We put together code with the purpose of building components that we have taken out of the “big picture” of the problem domain.
 
-Waterfall presented a much more clear picture of all user interfaces and use senarios.
+Waterfall presented a much more clear picture of all user interfaces and use scenarios.
 
 Understanding the problem domain is the hardest part of programming. To make it easier, you can do one of two things: Make the problem domain easier. or, Get better at understanding the problem domain.
 
-1) Take a game. You start at the begining, usually as a tutorial, and advance through levels, they get harder and harder whike gaining new skills or concepts that build on what you know.
+1) Take a game. You start at the beginning, usually as a tutorial, and advance through levels, they get harder and harder while gaining new skills or concepts that build on what you know.
 
 2) Take the time to fully understand the whole problem. Do it right the first time.
 
-<b><a href="https://betterprogramming.pub/intermediate-javascript-whats-the-difference-between-primitive-values-and-object-references-e863d70677b">"What's the difference between Primitive Values and Object References in Javascript?"</a>
+<b><a href = "https://betterprogramming.pub/intermediate-javascript-whats-the-difference-between-primitive-values-and-object-references-e863d70677b">"What's the difference between Primitive Values and Object References in JavaScript?"</a>
 
 All data types in JavaScript can be put into one of two categories: primitive values and object references. They each run differently.
 
@@ -45,7 +45,6 @@ Arrays have name & group of values.
 Named functions have a name and value that is set of statements to run when function is called
 
 Objects have name value pairs.
-
 
 <b>Ch.5 "Document Object Model"
 
@@ -95,4 +94,4 @@ Use inspect Element in dev tools (Chrome)
 
 1- Add new item to start & end of list. 2- Set a class attribute on all items. 3- Add numbers of list items to heading.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

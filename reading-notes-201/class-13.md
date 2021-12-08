@@ -78,7 +78,7 @@ If you call key() with index that isn't between 0–(length-1), function will re
 
 If want to keep track programmatically when storage area changes, can trap the storage event. Storage event is fired on window object whenever setItem(), removeItem(), or clear() called and actually changes something. Example, you set item to existing value or call clear() when there are no named keys, the storage event will not fire, because nothing actually changed in storage area.
 
-Storage event is supported everywhere localStorage object is supported, which includes Internet Explorer 8. IE 8 does not support the W3C standard addEventListener. Therefore, to hook the storage event, need to check which event mechanism browser supports. 
+Storage event is supported everywhere localStorage object is supported, which includes Internet Explorer 8. IE 8 does not support the W3C standard addEventListener. Therefore, to hook the storage event, need to check which event mechanism browser supports.
 
 if (window.addEventListener) {
 
@@ -98,7 +98,7 @@ function handle_storage(e) {
 
 }
 
-At this point, variable e will be StorageEvent object, which has following useful properties.
+At this point, variable will be storageEvent object, which has following useful properties.
 
 '5 megabytes' is the limit to storage space each origin gets by default. Is surprisingly consistent across browsers. Keep in mind you’re storing strings, not data in its original format. If storing lots of integers or floats, difference in representation can add up. Each digit in float is being stored as character, not in usual representation of floating point number.
 
@@ -128,4 +128,4 @@ Primary difference is the object store has no structured query language. You don
 
 At time of writing, IndexedDB has only been implemented in beta version of Firefox 4.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

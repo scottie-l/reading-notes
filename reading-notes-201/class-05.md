@@ -1,6 +1,6 @@
 <b>Ch.5 "Images"
 
-Images should be: relevent, Convey information, correct mood, instantly recognizable and fit color palette.
+Images should be: relevant, Convey information, correct mood, instantly recognizable and fit color palette.
 
 Stock photos: istock photo, getty images, veer, fotolia, and sxc.hu
 
@@ -28,14 +28,14 @@ Color= text color, background-color= background
 
 RGBA uses A or alpha for opacity. CSS uses last rule, so list RGB, hex, or color value then RGBA. Will use the RGBA value if it can, but older OS will use RGB.
 
-HSL colors: made up of Hue (color), Saturation (amount of grey), Lightness (amount of blackor white). Also has alpha value. (HSLA)
+HSL colors: made up of Hue (color), Saturation (amount of grey), Lightness (amount of black or white). Also has alpha value. (HSLA)
 
 <b>Ch.12 "Text"
 
-Font-family= Generic fonts to licenced fonts. Serif is most generic, with times & georgia less so. So start with most specific you want o use and end with most generic. Ex. font-family:Georgia, Times, Serif.
+Font-family= Generic fonts to licensed fonts. Serif is most generic, with times & Georgia less so. So start with most specific you want to use and end with most generic. Ex. font-family: Georgia, Times, Serif.
 
 font-size: Use pixels or % to make size of text. Pixels is safest and most common.
-Use font-face: this will install the font onto users system. Must have licesce to do so.
+Use font-face: this will install the font onto users system. Must have license to do so.
 
 font-weight: normal, & bold, which makes text bold.
 
@@ -57,11 +57,11 @@ vertical align: used with inline elements.
 
 text-indent: Used to indent text. Can be negative value to push off screen.
 
-<b><a href="https://blog.imagekit.io/jpeg-vs-png-vs-gif-which-image-format-to-use-and-when-c8913ae3e01d">Blog Post JPEG vs. PNG vs. GIF</a>
+<b><a href = "https://blog.imagekit.io/jpeg-vs-png-vs-gif-which-image-format-to-use-and-when-c8913ae3e01d">Blog Post JPEG vs. PNG vs. GIF</a>
 
 JPEG, PNG, & GIF make up 95% of all images.
 
-2 types of compression: Lossless- all data available to recreate image, & Lossy- no data avaialable other than what was compressed.
+2 types of compression: Lossless- all data available to recreate image, & Lossy- no data available other than what was compressed.
 
 JPEG is used for lots of color. like photos of scenery.
 
@@ -81,4 +81,4 @@ GIF supports 256 colors. 1 maybe set to transparency, reducing it to 255. Only G
 
 GIF is used for animations.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

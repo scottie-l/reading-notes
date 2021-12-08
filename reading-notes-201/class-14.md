@@ -251,7 +251,7 @@ Follow link to view code.
 
 Follow link to view code.
 
-<a href = "https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">"What Google learned from its quest to build the pefect team"</a>
+<a href = "https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">"What Google learned from its quest to build the perfect team"</a>
 
 Google started 'Project Aristotle' to find what made the best teams. The researchers concluded that understanding and influencing group norms were the keys to improving Google’s teams.
 
@@ -265,4 +265,4 @@ Second, the good teams all had high ‘‘average social sensitivity’’ — a
 
 Psychological safety is ‘‘a sense of confidence that the team will not embarrass, reject or punish someone for speaking up’’.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

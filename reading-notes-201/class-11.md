@@ -8,9 +8,9 @@ Images are inline elements by default. Change to block, then set margin-left/rig
 
 Background-image= place an image behind HTML element. Ex. background-image: url("images/pattern.gif");
 
-Background-repeat, has 4 values; repeat= img repeated on both x & y axis. repeat-x= repeat img on X axis only (horizontal.) repeat-y= repeat img on Y axis only (vertical). no-repeat= image shown once, has 2 values: fixed, img stays in place. scroll= img moves up & down as user scrolls.
+Background-repeat, has 4 values; repeat = img repeated on both x & y axis. repeat-x = repeat img on X axis only (horizontal.) repeat-y = repeat img on Y axis only (vertical). no-repeat = image shown once, has 2 values: fixed, img stays in place. scroll = img moves up & down as user scrolls.
 
-background-position= when not repeated, used to specify position in browser window; usually 2 values, x & y. If specify only 1, second value defaults to center.
+background-position = when not repeated, used to specify position in browser window; usually 2 values, x & y. If specify only 1, second value defaults to center.
 
 Can set many states for same element. Called sprites.
 
@@ -24,11 +24,11 @@ Search Engine Optimization (SEO) - practice of trying to get site to appear near
 
 On page: Looking at keywords people will search for in text & HTML; alt text helps too. 7 Essential places to do this.
 
-1) Page title 2) URL/Web address 3) Headings `<h1-6>` 4) Text= repeat keywords 2-3 times 5) Link-text= specific text in buttons, not just click here 6) image alt text 7) Page descriptions= live in the head element in a meta tag describing content of page.
+1) Page title 2) URL/Web address 3) Headings `<h1-6>` 4) Text = repeat keywords 2-3 times 5) Link-text = specific text in buttons, not just click here 6) image alt text 7) Page descriptions = live in the head element in a meta tag describing content of page.
 
 Off Page is getting other sites to link to your page.
 
-How to identify keywords & phrases: 1) Brainstorm 2) Organize 3) Research 4) Compare 5) Refine 6) Map 
+How to identify keywords & phrases: 1) Brainstorm 2) Organize 3) Research 4) Compare 5) Refine 6) Map
 
 Analytics: looking at how people found site, what they're looking at, & when they leave. i.e. Google Analytics
 Overview page: number of visits, unique visits, page views, page visits, average time on site, date selectors, export
@@ -41,13 +41,13 @@ Where visitors are coming from.
 
 `<video>` & `<audio>` tags used to imbed video or audio into webpage.
 
-Use with 'controls'. Without controls you get no playback options. Ex. `<video controls>` 
+Use with 'controls'. Without controls you get no playback options. Ex. `<video controls>`
 
                 `<source src = "rabbit320.mp4" type = "video/mp4>`
 
 This is not good for cross-browsers.
 
-Can use HTML5 spec= `<HTMLMediaElement>` with a play, pause, stop, etc. for controls.
+Can use HTML5 spec = `<HTMLMediaElement>` with a play, pause, stop, etc. for controls.
 
 <b>Ch.9 "Flash, video & Audio"
 
@@ -55,4 +55,4 @@ Animations or video files are all called flash.
 
 Use .fla for flash files. Convert to support using .swf for conversion files using JavaScript files.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

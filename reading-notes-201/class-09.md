@@ -22,7 +22,7 @@ Forms allow users to submit information.
 
 `<Drop-down box>`= known as `<select>`
 
-`<Muiltiple>`= allows to select multiple. size= used to show how many options on screen.
+`<Multiple>`= allows to select multiple. size= used to show how many options on screen.
 
 `<option>`= value
 
@@ -32,7 +32,7 @@ If long list use drop-down list. If user needs to see all options at once use ra
 
 `<type-image>`= use for image of `<button>`
 
-`<type-hidden>`= not seen in browser wiondow, unless you view source.
+`<type-hidden>`= not seen in browser window, unless you view source.
 
 `<label>`= used for screen readers. Best places for labels are above or to the left: `<text-input>`, `<text-area>` `<select-boxes>` `<file-uploads>` 
 
@@ -44,7 +44,7 @@ To the right; individual checkboxes & radio
 
 `<type-date>`=creates date input
 
-`<type-email>`= varifies correct email address format.
+`<type-email>`= verifies correct email address format.
 
 `<type-url>`= format of url
 
@@ -62,13 +62,13 @@ To the right; individual checkboxes & radio
 
 `<empty-cells>`= show, hide, or inherit
 
-`<border-spacing>`=adds some space between cells `<border-collaspse>`= will collapse to 1 line `<separate>`= borders don't touch.
+`<border-spacing>`=adds some space between cells `<border-collapse>`= will collapse to 1 line `<separate>`= borders don't touch.
 
 <b>Ch.15 "Events"
 
 Different event types (Ref. on pg 246-247, Jon Duckett, JavaScript & JQuery.)
 
-Events are "fired" or "raised" when clicked on, and trigger scripts or fuinctions.
+Events are "fired" or "raised" when clicked on, and trigger scripts or functions.
 
 Event Handling How events are triggered: 1) Select element 2) indicate which event, called binding 3) state code to run
 
@@ -84,7 +84,7 @@ Event bubbling starts at most specific node & goes out.
 
 Event capturing starts at least specific node & goes in.
 
-Eent delegation= Event listeners use lots of memory. Try to put it on the parent element and repeat for children as opposed to 1 on each child.
+Event delegation= Event listeners use lots of memory. Try to put it on the parent element and repeat for children as opposed to 1 on each child.
 
 Benefits of event delegation is it works with new elements, solves limitations with .this keyword & simplifies code.
 
@@ -92,4 +92,4 @@ Different DOM types can be ref - (Ref. on pg 271-287, Jon Duckett, JavaScript & 
 
 User interface events, load, focus & blur, mouse, click, keyboard, form, mutations & observers, HTML5.
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>

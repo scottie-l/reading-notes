@@ -4,11 +4,11 @@ Domain modeling is process of creating a model, in code, for a specific problem.
 
 Research to find essential metrics. Then use those to build self-contained objects with same attributes and behaviors.
 
-Constructor function defined using function expression. Variable declared, and then assigned a functin with 2 parameters. When called, data inside these parameters is stored inside the two variables. This can now be referenced later. After the constructor function definition, 2 objects are instantiated with the 'new' keyword and properties are initialized by calling the constructor function. After instantized and initialized, objects are stored inside the variables.
+Constructor function defined using function expression. Variable declared, and then assigned a function with 2 parameters. When called, data inside these parameters is stored inside the two variables. This can now be referenced later. After the constructor function definition, 2 objects are instantiated with the 'new' keyword and properties are initialized by calling the constructor function. After instantized and initialized, objects are stored inside the variables.
 
 Object-oriented programming in JavaScript at its most fundamental level. 1- The new keyword instantiates 'creates' an object. Constructor function initializes the properties inside the object using the '.this' variable. Object is now stored in variable for later use.
 
-Summary (Copied from Codefellows, "Domain Modeling" link):
+Summary (Copied from Code Fellows, "Domain Modeling" link):
 
 Domain modeling is the process of creating a conceptual model for a specific problem. And a domain model that's articulated well can verify and validate your understanding of that problem.
 
@@ -70,7 +70,7 @@ Object created on 1st line of code. Properties & methods then added after.
 
 Literal Notation- colon separates key/value pairs. Commas between each key/value pair.
 
-Objectg constructor Notation- Used to create multiple objects. The 'this' keyword is used instead of objects name
+Object constructor Notation- Used to create multiple objects. The 'this' keyword is used instead of objects name
 
 In JS, data represented using name/value pairs.
 
@@ -102,4 +102,4 @@ Global Object Strings=  strings (Ref. on pg 129, Jon Duckett, JavaScript & JQuer
 
                         date & time (Ref. on pg 137, Jon Duckett, JavaScript & JQuery.)
 
-<a href="https://github.com/scottie-l/Reading-notes-201">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
