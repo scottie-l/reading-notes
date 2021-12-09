@@ -12,7 +12,7 @@
 
 2. What kind of data is a good fit for an SQL database? SQL databases are good fit for complex query intensive environments. SQL databases are best fit for heavy duty transactional type applications.
 
-3. Give a real world example: <a href = "https://www.thegeekstuff.com/2008/07/howto-install-mysql-on-linux/">"MySQL DB"</a>, MS-SQL DB, <a href= "https://www.thegeekstuff.com/2008/10/oracle-11g-step-by-step-installation-guide-with-screenshots/">"Oracle Enterprise Express ed"</a>.
+3. Give a real world example: <a href = "https://www.thegeekstuff.com/2008/07/howto-install-mysql-on-linux/">"MySQL DB"</a>, MS-SQL DB, <a href = "https://www.thegeekstuff.com/2008/10/oracle-11g-step-by-step-installation-guide-with-screenshots/">"Oracle Enterprise Express ed"</a>.
 
 4. What kind of data is a good fit a NoSQL database? Highly preferred for large data set. Storing data as graph databases, key-value store databases, document store databases, column store database and XML databases.
 

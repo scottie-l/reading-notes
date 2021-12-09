@@ -46,7 +46,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 ReactDOM.render(
 
-  `<NumberList numbers={numbers} />`,
+  `<NumberList numbers = {numbers} />`,
 
   document.getElementById('root')
 
@@ -60,7 +60,7 @@ function NumberList(props) {
 
   const listItems = numbers.map((number) =>
 
-    <li key={number.toString()}>
+    <li key = {number.toString()}>
 
       {number}
 
@@ -80,7 +80,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 ReactDOM.render(
 
-  `<NumberList numbers={numbers} />`,
+  `<NumberList numbers = {numbers} />`,
 
   document.getElementById('root')
 
@@ -102,11 +102,11 @@ const content = posts.map((post) =>
 
   `<Post`
 
-    key={post.id}
+    key = {post.id}
 
-    id={post.id}
+    id = {post.id}
 
-    title={post.title} />
+    title = {post.title} />
 
 );
 
@@ -160,7 +160,7 @@ To pass array to JavaScript function expecting separate arguments doesn't work. 
 
 What else can … do? The … spread operator is useful for many different tasks in JS. Copying an array, concatenating or combining arrays, using math functions, using an array as arguments, adding item to list, adding to state in React, combining objects, converting NodeList to an array.
 
-In each case, spread syntax expands iterable object, usually array, though it can be used on any interable, including a string.
+In each case, spread syntax expands iterable object, usually array, though it can be used on any iterable, including a string.
 
 Concatenating arrays: The spread operator can quickly combine two arrays, an operation known as array concatenation.
 
@@ -194,7 +194,7 @@ Conclusion: Spread operator can expand another item by splitting an iterable ele
 
 4. How does the child component invoke a method that was passed to it from a parent component? Pass the increment function to the child, using this.props.increment(this.props.name)
 
-<b><a href = "https://reactjs.org/tutorial/tutorial.html">"Reasct Docs - Declaring a Winner"</a>
+<b><a href = "https://reactjs.org/tutorial/tutorial.html">"React Docs - Declaring a Winner"</a>
 
 <b><a href = "https://reactjs.org/docs/lifting-state-up.html">"React Docs - Lifting State Up"</a>
 

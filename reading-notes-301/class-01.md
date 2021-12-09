@@ -91,9 +91,9 @@ How are props used in React? Step by step Ex.
 
 1. Define an attribute and its value(data).
 
-- We can assign attributes and values to HTML tags: `<a href="www.google.com">Click here to visit Google</a>`
-- Can do same for React components. We can define our own attributes & assign values with interpolation { }: `<ChildComponent someAttribute={value} anotherAttribute={value}/>`
-- Here, declaring a “text” attribute to ChildComponent, then assign string value: “I’m the 1st child”: `<ChildComponent text={“I’m the 1st child”} />`
+- We can assign attributes and values to HTML tags: `<a href = "www.google.com">Click here to visit Google</a>`
+- Can do same for React components. We can define our own attributes & assign values with interpolation { }: `<ChildComponent someAttribute = {value} anotherAttribute = {value}/>`
+- Here, declaring a “text” attribute to ChildComponent, then assign string value: “I’m the 1st child”: `<ChildComponent text = {“I’m the 1st child”} />`
 - Now, ChildComponent has property and value. We need to pass it via Props.
 
 2. Pass it to child component(s) by using Props.
@@ -138,11 +138,11 @@ How are props used in React? Step by step Ex.
         
         `I'm the parent component.`
 
-        `<ChildComponent text={"I'm the 1st child"} />`
+        `<ChildComponent text = {"I'm the 1st child"} />`
 
-        `<ChildComponent text={"I'm the 2nd child"} />`
+        `<ChildComponent text = {"I'm the 2nd child"} />`
 
-        `<ChildComponent text={"I'm the 3rd child"} />`
+        `<ChildComponent text = {"I'm the 3rd child"} />`
 
       `</h1>`
 
@@ -230,18 +230,18 @@ A. In Board’s renderSquare method, change the code to pass a prop called value
 
     `return (`
       `<div>`
-        `<div className="status">{status}</div>`
-        `<div className="board-row">`
+        `<div className = "status">{status}</div>`
+        `<div className = "board-row">`
           `{this.renderSquare(0)}`
           `{this.renderSquare(1)}`
           `{this.renderSquare(2)}`
         `</div>`
-        `<div className="board-row">`
+        `<div className = "board-row">`
           `{this.renderSquare(3)}`
           `{this.renderSquare(4)}`
           `{this.renderSquare(5)}`
         `</div>`
-        `<div className="board-row">`
+        `<div className = "board-row">`
           `{this.renderSquare(6)}`
           `{this.renderSquare(7)}`
           `{this.renderSquare(8)}`
@@ -254,11 +254,11 @@ A. In Board’s renderSquare method, change the code to pass a prop called value
 `class Game extends React.Component {`
   `render() {`
     `return (`
-      `<div className="game">`
-        `<div className="game-board">`
+      `<div className = "game">`
+        `<div className = "game-board">`
           `<Board />`
         `</div>`
-        `<div className="game-info">`
+        `<div className = "game-info">`
           `<div>{/* status */}</div>`
           `<ol>{/* TODO */}</ol>`
         `</div>`
@@ -387,19 +387,19 @@ function Comment(props) {
   
   return (
   
-    `<div className="Comment">`
+    `<div className = "Comment">`
   
-      `<div className="UserInfo">`
+      `<div  = "UserInfo">`
   
-        `<img className="Avatar"`
+        `<img className = "Avatar"`
   
-          src={props.author.avatarUrl}
+          src = {props.author.avatarUrl}
   
-          alt={props.author.name}
+          alt = {props.author.name}
   
         />
   
-        `<div className="UserInfo-name">`
+        `<div className = "UserInfo-name">`
   
           {props.author.name}
   
@@ -407,13 +407,13 @@ function Comment(props) {
   
       `</div>`
   
-      `<div className="Comment-text">`
+      `<div className = "Comment-text">`
   
         {props.text}
   
       `</div>`
   
-      `<div className="Comment-date">`
+      `<div className = "Comment-date">`
   
         {formatDate(props.date)}
   
@@ -433,11 +433,11 @@ function Avatar(props) {
   
   return (
 
-    <img className="Avatar"
+    <img className = "Avatar"
     
-      src={props.user.avatarUrl}
+      src = {props.user.avatarUrl}
     
-      alt={props.user.name}
+      alt = {props.user.name}
     
     />
 
@@ -455,13 +455,13 @@ function Comment(props) {
   
   return (
   
-    <div className="Comment">
+    <div className = "Comment">
   
-      <div className="UserInfo">
+      <div className = "UserInfo">
   
-        <Avatar user={props.author} />
+        <Avatar user = {props.author} />
   
-        <div className="UserInfo-name">
+        <div className = "UserInfo-name">
   
           {props.author.name}
   
@@ -469,13 +469,13 @@ function Comment(props) {
   
       </div>
   
-      <div className="Comment-text">
+      <div className = "Comment-text">
   
         {props.text}
   
       </div>
   
-      <div className="Comment-date">
+      <div className = "Comment-date">
   
         {formatDate(props.date)}
   
@@ -493,11 +493,11 @@ function UserInfo(props) {
 
   return (
 
-    <div className="UserInfo">
+    <div className = "UserInfo">
 
-      <Avatar user={props.user} />
+      <Avatar user = {props.user} />
 
-      <div className="UserInfo-name">
+      <div className = "UserInfo-name">
 
         {props.user.name}
 
@@ -515,17 +515,17 @@ function Comment(props) {
 
   return (
 
-    <div className="Comment">
+    <div className = "Comment">
 
-      <UserInfo user={props.author} />
+      <UserInfo user = {props.author} />
 
-      <div className="Comment-text">
+      <div className = "Comment-text">
 
         {props.text}
 
       </div>
 
-      <div className="Comment-date">
+      <div className = "Comment-date">
 
         {formatDate(props.date)}
 

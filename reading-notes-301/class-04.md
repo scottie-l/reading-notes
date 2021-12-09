@@ -26,13 +26,13 @@ In HTML, a `<textarea>` element defines its text by its children. In React, `<te
 
 The select Tag:
 
-In HTML, `<select>` creates a drop-down list where you can select a value. React, uses value attribute on the root select tag. This is more convenient in controlled component because only need to update in one place. This makes it so that `<input type="text">`, `<textarea>`, and `<select>` all work very similarly. They all accept value attribute that you use to implement controlled component.
+In HTML, `<select>` creates a drop-down list where you can select a value. React, uses value attribute on the root select tag. This is more convenient in controlled component because only need to update in one place. This makes it so that `<input type = "text">`, `<textarea>`, and `<select>` all work very similarly. They all accept value attribute that you use to implement controlled component.
 
-Note: You can pass an array into the value attribute, allowing you to select multiple options in a select tag. Ex. `<select multiple={true} value={['B', 'C']}>`
+Note: You can pass an array into the value attribute, allowing you to select multiple options in a select tag. Ex. `<select multiple = {true} value = {['B', 'C']}>`
 
 The file input Tag:
 
-In HTML, an `<input type="file">` lets user choose one or more files from device storage to be uploaded to server or manipulated by JS via a File API.
+In HTML, an `<input type = "file">` lets user choose one or more files from device storage to be uploaded to server or manipulated by JS via a File API.
 
 Because its value is read-only, it's an uncontrolled component in React.
 
@@ -54,9 +54,9 @@ Can sometimes be tedious to use controlled components, because need to write eve
 
 1. Why would we use a ternary operator? To write a more succinct line of code to evaluate a condition using a Boolean value.
 
-2. Rewrite the following statement using a ternary statement: x===y ? true : false;
+2. Rewrite the following statement using a ternary statement: x === y ? true : false;
 
-  if(x===y){
+  if(x === y){
 
  console.log(true);
 
@@ -74,7 +74,7 @@ We want to test age of our person is greater than or equal to 16. If true, theyâ
 
 We could do same thing in one line of code.
 
-person.driver = person.age >=16 ? 'Yes' : 'No';
+person.driver = person.age > = 16 ? 'Yes' : 'No';
 
 Shorter code yields us same result of person.driver = 'Yes';
 
@@ -104,9 +104,9 @@ A " : " colon, if your condition evaluates to false, any code after the colon is
 
 Most important thing to note order of operations. Lets add some parenthesis to help you visualize the order in which code is executing:
 
-person.driver = ((person.age >=16) ? 'Yes' : 'No';)
+person.driver = ((person.age > = 16) ? 'Yes' : 'No';)
 
-As you can now visualize, first thing that happens is conditional is checking to see if person.age >=16 is true or false.
+As you can now visualize, first thing that happens is conditional is checking to see if person.age > = 16 is true or false.
 
 Since 20 is greater than 16, this evaluates to true. Hereâ€™s where we are now:
 

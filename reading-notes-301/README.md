@@ -62,11 +62,7 @@
 - <a href = "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design">"RESTful web API design"</a>
 - <a href = "https://regexr.com/">"Regexr"</a>
 - <a href = "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285">"Regexer Cheatsheet"</a>
-<<<<<<< HEAD
-- <b><a> href = "https://regex101.com/">"Regexr 101 Testing"</b></a>
-=======
 - **<a href = "https://regex101.com/">"Regexr 101 Testing"</a>**
->>>>>>> 99e41cdbeb11276eddb521050caabe7af3ecade4
 
 9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-301/class-09.md">Day 9</a>
 

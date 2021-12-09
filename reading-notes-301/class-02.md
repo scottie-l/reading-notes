@@ -12,7 +12,7 @@
 
 Mounting: When instance of component is being created and inserted into DOM, it occurs during Mounting phase. Constructor, static getDerivedStateFromProps, render, componentDidMount, and UNSAFE_componentWillMount occur in this order when mounting.
 
-Updating: Anytime component is updated, it's rerendered. These lifecycle events happen during updating in this order: static getDerivedStateFromProps, shouldComponentUpdate, render,getSnapshotBeforeUpdate, componentDidUpdate, UNSAFE_componentWillUpdate, UNSAFE_componentWillReceiveProps.
+Updating: Anytime component is updated, it's re-rendered. These lifecycle events happen during updating in this order: static getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate, componentDidUpdate, UNSAFE_componentWillUpdate, UNSAFE_componentWillReceiveProps.
 
 Unmounting: Final phase of lifecycle, if called, when a component is being removed from DOM. componentWillUnmount is the only lifecycle event during this phase.
 
@@ -20,13 +20,13 @@ Constructor() for a React component is called before it's mounted. If component 
 
 static getDerivedStateFromProps() This method exists for rare cases where state relies on changes in props over time.
 
-Render() is the only required method in class component. Will examine this.props and this.state when called. Render() should not modify the component state because it would cause a  bugs by changing state every time it rerenders. Also should not directly interact with browser. Render will not be invoked if shouldComponentUpdate() returns false.
+Render() is the only required method in class component. Will examine this.props and this.state when called. Render() should not modify the component state because it would cause a  bugs by changing state every time it re-renders. Also should not directly interact with browser. Render will not be invoked if shouldComponentUpdate() returns false.
 
 ComponentDidMount() method is invoked immediately after a component is mounted. If you need to load anything using network request or initialize DOM, it should go here. This is a good place to set up any subscriptions. Don’t forget to unsubscribe in componentWillUnmount() if you do subscribe.
 
-SetState() can be called, but it should be used sparingly, because it will cause a rerender.
+SetState() can be called, but it should be used sparingly, because it will cause a re-render.
 
-The default behavior in react is to rerender after every state change. Setting shouldComponentUpdate() to false allows you to prevent this from happening.
+The default behavior in react is to re-render after every state change. Setting shouldComponentUpdate() to false allows you to prevent this from happening.
 
 ShouldComponentUpdate() If you want to use this method, it may be better to use PureComponent instead, which performs a shallow comparison of props and state. If you do use this method, be sure to check the previous props and state with current props and state. If shouldComponentUpdate() returns false, then UNSAFE_componentWillUpdate(), render(), and componentDidUpdate() will not be invoked.
 
@@ -50,7 +50,7 @@ UNSAFE_componentWillReceiveProps(), instead of componentWillReceiveProps, use st
 
 2. What's the difference between props and state? State is inside component and changes inside component, props are handled outside and changed outside, usually static.
 
-3. When do we rerender our app? When state changes, or props is passed new state.
+3. When do we re-render our app? When state changes, or props is passed new state.
 
 4. What are some ex. of things that we could store in state? Things to display something to user.  
 

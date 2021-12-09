@@ -8,15 +8,15 @@
 
 4. Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
 
-    <img src = "assets/images/LIFO Stack.png"/>
+  <img src = "assets/images/LIFO Stack.png"/>
 
 5. What causes a Stack Overflow? A recursive function without an exit point.
 
 The key takeaways from the call stack are:
-    - It is single-threaded. Meaning it can only do one thing at a time.
-    - Code execution is synchronous.
-    - A function invocation creates a stack frame that occupies a temporary memory.
-    - It works as a LIFO — Last In, First Out data structure.
+  - It is single-threaded. Meaning it can only do one thing at a time.
+  - Code execution is synchronous.
+  - A function invocation creates a stack frame that occupies a temporary memory.
+  - It works as a LIFO — Last In, First Out data structure.
 
 <b><a href = "https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c">"JS error messages"</a>
 

@@ -62,8 +62,7 @@ Summary: As discussed, the application fields of regex can be multiple, here's a
 - string replacement (for example, even during a code session using a common IDE to translate a Java or C# class in the respective JSON object — replace “;” with “,” make it - - - lowercase, avoid type declaration, etc.)
 - syntax highlighting, file renaming, packet sniffing and many other applications involving strings (where data need not be textual)
 
-##### <b><a href = "https://regex101.com/">"Regexr 101"</a>
-
-Link for site testing page!
+##### Link for site testing page!
+###### <b><a href = "https://regex101.com/">"Regexr 101"</a>
 
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>

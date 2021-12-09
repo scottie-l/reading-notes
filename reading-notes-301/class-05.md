@@ -54,7 +54,7 @@ ProductCategoryRow (turquoise): displays a heading for each category.
 
 ProductRow (red): displays a row for each product.
 
-ProductTabl: the table header, containing “Name” and “Price” labels, isn’t its own component. This is matter of preference. It's part of ProductTable because it is part of rendering the data collection which is ProductTable’s responsibility. However, if this header grows to be complex, would certainly make sense to make it its own ProductTableHeader component.
+ProductTable: the table header, containing “Name” and “Price” labels, isn’t its own component. This is matter of preference. It's part of ProductTable because it is part of rendering the data collection which is ProductTable’s responsibility. However, if this header grows to be complex, would certainly make sense to make it its own ProductTableHeader component.
 
 Now that we’ve identified components in our mockup, we can arrange them into a hierarchy. Components that appear within another component in mockup should appear as child the hierarchy:
 
