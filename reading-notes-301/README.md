@@ -99,4 +99,4 @@
 - <a href = "https://auth0.com/docs/authorization/flows">"Authorization and Authentication flows"</a>
 - <a href = "https://auth0.com/docs/libraries/auth0-react">"Auth0 for single page apps"</a
 
-<a href = "https://github.com/scottie-l/reading-notes">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes">Back to Home</a>
