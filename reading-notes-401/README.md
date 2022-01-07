@@ -1,4 +1,4 @@
-<!# Code 401 Reading-notes
+# Code 401 Reading-notes
 
 ### All reading notes can be navigated to from here for code 401
 
@@ -6,6 +6,16 @@
 
 **Daily Readings**
 
+0. <a href="https://github.com/scottie-l/reading-notes-401/blob/main/class-00.md">Day 0</a>
+
+- <a href = "https://simpleprogrammer.com/solving-problems-breaking-it-down/">"How to Solve Programming Problems"</a>
+- <a href = "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/">"How to think like a programmer"</a>
+- <a href = "https://www.mindtools.com/pages/article/newTMC_5W.htm">"The 5 Whys"</a>
+
 1. <a href="https://github.com/scottie-l/reading-notes-401/blob/main/class-01.md">Day 1</a>
+
+-
+-
+-
 
 <a href = "https://github.com/scottie-l/reading-notes">Back</a>
