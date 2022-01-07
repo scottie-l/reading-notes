@@ -9,7 +9,7 @@ Simple set of steps to follow
 3. Optimize the manual steps - It is much easier to rearrange and reconstruct and idea or algorithm in your head than it is in code. What you want to do here is figure out if there is another way you can solve the problem easier, or if there are some steps you can cut our or simplify.
     -Up to 70% of time should be spent in steps 1-3
 4. Write the manual steps as comments or pseudo-code - What we want to do here is capture all the steps we created and now either put them into our editor as comments or write them as psuedo-code that we can translate to real code. By doing this, we can know exactly what the structure of the code we are going to write is going to look like which makes the job of filling in the actual code later trivial.
-5. Replace the comments or pseudo-code with real code - Take each comment and convert it into a real line of code.
+5. Replace the comments or psuedo-code with real code - Take each comment and convert it into a real line of code.
 6. Optimize the real code - Sometimes this step isn’t necessary, but it’s worth taking a look at your code and figuring out if you can cut out a few lines or do something simpler.
 
 Any language you expect to be able to solve algorithm type problems in, you should know how to do the following things:
@@ -38,7 +38,7 @@ This is why you should write down your problem, doodle a diagram, or tell someon
 
 To get a good plan, answer this question: “Given input X, what are the steps necessary to return output Y?”
 
-Sidenote: Programmers have a great tool to help them with this… Comments!
+Side note: Programmers have a great tool to help them with this… Comments!
 3. Divide: Break it into sub-problems. These sub-problems are much easier to solve. Then, solve each sub-problem one by one. Begin with the simplest. Simplest means you know the answer (or are closer to that answer). After that, simplest means this sub-problem being solved doesn’t depend on others being solved. Once you solved every sub-problem, connect the dots. Connecting all your “sub-solutions” will give you the solution to the original problem.
 4. Stuck?: The difference is the best programmers/problem-solvers are more curious about bugs/errors than irritated. In fact, here are three things to try when facing a whammy:
     - Debug: Go step by step through your solution trying to find where you went wrong. Programmers call this debugging.
