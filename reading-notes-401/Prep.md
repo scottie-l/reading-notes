@@ -23,6 +23,34 @@ Any language you expect to be able to solve algorithm type problems in, you shou
 
 Many times you will find that a problem itself involves multiple large steps or is very complicated. In those instances, you will want to try and find a way to cut the problem directly in half and then following the process above for each half. This method of tackling a problem is called “divide and conquer”. A good way to know where to break a problem in half is to think about what part of the problem if already given to you would make solving the rest easy.
 
+<b><a href = "https://anthony-moore.medium.com/pretend-your-time-is-worth-1-000-hour-and-youll-become-100x-more-productive-6ab2302b8e8c">"Act like you make $1000/hr"</a>
+
+Many people waste much of their time on pointless, low-quality activities that don’t help them reach their true goals — their mission. Truth is, most people value their time at far, far less than it’s worth. They say yes to things they have no business doing. They give away their talents, attention, and effort to others.
+
+But what if you placed a high value on your time? How would that change you? Your life? Your family? Your future?
+
+Imagine that an hour of your time is worth $1,000. What would your life look like? What people would you stop putting up with? What problems would you stop wasting time on? What things would you stop, and start doing? Your results would be incredible. You’d become exponentially more productive, focused, and effective.
+
+If you let it, your world and the people around you will take all your time. Your time is not unlike your paycheck; if you don’t budget for things, you’ll have nothing left over by the end of the month. We’re all busy, with work, our families, our friends. It’s not bad to be “busy.” But in the words of best-selling author Jeff Goins: “The most successful people I know are not busy. They’re focused.”
+
+Are you focused, making tangible action steps towards what truly matters? …Or are you just “busy?” When you’re busy, you are on autopilot. You can’t see the hours slipping away, time you’ll never get back. Who’s in charge of your time? You, or everyone else?
+
+Extremely successful people don’t tolerate busywork or distraction. They have crystal clear vision on their goals, and do what they need to do to get there, every single day.
+
+Deep work means absolutely not tolerating distractions and producing monumental quality and quantity in a very short time. This is how you can complete far more with focused efforts than unfocused efforts with far more time. If you don’t manage your time, it will manage you.
+
+You teach people how to treat you. If you let people know your time is free and low-valued, people will treat it as such. But if you teach people that your time is expensive, important, and valuable, then people will respond in kind.
+
+What you think is what you become. If you think your time is worth a few bucks an hour, that you’ll begin to act like it. You’ll find yourself saying “yes” to meaningless, pointless obligations. But if, in your heart, you know your time is valuable…People will recognize that. People will respect that. People will treat you differently.
+
+If you don’t treat yourself and your time with respect, you will become unhappy, resentful, and tired. Your body and mind long for mastery and freedom; you can’t have those things if your time is cheap and easily taken. You become what you are. You attract what you look for.
+
+Back in my early days of writing, I didn’t think I was much of a writer. So I spent a lot of time on low-quality activities, like begging other low-tier/no-name bloggers to let me write guest posts. No one responded to me. I rarely was invited to write. I think people could see how little I valued myself, and didn’t want to promote my message. I don’t even blame them. Years later, I finally began seeing my time as very important. I began saying “no” to almost everything. I had a mission, and I became unwilling to fill my valuable time with things that wouldn’t help me achieve my goal. I turned down high-paying, exciting, interesting opportunities…because they weren’t the right fit. In the end, they were all wasting time I needed to focus on my mission.
+
+You probably need to say “no” more. Every time you say yes to something, it means you’re saying “no” to a dozen other opportunities. The world’s most successful and extraordinary people say no to almost everything, but yes to a few things. Really successful people say no to most things, because most things won’t get them to where they truly want to be.
+
+This process of weeding out the merely “good” for the truly great opportunities is easier when you value your time at $1,000/hour. Anything you can honestly justify doing for $1,000/hour is probably a good thing.
+
 <b><a href = "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/">"How to think like a programmer"</a>
 
 The best way involves a) having a framework and b) practicing it
