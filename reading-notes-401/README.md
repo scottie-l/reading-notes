@@ -14,8 +14,11 @@
 
 1. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-01.md">Day 1</a>
 
--
--
--
+- Describe what `Array.map()`, `Array.reduce()` does.
+- Code snippets showing how to use superagent() to fetch data from a URL and log the result.
+        - With normal Promise .then() syntax
+        - Again with async / await syntax
+Explain promises as though you were mentoring a Code 301 level student.
+Are all callback functions considered to be Asynchronous? Why or Why Not?-
 
-<a href = "https://github.com/scottie-l/reading-notes">Back</a>
+<b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
