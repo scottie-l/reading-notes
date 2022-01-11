@@ -18,7 +18,7 @@
 - Code snippets showing how to use superagent() to fetch data from a URL and log the result.
         - With normal Promise .then() syntax
         - Again with async / await syntax
-Explain promises as though you were mentoring a Code 301 level student.
-Are all callback functions considered to be Asynchronous? Why or Why Not?-
+- Explain promises as though you were mentoring a Code 301 level student.
+- Are all callback functions considered to be Asynchronous? Why or Why Not?-
 
 <b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
