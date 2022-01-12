@@ -1,11 +1,13 @@
-- What’s the difference between PUT and PATCH? The main difference between the PUT and PATCH method is that the PUT method uses the request URI to supply a modified version of the requested resource which replaces the original version of the resource, whereas the PATCH method supplies a set of instructions to modify the resource but keeps the original.<a href = "https://en.wikipedia.org/wiki/Patch_verb">"Source"</a>
+1. What’s the difference between PUT and PATCH? The main difference between the PUT and PATCH method is that the PUT method uses the request URI to supply a modified version of the requested resource which replaces the original version of the resource, whereas the PATCH method supplies a set of instructions to modify the resource but keeps the original.<a href = "https://en.wikipedia.org/wiki/Patch_verb">"Source"</a>
 
-- Provide links to 3 services or tools that allow you to “mock” an API for development like json-server
+2. Provide links to 3 services or tools that allow you to “mock” an API for development like json-server
+
   - <a href = "https://www.postman.com/features/mock-api/">"Postman"</a>
   - <a href = "https://mocki.io/">"Mock API"</a>
   - <a href = "http://wiremock.org/">"WireMock"</a>
 
-- Compare and contrast Swagger and APIDoc.js 1 Which HTTP status codes should be sent with each type of (un)successful API call?
+3. Compare and contrast Swagger and APIDoc.js 1 Which HTTP status codes should be sent with each type of (un)successful API call?
+
 - 100 Continue
 - 101 Switching Protocols
 - 102 Processing
@@ -71,10 +73,10 @@
 - 511 Network Authentication Required
 - <a href = "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">"Source"</a>
 
-- Compare and contrast SOAP and ReST: The main difference is that SOAP is a protocol while REST is not. Typically, an API will adhere to either REST or SOAP, depending on the use case and preferences of the developer. REST is a set of guidelines that offers flexible implementation, whereas SOAP is a protocol with specific requirements like XML messaging.
+4. Compare and contrast SOAP and ReST: The main difference is that SOAP is a protocol while REST is not. Typically, an API will adhere to either REST or SOAP, depending on the use case and preferences of the developer. REST is a set of guidelines that offers flexible implementation, whereas SOAP is a protocol with specific requirements like XML messaging.
 <a href = "https://www.redhat.com/en/topics/integration/whats-the-difference-between-soap-rest">"Source"</a>
 
-Document the following Vocabulary Terms:
+5. Document the following Vocabulary Terms:
 
 - Web Server: The term web server can refer to hardware or software, or both of them working together. On the hardware side, a web server is a computer that stores web server software and a website's component files. A web server connects to the Internet and supports physical data interchange with other devices connected to the web.
 On the software side, a web server includes several parts that control how web users access hosted files. At a minimum, this is an HTTP server. An HTTP server is software that understands URLs and HTTP. An HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the end user's device.<a href = "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server">"Source"</a>
