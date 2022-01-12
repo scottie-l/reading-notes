@@ -21,4 +21,18 @@
 - Explain promises as though you were mentoring a Code 301 level student.
 - Are all callback functions considered to be Asynchronous? Why or Why Not?-
 
+2. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-02.md">Day 2</a>
+
+- What’s the difference between PUT and PATCH?
+- Provide links to 3 services or tools that allow you to “mock” an API for development like json-server
+- Compare and contrast Swagger and APIDoc.js 1 Which HTTP status codes should be sent with each type of (un)successful API call?
+- Compare and contrast SOAP and ReST
+
+Document the following Vocabulary Terms:
+
+- Web Server
+- Express
+- Routing
+- WRRC
+
 <b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
