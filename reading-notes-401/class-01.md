@@ -1,3 +1,5 @@
+# Notes - Day 1
+
 Describe what `Array.map()` does: The Array.map() method allows you to iterate over an array and modify its elements using a callback function. The callback function will then be executed on each of the array's elements.<a href = "https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/">"Source"</a>
 
 Describe what `Array.reduce()` does: The arr.reduce() method in JavaScript is used to reduce the array to a single value and executes a provided function for each value of the array (from left-to-right) and the return value of the function is stored in an accumulator.<a href = "https://www.geeksforgeeks.org/javascript-array-reduce-method/">"Source"</a>

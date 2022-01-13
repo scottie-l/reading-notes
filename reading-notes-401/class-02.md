@@ -1,4 +1,6 @@
-1. What’s the difference between PUT and PATCH? The main difference between the PUT and PATCH method is that the PUT method uses the request URI to supply a modified version of the requested resource which replaces the original version of the resource, whereas the PATCH method supplies a set of instructions to modify the resource but keeps the original.<a href = "https://en.wikipedia.org/wiki/Patch_verb">"Source"</a>
+# Notes - Day 2
+
+1. What’s the difference between PUT and PATCH? The main difference between the PUT and PATCH method is that the PUT method uses the request URI to supply a modified version of the requested resource which replaces the original version of the resource, whereas the PATCH method supplies a set of instructions to modify the resource but keeps the original. <a href = "https://en.wikipedia.org/wiki/Patch_verb">"Source"</a>
 
 2. Provide links to 3 services or tools that allow you to “mock” an API for development like json-server
 
@@ -79,14 +81,14 @@
 5. Document the following Vocabulary Terms:
 
 - Web Server: The term web server can refer to hardware or software, or both of them working together. On the hardware side, a web server is a computer that stores web server software and a website's component files. A web server connects to the Internet and supports physical data interchange with other devices connected to the web.
-On the software side, a web server includes several parts that control how web users access hosted files. At a minimum, this is an HTTP server. An HTTP server is software that understands URLs and HTTP. An HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the end user's device.<a href = "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server">"Source"</a>
+On the software side, a web server includes several parts that control how web users access hosted files. At a minimum, this is an HTTP server. An HTTP server is software that understands URLs and HTTP. An HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the end user's device. <a href = "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server">"Source"</a>
 
-- Express: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.<a href = "https://expressjs.com/">"Source"</a>
+- Express: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. <a href = "https://expressjs.com/">"Source"</a>
 
-- Routing: Routing is a way of organizing and managing application states. A routing framework in JavaScript helps you to change the state of the application--perhaps moving from one admin panel section to another--while maintaining application persistence.<a href = "https://stackoverflow.com/questions/10075507/what-does-javascript-routing-buy-you">"Source"</a>
+- Routing: Routing is a way of organizing and managing application states. A routing framework in JavaScript helps you to change the state of the application--perhaps moving from one admin panel section to another--while maintaining application persistence. <a href = "https://stackoverflow.com/questions/10075507/what-does-javascript-routing-buy-you">"Source"</a>
 
 - WRRC: Web Request & Response Cycle- The request/response cycle traces how a user’s request flows through the app. 1- A user opens his browser, types in a URL, and presses Enter.
-2- When a user presses Enter, the browser makes a request for that URL. 3- The request hits the router. The router maps the URL to the correct controller and action to handle the request. 4- The action receives the request and passes it on to the view. 5- The view renders the page as HTML. 6- The controller sends the HTML back to the browser. The page loads and the user sees it.<a href = "https://www.codecademy.com/article/request-response-cycle-static">"Source"</a>
+2- When a user presses Enter, the browser makes a request for that URL. 3- The request hits the router. The router maps the URL to the correct controller and action to handle the request. 4- The action receives the request and passes it on to the view. 5- The view renders the page as HTML. 6- The controller sends the HTML back to the browser. The page loads and the user sees it. <a href = "https://www.codecademy.com/article/request-response-cycle-static">"Source"</a>
 
 1. Which 3 things had you heard about previously and now have better clarity on?
 
