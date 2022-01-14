@@ -77,4 +77,14 @@ Document the following Vocabulary Terms
 
 5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">Day 5</a>
 
+<b><a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
+
+<b><a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
+
+<b><a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
+
+<b><a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
+
+
+
 <b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
