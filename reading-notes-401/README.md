@@ -54,4 +54,27 @@ Document the following Vocabulary Terms:
 - Test Driven Development
 - Behavioral Testing
 
+4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">Day 4</a>
+
+- Name 3 advantages to Test Driven Development
+- In what case would you need to use beforeEach() or afterEach() in a test suite?
+- What is one downside of Test Driven Development
+- What’s the primary difference between ES6 Classes and Constructor/Prototype Classes?
+- Why REST?
+
+Document the following Vocabulary Terms
+
+- functional programming
+- object-oriented programming (OOP)
+- class
+- super
+- this
+- Test Driven Development (TDD)
+- Jest
+- Continuous Integration (CI)
+- REST
+- Data Model
+
+5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">Day 5</a>
+
 <b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
