@@ -1,5 +1,16 @@
 # Notes - Day 5
 
+1. What are 4 key areas to that are used to analyze the effiecentcy of an algorithm?
+2. What does n signify in O(1)?
+3. What is the difference between a singly and doubly node?
+4. Describe a linked list?
+5. True or False, you can traverse backwards in a singly by using the `AddBefore`?
+6. What are two major points to consider when thinking about how an algorithm performs?
+7. Would you use an array to search for a single element? Why or why not?
+8. True or False, a linear data structure has consecutive blocks of code placed together in memory?
+9. Are Space time and Time compleity measured the same.
+10. Why is computing time not constant for calculating the algorithmic efficiency?
+
 <b><a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
 
 Big O(oh) notation is used to describe the efficiency of an algorithm or function. This efficiency is evaluated based on 2 factors:
@@ -23,6 +34,7 @@ In order to analyze these limiting factors, we should consider 4 Key Areas for a
     - The amount of space needed to hold working space during the calculation. Working Space can be thought of as the creation of variables and reference points as our function performs calculations.
 
 Always be aware that Space Complexity and Time Complexity are measured differently and should be analyzed separately.
+
 3. Orders of Growth: We can describe overall efficiency by using the input size n and measuring the overall Units of Space and Time required for the given input size n. As the value of n grows, the Order of Growth represents the increase in Running Time or Memory Space.
     - Constant Complexity means that no matter what inputs are thrown at our algorithm, it always uses the same amount of time or space.
     - Logarithmic Complexity represents a function that sees a decrease in the rate of complexity growth, the greater our value of n. If an algorithm has Linear Complexity, the size of our inputs ‘n’ will directly determine the amount of Memory Space used and Running Time length. Often used for loops or recursive functions.
@@ -128,8 +140,5 @@ But inserting an element at the end of a linked list is a different story. The i
 A good rule of thumb for remember the characteristics of linked lists is this: A linked list is usually efficient when it comes to adding and removing most elements, but can be very slow to search and find a single element. If you ever find yourself having to do something that requires a lot of traversal, iteration, or quick index-level access, a linked list could be your worst enemy. However, if you find yourself wanting to add a bunch of elements to a list and aren’t worried about finding elements again later, or if you know that you won’t need to traverse through the entirety of the list, a linked list could be your new best friend.
 
 <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"Source"</a>
-
-
-1. 
 
 <b><a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>
