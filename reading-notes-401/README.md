@@ -54,7 +54,7 @@ Document the following Vocabulary Terms:
 - Test Driven Development
 - Behavioral Testing
 
-4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">Day 4</a>
+4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-04.md">Day 4</a>
 
 - Name 3 advantages to Test Driven Development
 - In what case would you need to use beforeEach() or afterEach() in a test suite?
@@ -75,7 +75,7 @@ Document the following Vocabulary Terms
 - REST
 - Data Model
 
-5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">Day 5</a>
+5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-05.md">Day 5</a>
 
 <b><a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
 
@@ -85,6 +85,18 @@ Document the following Vocabulary Terms
 
 <b><a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
 
+6. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-06.md">Day 6</a>
 
+- Explain what a “Singleton” is (in Computer Science terms)
+- Explain how the Singleton pattern can be used with Node modules, specifically with classes
+- If you were tasked with building a middleware system like Express uses, what approach might you take to construct/operate it?
+
+Document the following Vocabulary Terms
+
+- Router Middleware
+- Dynamic Module Loading
+- Singleton Pattern
+- CRUD -> REST Method Matches
+- Mock Testing
 
 <b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
