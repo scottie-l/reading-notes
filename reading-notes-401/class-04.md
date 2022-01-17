@@ -10,7 +10,7 @@
 
 5. Why REST? REST is an architectural style that uses simple HTTP calls for inter-machine communication instead of more complex options like CORBA, COM+, RPC, or even SOAP. Using REST means your calls will be message-based and reliant on the HTTP standard to describe these messages. <a href = "https://www.pluralsight.com/blog/tutorials/representational-state-transfer-tips">"Source"</a>
 
-Document the following Vocabulary Terms
+6. Document the following Vocabulary Terms:
 
 - functional programming: A programming paradigm where programs are constructed by applying and composing functions. <a href = "https://en.wikipedia.org/wiki/Functional_programming">"Source"</a>
 - object-oriented programming (OOP): A programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures. <a href = "https://en.wikipedia.org/wiki/Object-oriented_programming">"Source"</a>
