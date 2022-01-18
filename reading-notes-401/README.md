@@ -62,7 +62,7 @@ Document the following Vocabulary Terms:
 - What’s the primary difference between ES6 Classes and Constructor/Prototype Classes?
 - Why REST?
 
-Document the following Vocabulary Terms
+Document the following Vocabulary Terms:
 
 - functional programming
 - object-oriented programming (OOP)
@@ -91,12 +91,38 @@ Document the following Vocabulary Terms
 - Explain how the Singleton pattern can be used with Node modules, specifically with classes
 - If you were tasked with building a middleware system like Express uses, what approach might you take to construct/operate it?
 
-Document the following Vocabulary Terms
+Document the following Vocabulary Terms:
 
 - Router Middleware
 - Dynamic Module Loading
 - Singleton Pattern
 - CRUD -> REST Method Matches
 - Mock Testing
+
+7. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-07.md">Day 7</a>
+
+- Write the following steps in the correct order:
+
+        - Register your application to get a client_id and client_secret
+        - Ask the client if they want to sign in via a third party
+        - Make a request to a third-party API endpoint
+        - Receive access token
+        - Receive authorization code
+        - Make a request to the access token endpoint
+        - Redirect to a third party authentication endpoint
+
+- What can you do with an authorization code?
+- What can you do with an access token?
+- What’s a benefit of using OAuth instead of your own basic authentication?
+
+Document the following Vocabulary Terms:
+
+- Client ID
+- Client Secret
+- Authentication Endpoint
+- Access Token Endpoint
+- API Endpoint
+- Authorization Code
+- Access Token
 
 <b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
