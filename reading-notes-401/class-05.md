@@ -39,6 +39,7 @@ Always be aware that Space Complexity and Time Complexity are measured different
     - Constant Complexity means that no matter what inputs are thrown at our algorithm, it always uses the same amount of time or space.
     - Logarithmic Complexity represents a function that sees a decrease in the rate of complexity growth, the greater our value of n. If an algorithm has Linear Complexity, the size of our inputs ‘n’ will directly determine the amount of Memory Space used and Running Time length. Often used for loops or recursive functions.
     - Linearithmic Complexity is used to describe a growth rate of n by lgn. This represents complexity that grows with n, but also by lgn.
+
 4. Best Case, Worst Case, and Average Case
 
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Source"</a>

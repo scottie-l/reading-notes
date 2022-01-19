@@ -125,4 +125,18 @@ Document the following Vocabulary Terms:
 - Authorization Code
 - Access Token
 
+8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-08.md">Day 8</a>
+
+- When is Basic Authorization used vs. Bearer Authorization?
+- What does the JSON Web Token package do?
+- What considerations should we make when creating and storing a SECRET?
+
+Document the following Vocabulary Terms:
+
+- encryption
+- token
+- bearer
+- secret
+- JSON Web Token
+
 <b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
