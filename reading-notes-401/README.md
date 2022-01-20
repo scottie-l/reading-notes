@@ -139,4 +139,16 @@ Document the following Vocabulary Terms:
 - secret
 - JSON Web Token
 
+9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-09.md">Day 9</a>
+
+- What header(s) are used in authentication and authorization
+- What is safe to put into a JWT
+- How are JWTs validated
+
+Document the following Vocabulary Terms:
+
+- RBAC
+- User Roles
+- JWT Token
+
 <b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
