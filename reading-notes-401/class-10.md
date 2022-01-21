@@ -5,7 +5,7 @@
 1. What command would you use to remove a node from the top of the stack?
 2. How many directions can we traverse through our nodes in a stack?
 3. If we added "node 5" to a queue, what command would we use?
-4. Why do we reset the `temp` when `pop`ing a node off the stack?
+4. Why do we reset the `temp` when `pop`ping a node off the stack?
 5. What could you tell me about the term Front in pertaining to queues?
 6. Where does `pop` remove from the stack?
 7. What do you need to create to remove a node from the stack?
@@ -68,7 +68,7 @@ Our New STACK: Current and before `pop`
 
 |Push ⇨|||`Pop ⇨`|
 | --- | --- | --- | --- |
-|TOP ⇨|`5`|value:"Grey"|
+|TOP ⇨|`5`|value: "Grey"|
 |||next: `4`|
 ||`4`|value: "Blue"||
 |||next: `3`|
@@ -139,12 +139,12 @@ Queues follow these concepts:
 
 Here is what a Queue looks like:
 
-|`Enqueue ⇩`||||`⇧ Dequeue`||
-| --- | --- | --- | --- | --- | --- |
-|Node:|`4`|`3`|`2`|`1`||
-||value: "Blue"|value: "Green"|value: "White"|value: "Red"||
-||next: "Null"|next: `4`|next: `3`|next: `2`||
-||Rear⇧|||Front⇧||
+|`Enqueue ⇩`||||`⇧ Dequeue`|
+| --- | --- | --- | --- | --- |
+|Node:|`4`|`3`|`2`|`1`|
+||value: "Blue"|value: "Green"|value: "White"|value: "Red"|
+||next: "Null"|next: `4`|next: `3`|next: `2`|
+||Rear⇧|||Front⇧|
 
 Enqueue is done with an O(1) operation in time because it does not matter how many other items live in the queue (n); it takes the same amount of time to perform the operation. Let’s walk through the process of adding a Node to a queue:
 
@@ -157,7 +157,7 @@ Here is Our New Queue:
 | --- | --- | --- | --- | --- | --- |
 |Node:|`5`|`4`|`3`|`2`|`1`||
 ||value: "Grey"|value: "Blue"|value: "Green"|value: "White"|value: "Red"||
-||next:"Null"|next: `5`|next: `4`|next: `3`|next: `2`||
+||next: "Null"|next: `5`|next: `4`|next: `3`|next: `2`||
 ||Rear⇧||||Front⇧||
 
 Here is the pseudocode for the enqueue method:
