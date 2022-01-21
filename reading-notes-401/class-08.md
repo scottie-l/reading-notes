@@ -23,4 +23,4 @@
 - secret: These non-human privileged credentials are often called “secrets” and refer to a private piece of information that acts as a key to unlock protected resources or sensitive information in tools, applications, containers, DevOps and cloud-native environments. <a href = "https://www.cyberark.com/what-is/secrets-management/#:~:text=What%20is%20a%20Secret%3F,DevOps%20and%20cloud%2Dnative%20environments.">"Source"</a>
 - JSON Web Token: JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. <a href = "https://jwt.io/introduction">"Source"</a>
 
-<b><a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

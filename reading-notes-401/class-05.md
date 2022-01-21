@@ -44,7 +44,7 @@ Always be aware that Space Complexity and Time Complexity are measured different
 
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Source"</a>
 
-<b><a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
+<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
 
 A Linked List is a sequence of Nodes that are connected/linked to each other. The most defining feature of a Linked List is that each Node references the next Node in the link. There are two types of Linked List - Singly and Doubly.
 
@@ -98,7 +98,7 @@ When constructing your code, a few things to keep in mind. When making your Node
 
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Source"</a>
 
-<b><a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
+<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
 
 One characteristic of linked lists is that they are linear data structures, which means that there is a sequence and an order to how they are constructed and traversed.
 
@@ -122,7 +122,7 @@ A circular linked list is a little odd in that it doesn’t end with a node poin
 
 <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"Source"</a>
 
-<b><a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
+<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
 
 Big O Notation is a way of evaluating the performance of an algorithm.
 
@@ -142,4 +142,4 @@ A good rule of thumb for remember the characteristics of linked lists is this: A
 
 <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"Source"</a>
 
-<b><a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

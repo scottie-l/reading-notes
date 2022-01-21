@@ -56,4 +56,4 @@ Are all callback functions considered to be Asynchronous? Why or Why Not?
 
 Callbacks that you call yourself are regular function calls, which are always synchronous. Certain native APIs are asynchronous and will execute their callbacks later in the event loop. If you call a callback synchronously from within an async callback, it will end up being async too.<a href = "https://stackoverflow.com/questions/19083357/are-all-javascript-callbacks-asynchronous-if-not-how-do-i-know-which-are">"Source"</a>
 
-<b><a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>
+<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

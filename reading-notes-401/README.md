@@ -12,7 +12,7 @@
 - <a href = "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/">"How to think like a programmer"</a>
 - <a href = "https://www.mindtools.com/pages/article/newTMC_5W.htm">"The 5 Whys"</a>
 
-1. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-01.md">Day 1</a>
+1. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-01.md">**Day 1**</a>
 
 - Describe what `Array.map()`, `Array.reduce()` does.
 - Code snippets showing how to use superagent() to fetch data from a URL and log the result.
@@ -21,7 +21,7 @@
 - Explain promises as though you were mentoring a Code 301 level student.
 - Are all callback functions considered to be Asynchronous? Why or Why Not?-
 
-2. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-02.md">Day 2</a>
+2. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-02.md">**Day 2**</a>
 
 - What’s the difference between PUT and PATCH?
 - Provide links to 3 services or tools that allow you to “mock” an API for development like json-server
@@ -35,7 +35,7 @@ Document the following Vocabulary Terms:
 - Routing
 - WRRC
 
-3. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">Day 3</a>
+3. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">**Day 3**</a>
 
 - Name 3 real world use cases where you’d want to change the request with custom middleware
 - True or false: The route handler is middleware?
@@ -54,7 +54,7 @@ Document the following Vocabulary Terms:
 - Test Driven Development
 - Behavioral Testing
 
-4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-04.md">Day 4</a>
+4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-04.md">**Day 4**</a>
 
 - Name 3 advantages to Test Driven Development
 - In what case would you need to use beforeEach() or afterEach() in a test suite?
@@ -75,17 +75,19 @@ Document the following Vocabulary Terms:
 - REST
 - Data Model
 
-5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-05.md">Day 5</a>
+5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-05.md">**Day 5**</a>
 
-<b><a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-05.md">Quiz</a>
 
-<b><a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
+<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
 
-<b><a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
+<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
 
-<b><a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
+<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
 
-6. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-06.md">Day 6</a>
+<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
+
+6. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-06.md">**Day 6**</a>
 
 - Explain what a “Singleton” is (in Computer Science terms)
 - Explain how the Singleton pattern can be used with Node modules, specifically with classes
@@ -99,7 +101,7 @@ Document the following Vocabulary Terms:
 - CRUD -> REST Method Matches
 - Mock Testing
 
-7. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-07.md">Day 7</a>
+7. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-07.md">**Day 7**</a>
 
 - Write the following steps in the correct order:
 
@@ -125,7 +127,7 @@ Document the following Vocabulary Terms:
 - Authorization Code
 - Access Token
 
-8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-08.md">Day 8</a>
+8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-08.md">**Day 8**</a>
 
 - When is Basic Authorization used vs. Bearer Authorization?
 - What does the JSON Web Token package do?
@@ -139,7 +141,7 @@ Document the following Vocabulary Terms:
 - secret
 - JSON Web Token
 
-9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-09.md">Day 9</a>
+9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-09.md">**Day 9**</a>
 
 - What header(s) are used in authentication and authorization
 - What is safe to put into a JWT
@@ -151,4 +153,9 @@ Document the following Vocabulary Terms:
 - User Roles
 - JWT Token
 
-<b><a href = "https://github.com/scottie-l/reading-notes">Back</a>
+10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-10.md">**Day 10**</a>
+
+- <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-10.md">Quiz</a>
+- Stacks and Queues
+
+<a href = "https://github.com/scottie-l/reading-notes">**Back**</a>
