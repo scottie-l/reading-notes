@@ -158,4 +158,17 @@ Document the following Vocabulary Terms:
 - <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-10.md">Quiz</a>
 - Stacks and Queues
 
+11. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-11.md">**Day 11**</a>
+
+- Why is access control important?
+- Describe an application that would need access control.
+- What is a role used for?
+- Why is role based access control more scalable than discretionary or mandatory access control?
+
+Document the following Vocabulary Terms:
+
+- Authorization
+- Role Based Access Control
+- Capabilities
+
 <a href = "https://github.com/scottie-l/reading-notes">**Back**</a>
