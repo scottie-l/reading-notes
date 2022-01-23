@@ -1,4 +1,6 @@
-<b><a href = "https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html">"What is OAuth"</a>
+# Notes - Day 14
+
+_<a href = "https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html">"What is OAuth"</a>_
 
 1. What is OAuth? An open-standard authorization protocol or framework that describes how unrelated servers and services can safely authenticate access to their assets without actually sharing initial, related, single logon credential.
 
@@ -14,7 +16,7 @@ Security Assertion Markup Language, or SAML. Refers to an XML variant language, 
 
 OAuth Version 2.0 creators focused on making OAuth more interoperable and flexible between sites and devices
 
-<b><a href = "https://auth0.com/docs/authorization/flows">"Authorization and Authentication flows"</a>
+_<a href = "https://auth0.com/docs/authorization/flows">"Authorization and Authentication flows"</a>_
 
 1. What is the difference between authorization and authentication? authentication is the process of verifying who a user is, while authorization is the process of verifying what they have access to.
 
@@ -30,7 +32,7 @@ OAuth Version 2.0 creators focused on making OAuth more interoperable and flexib
 
 7. What is Resource Owner Password Flow? Highly-trusted applications which requests that users provide credentials (username and password), typically using an interactive form.
 
-<b><a href = "https://auth0.com/docs/libraries/auth0-react">"Auth0 for single page apps"</a>
+_<a href = "https://auth0.com/docs/libraries/auth0-react">"Auth0 for single page apps"</a>_
 
 The Auth0 React SDK (auth0-react.js) is a JavaScript library for implementing authentication and authorization in React apps with Auth0. It provides a custom React hook and other Higher Order Components so you can secure React apps using best practices while writing less code.
 
@@ -38,4 +40,4 @@ The Auth0 React SDK handles grant and protocol details, token expiration and ren
 
 The library is hosted on GitHub where you can read more about the API.
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

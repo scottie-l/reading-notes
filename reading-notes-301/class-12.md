@@ -1,4 +1,6 @@
-<b><a href = "https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/">"Status Codes Based On REST Methods"</a>
+# Notes - Day 12
+
+_<a href = "https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/">"Status Codes Based On REST Methods"</a>_
 
 1. In your own words, describe what each group of status code represents:
 
@@ -37,7 +39,7 @@ The HTTP creators thought about many status codes when designing it and even add
 
 Sometimes there are multiple codes we could use for one particular case, the important thing is that we keep our usage consistent over the whole API surface.
 
-<b><a href = "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw">"Build A REST API With Node.js, Express, & MongoDB - Video - 1st 20 minutes"</a>
+_<a href = "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw">"Build A REST API With Node.js, Express, & MongoDB - Video - 1st 20 minutes"</a>_
 
 1. Why do we need to pull our MongoDB database string out of our server and put it into our .env? It's a localhost variable, so will only connect to local computer, not remote.
 
@@ -55,4 +57,4 @@ Sometimes there are multiple codes we could use for one particular case, the imp
 
 8. What is the difference between a status 200 and a status 201? 201 means successfully created object, whereas 200 just means a successful connection.
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

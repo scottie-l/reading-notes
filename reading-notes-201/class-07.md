@@ -1,4 +1,6 @@
-<a href="https://github.com/codefellows/domain_modeling#domain-modeling">"Domain Modeling"</a>
+# Notes - Day 7
+
+_<a href="https://github.com/codefellows/domain_modeling#domain-modeling">"Domain Modeling"</a>_
 
 Domain modeling is process of creating a model, in code, for a specific problem. Model describes the various entities, attributes & behaviors, as well as the constraints that govern the problem domain. Entity that stores data in properties, and encapsulates the behaviors in methods, is commonly referred to as an object-oriented model. A good domain model can verify and validate the understanding of a specific problem among various stakeholders. It can define vocabulary that can be used within & between both technical and business teams.
 
@@ -26,7 +28,7 @@ Here's some tips to follow when building your own domain models.
 
 6- Use the this variable within methods so you can access the object's properties and methods from inside.
 
-<b>Ch.6 "Tables"
+_Ch.6 "Tables"_
 
 `<table>`= used to create a table
 
@@ -46,7 +48,7 @@ Use rowspan to span more than 1 cell
 
 `<tfoot>`= Used for screen readers and are inside the footer element
 
-<b>Ch.3 "Functions and Methods"
+_Ch.3 "Functions and Methods"_
 
 Creating object using constructor notation= var hotel = new Object()
 
@@ -102,4 +104,4 @@ Global Object Strings=  strings (Ref. on pg 129, Jon Duckett, JavaScript & JQuer
 
                         date & time (Ref. on pg 137, Jon Duckett, JavaScript & JQuery.)
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

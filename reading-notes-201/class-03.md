@@ -1,17 +1,18 @@
-<b>Ch.3 "Lists"
+# Notes - Day 3
 
-<ol> ordered list, and uses numbers & <ul> is unordered list and uses bullets
+_Ch.3 "Lists"_
 
-<li> list items & contained within the list tags.
+`<ol>` ordered list, and uses numbers & `<ul>` is unordered list and uses bullets
 
-<dl> definition list.
+`<li>` list items & contained within the list tags.
 
-<dt> used to contain term being defined & <dd> used to contain the definition. Both tags are within the <dl> tag
+`<dl>` definition list.
+
+`<dt>` used to contain term being defined & `<dd>` used to contain the definition. Both tags are within the `<dl>` tag
 
 Lists are indented by default. Lists can also be nested inside other lists & will indent further.
 
-
-<b>Ch.13 "Boxes"
+_Ch.13 "Boxes"_
 
 By default, box is sized just big enough to hold contents.
 
@@ -59,15 +60,15 @@ Border-image & Border-shadow (Ref. on pg 320, Jon Duckett, HTML & CSS.)
 
 Border-radius used to round corners on boxes, or make circles. Ref. on pg 321-322, Jon Duckett, HTML & CSS.
 
-<b>Ch.2 review
+_Ch.2 review_
 
 Arrays store multiple variables. Consider using with lists, or a set of values related to each other.
 
 Create arrays same as variables. Values sit inside [ ] and are separated with commas. They can be any data type and mixed.
 
-Each item in an array is given a number. It starts at <b>0 not 1.
+Each item in an array is given a number. It starts at **0** not 1.
 
-<b>Ch.4 "Decisions & Loops"
+_Ch.4 "Decisions & Loops"_
 
 if else= if the 1st code block meets the if statement, code executes, otherwise it goes to else statement and executes that code block.
 
@@ -101,4 +102,4 @@ Keywords for loops:
 
         continue; stop iteration, update & check condition again.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

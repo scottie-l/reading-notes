@@ -1,4 +1,6 @@
-<b><a href = "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm">"Component based Architecture"</a>
+# Notes - Day 1
+
+_<a href = "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm">"Component based Architecture"</a>_
 
 What is a "Component"?
 
@@ -79,7 +81,7 @@ Recognizes all design classes that correspond to the problem domain as defined i
 - Demonstrates the location of key packages, or classes of components, in system by using class instances and designating specific hardware and operating system environment.
 - Final decision made by using established design principles and guidelines. Experienced designers consider all of the alternative design solutions before settling on final design model.
 
-<b><a href = "https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0">"What is Props and How to Use it in React"</a>
+_<a href = "https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0">"What is Props and How to Use it in React"</a>_
 
 React is component-based library that divides UI into little reusable pieces. Those components need to communicate and the way to pass data between components is by using props. Furthermore, props data is read-only (immutable), which means that data coming from the parent should not be changed by child components.
 
@@ -128,33 +130,24 @@ How are props used in React? Step by step Ex.
 
 - Do the same for other child components:
 
-`class ParentComponent extends Component {`
-
-  `render() {`
-
-    `return (`
-
-      `<h1>`
-        
-        `I'm the parent component.`
-
-        `<ChildComponent text = {"I'm the 1st child"} />`
-
-        `<ChildComponent text = {"I'm the 2nd child"} />`
-
-        `<ChildComponent text = {"I'm the 3rd child"} />`
-
-      `</h1>`
-
-    `);`
-
-  `}`
-
-`}`
+~~~
+class ParentComponent extends Component {
+  render() {
+    return (
+      <h1>        
+        I'm the parent component.
+        <ChildComponent text = {"I'm the 1st child"} />
+        <ChildComponent text = {"I'm the 2nd child"} />
+        <ChildComponent text = {"I'm the 3rd child"} />
+      </h1>
+    );
+  }
+}
+~~~
 
 - Each ChildComponent will render its own prop data. This is how we use Props to pass data and convert static components into dynamic ones.
 
-<b><a href = "https://reactjs.org/tutorial/tutorial.html">"React Tutorial" through ‘Passing Data Through Props’</a>
+_<a href = "https://reactjs.org/tutorial/tutorial.html">"React Tutorial" through ‘Passing Data Through Props’</a>_
 
 The normal render method returns description of what you want to see on screen, but the React takes description and displays result. In particular, render returns a "React element", which is lightweight description of what to render.
 
@@ -168,51 +161,42 @@ Building a Tic-Tac-Toe game: Starter code used from Reactjs.org
 
 C. First, we’ll add a constructor to the class to initialize the state:
 
-  `constructor(props) {`
-
-  `super(props);`
-
-    `this.state = {`
-
-        `value: null,`
-
-    `};`
-
-`}`
-
-  `render() {`
-
-    `return (`
+~~~
+constructor(props) {
+  super(props);
+    this.state = {
+        value: null,
+    };
+}
+render() {
+  return (
+~~~
 
 B. Change the button tag that is returned from the Square component’s render() function to this:
 
-      `<button className="square">` change to: `<button className = "square" onClick = {() => console.log('click')}>`
+`<button className="square">` change to: `<button className = "square" onClick = {() => console.log('click')}>`
 
 C. Replace this.props.value with this.state.value inside the `<button>` tag.
 
-`<button className = "square" onClick = {() => console.log('click')}>` change to: 
+`<button className = "square" onClick = {() => console.log('click')}>` change to:
 
-`<button`
-
+~~~
+<button
     className = "square"
-
     onClick = {() => this.setState({value: 'X'})}
-
-`>`
-
-    {this.state.value}
+>
+{this.state.value}
+~~~
 
 A. In Board’s renderSquare method, change the code to pass a prop called value to the Square:
 
-        `{/* TODO */}` change to: `{this.props.value}
-
-      `</button>`
-
-    `);`
-
-  `}`
-
-`}`
+~~~
+{/* TODO */}` change to: `{this.props.value}
+      </button>
+    );
+  }
+}
+~~~
 
 `class Board extends React.Component {`
 
@@ -220,62 +204,59 @@ A. In Board’s renderSquare method, change the code to pass a prop called value
 
 A. In Board’s renderSquare method, change the code to pass a prop called value to the Square:
 
-    `return <Square />;` change to: `return <Square value = {i} />;
+~~~
+return <Square />;` change to: `return <Square value = {i} />;
+  }
+  render() {
 
-  `}`
+    const status = 'Next player: X';
 
-  `render() {`
+    return (
+      <div>
+        <div className = "status">{status}</div>
+        <div className = "board-row">
+          {this.renderSquare(0)}
+          {this.renderSquare(1)}
+          {this.renderSquare(2)}
+        </div>
+        <div className = "board-row">
+          {this.renderSquare(3)}
+          {this.renderSquare(4)}
+          {this.renderSquare(5)}
+        </div>
+        <div className = "board-row">
+          {this.renderSquare(6)}
+          {this.renderSquare(7)}
+          {this.renderSquare(8)}
+        </div>
+      </div>
+    );
+  }
+}
 
-    `const status = 'Next player: X';`
+class Game extends React.Component {
+  render() {
+    return (
+      <div className = "game">
+        <div className = "game-board">
+          <Board />
+        </div>
+        <div className = "game-info">
+          <div>{/* status */}</div>
+          <ol>{/* TODO */}</ol>
+        </div>
+      </div>
+    );
+  }
+}
 
-    `return (`
-      `<div>`
-        `<div className = "status">{status}</div>`
-        `<div className = "board-row">`
-          `{this.renderSquare(0)}`
-          `{this.renderSquare(1)}`
-          `{this.renderSquare(2)}`
-        `</div>`
-        `<div className = "board-row">`
-          `{this.renderSquare(3)}`
-          `{this.renderSquare(4)}`
-          `{this.renderSquare(5)}`
-        `</div>`
-        `<div className = "board-row">`
-          `{this.renderSquare(6)}`
-          `{this.renderSquare(7)}`
-          `{this.renderSquare(8)}`
-        `</div>`
-      `</div>`
-    `);`
-  `}`
-`}`
+========================================
 
-`class Game extends React.Component {`
-  `render() {`
-    `return (`
-      `<div className = "game">`
-        `<div className = "game-board">`
-          `<Board />`
-        `</div>`
-        `<div className = "game-info">`
-          `<div>{/* status */}</div>`
-          `<ol>{/* TODO */}</ol>`
-        `</div>`
-      `</div>`
-    `);`
-  `}`
-`}`
-
-`========================================`
-
-`ReactDOM.render(`
-
-  `<Game />,`
-
-  `document.getElementById('root')`
-
-`);`
+ReactDOM.render(
+  <Game />,
+  document.getElementById('root')
+);
+~~~
 
 We have three React components:
 
@@ -297,9 +278,9 @@ The React Devtools extension for Chrome lets you inspect a React component tree 
 
 After installing React DevTools, can right-click on any element on page, click “Inspect” to open the developer tools, and the React tabs (“⚛️ Components” and “⚛️ Profiler”) will appear as the last tabs to the right. Use “⚛️ Components” to inspect the component tree.
 
-<b><a href = "https://reactjs.org/docs/hello-world.html">"React Docs - Hello world"</a>
+_<a href = "https://reactjs.org/docs/hello-world.html">"React Docs - Hello world"</a>_
 
-<b><a href = "https://reactjs.org/docs/introducing-jsx.html">"React Docs - Introducing JSX"</a>
+_<a href = "https://reactjs.org/docs/introducing-jsx.html">"React Docs - Introducing JSX"</a>_
 
 JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”.
 
@@ -325,7 +306,7 @@ It is safe to embed user input in JSX. By default, React DOM escapes any values 
 
 Babel compiles JSX down to React.createElement() calls. These objects are called “React elements”. You can think of them as descriptions of what you want to see on the screen. React reads these objects and uses them to construct the DOM and keep it up to date.
 
-<b><a href = "https://reactjs.org/docs/rendering-elements.html">"React Docs - Rendering elements"</a>
+_<a href = "https://reactjs.org/docs/rendering-elements.html">"React Docs - Rendering elements"</a>_
 
 An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
 
@@ -339,7 +320,7 @@ React DOM compares the element and its children to the previous one, and only ap
 
 Even though we create an element describing the whole UI tree on every tick, only the text node whose contents have changed gets updated by React DOM.
 
-<b><a href = "https://reactjs.org/docs/components-and-props.html">"React Docs - Components and props"</a>
+_<a href = "https://reactjs.org/docs/components-and-props.html">"React Docs - Components and props"</a>_
 
 Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
 
@@ -355,11 +336,13 @@ This function is a valid React component because it accepts a single “props”
 
 You can also use an ES6 class to define a component:
 
-`class Welcome extends React.Component {`
-  `render() {`
-    `return <h1>Hello, {this.props.name}</h1>;`
-  `}`
-`}`
+~~~
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+~~~
 
 The above two components are equivalent from React’s point of view.
 
@@ -383,67 +366,44 @@ Don’t be afraid to split components into smaller components.
 
 For example, consider this Comment component:
 
-function Comment(props) {
-  
-  return (
-  
-    `<div className = "Comment">`
-  
-      `<div  = "UserInfo">`
-  
-        `<img className = "Avatar"`
-  
-          src = {props.author.avatarUrl}
-  
-          alt = {props.author.name}
-  
-        />
-  
-        `<div className = "UserInfo-name">`
-  
-          {props.author.name}
-  
-        `</div>`
-  
-      `</div>`
-  
-      `<div className = "Comment-text">`
-  
-        {props.text}
-  
-      `</div>`
-  
-      `<div className = "Comment-date">`
-  
-        {formatDate(props.date)}
-  
-      `</div>`
-  
-    `</div>`
-  
+~~~
+function Comment(props) {  
+  return (  
+    <div className = "Comment">  
+      <div  = "UserInfo">  
+        <img className = "Avatar"  
+          src = {props.author.avatarUrl}  
+          alt = {props.author.name}  
+        />  
+        <div className = "UserInfo-name">  
+          {props.author.name}  
+        </div> 
+      </div>  
+      <div className = "Comment-text">  
+        {props.text}  
+      </div>  
+      <div className = "Comment-date">  
+        {formatDate(props.date)}  
+      </div>  
+    </div>  
   );
-
 }
+~~~
 
 It accepts author (an object), text (a string), and date (a date) as props, and describes a comment on a social media website.
 
 This component can be tricky to change because of all the nesting, and it is also hard to reuse individual parts of it. Let’s extract a few components from it. First, we will extract Avatar:
 
-function Avatar(props) {
-  
+~~~
+function Avatar(props) {  
   return (
-
-    <img className = "Avatar"
-    
-      src = {props.user.avatarUrl}
-    
-      alt = {props.user.name}
-    
+    <img className = "Avatar"    
+      src = {props.user.avatarUrl}    
+      alt = {props.user.name}    
     />
-
   );
-
 }
+~~~
 
 The Avatar doesn’t need to know that it is being rendered inside a Comment. This is why we have given its prop a more generic name, user, rather than author.
 
@@ -451,91 +411,59 @@ We recommend naming props from the component’s own point of view rather than t
 
 We can now simplify Comment a tiny bit:
 
-function Comment(props) {
-  
-  return (
-  
-    <div className = "Comment">
-  
-      <div className = "UserInfo">
-  
-        <Avatar user = {props.author} />
-  
-        <div className = "UserInfo-name">
-  
-          {props.author.name}
-  
-        </div>
-  
-      </div>
-  
-      <div className = "Comment-text">
-  
-        {props.text}
-  
-      </div>
-  
-      <div className = "Comment-date">
-  
-        {formatDate(props.date)}
-  
-      </div>
-  
-    </div>
-  
+~~~
+function Comment(props) {  
+  return (  
+    <div className = "Comment">  
+      <div className = "UserInfo">  
+        <Avatar user = {props.author} />  
+        <div className = "UserInfo-name">  
+          {props.author.name}  
+        </div>  
+      </div>  
+      <div className = "Comment-text">  
+        {props.text}  
+      </div>  
+      <div className = "Comment-date">  
+        {formatDate(props.date)}  
+      </div>  
+    </div>  
   );
-
 }
+~~~
 
 Next, we will extract a UserInfo component that renders an Avatar next to the user’s name:
 
+~~~
 function UserInfo(props) {
-
   return (
-
     <div className = "UserInfo">
-
       <Avatar user = {props.user} />
-
       <div className = "UserInfo-name">
-
         {props.user.name}
-
       </div>
-
     </div>
-
   );
-
 }
+~~~
 
 This lets us simplify Comment even further:
 
+~~~
 function Comment(props) {
-
   return (
-
     <div className = "Comment">
-
       <UserInfo user = {props.author} />
-
       <div className = "Comment-text">
-
         {props.text}
-
       </div>
-
       <div className = "Comment-date">
-
         {formatDate(props.date)}
-
       </div>
-
     </div>
-
   );
-
 }
+~~~
 
 A good rule of thumb is that if a part of your UI is used several times (Button, Panel, Avatar), or is complex enough on its own (App, FeedStory, Comment), it is a good candidate to be extracted to a separate component.
 
@@ -545,4 +473,4 @@ Some functions are called “pure” because they do not attempt to change their
 
 React is pretty flexible but it has a single strict rule: All React components must act like pure functions with respect to their props.
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

@@ -1,4 +1,6 @@
-<b>Ch.16 "Images"
+# Notes - Day 11
+
+_Ch.16 "Images"_
 
 Can control image size with height, width properties in CSS. Give each image an id or class & use its selector to adjust attributes.
 
@@ -18,7 +20,7 @@ Can specify gradient in CSS. First state background image for box & then provide
 
 To overlay text over image, use low contrast or place semi transparent background color behind text.
 
-<b>Ch.19 "Practical Information"
+_Ch.19 "Practical Information"_
 
 Search Engine Optimization (SEO) - practice of trying to get site to appear nearer the top of search results. Often split between 2 techniques. On-page & Off page.
 
@@ -37,7 +39,7 @@ What visitors looking at on page, landing page, top exit page & bounce rate.
 
 Where visitors are coming from.
 
-<a href = "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs">"Video & Audio APIs"</a>
+_<a href = "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs">"Video & Audio APIs"</a>_
 
 `<video>` & `<audio>` tags used to imbed video or audio into webpage.
 
@@ -49,10 +51,10 @@ This is not good for cross-browsers.
 
 Can use HTML5 spec = `<HTMLMediaElement>` with a play, pause, stop, etc. for controls.
 
-<b>Ch.9 "Flash, video & Audio"
+_Ch.9 "Flash, video & Audio"_
 
 Animations or video files are all called flash.
 
 Use .fla for flash files. Convert to support using .swf for conversion files using JavaScript files.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

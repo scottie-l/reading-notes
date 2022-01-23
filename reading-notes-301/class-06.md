@@ -1,4 +1,6 @@
-<b><a href = "https://www.sitepoint.com/an-introduction-to-node-js/">"Intro to Node.js"</a>
+# Notes - Day 6
+
+_<a href = "https://www.sitepoint.com/an-introduction-to-node-js/">"Intro to Node.js"</a>_
 
 1. What is node.js? A JS runtime build that uses Googles V8 JS engine and library to execute JS on our computers.
 
@@ -84,7 +86,7 @@ Other Uses of Node: It can be used as a scripting language to automate repetitiv
 
 Conclusion: Node.js is an event-based, non-blocking, asynchronous I/O runtime that uses Google’s V8 JavaScript engine and libuv library.
 
-<b><a href = "https://www.codefellows.org/blog/6-reasons-for-pair-programming/">"6 reasons for pair programming"</a>
+_<a href = "https://www.codefellows.org/blog/6-reasons-for-pair-programming/">"6 reasons for pair programming"</a>_
 
 1. What are the 6 reasons for pair programming? Greater efficiency, Engaged collaboration, Learning from fellow developers, Social skills, job interview readiness, & work environment readiness.
 
@@ -117,10 +119,10 @@ Pair programming touches on all four skills: developers explain out loud what th
 
 6. Work environment readiness - Many companies that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product. Code Fellows graduates who are already familiar with how pairing works can hit the ground running at a new job, with one less hurdle to overcome.
 
-<b><a href = "https://locationiq.com/">"Geocoding API Docs"</a>
+_<a href = "https://locationiq.com/">"Geocoding API Docs"</a>_
 
-<b><a href = "https://www.npmjs.com/package/axios">"Axios Docs"</a>
+_<a href = "https://www.npmjs.com/package/axios">"Axios Docs"</a>_
 
-<b><a href = "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await">"MCN async and await"</a>
+_<a href = "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await">"MCN async and await"</a>_
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

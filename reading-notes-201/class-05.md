@@ -1,4 +1,6 @@
-<b>Ch.5 "Images"
+# Notes - Day 5
+
+_Ch.5 "Images"_
 
 Images should be: relevant, Convey information, correct mood, instantly recognizable and fit color palette.
 
@@ -20,7 +22,7 @@ Format: JPEG: use when lots of different colors. GIF use with flat colors, or fe
 
 Use `<figure>`  tag to add an image & `<figcaption>` tag inside figure tag to add text about image.
 
-<b>Ch.11 "Color"
+_Ch.11 "Color"_
 
 Color: uses 3 types= RGB values, Hex code, Color names.
 
@@ -30,7 +32,7 @@ RGBA uses A or alpha for opacity. CSS uses last rule, so list RGB, hex, or color
 
 HSL colors: made up of Hue (color), Saturation (amount of grey), Lightness (amount of black or white). Also has alpha value. (HSLA)
 
-<b>Ch.12 "Text"
+_Ch.12 "Text"_
 
 Font-family= Generic fonts to licensed fonts. Serif is most generic, with times & Georgia less so. So start with most specific you want to use and end with most generic. Ex. font-family: Georgia, Times, Serif.
 
@@ -57,7 +59,7 @@ vertical align: used with inline elements.
 
 text-indent: Used to indent text. Can be negative value to push off screen.
 
-<b><a href = "https://blog.imagekit.io/jpeg-vs-png-vs-gif-which-image-format-to-use-and-when-c8913ae3e01d">Blog Post JPEG vs. PNG vs. GIF</a>
+_<a href = "https://blog.imagekit.io/jpeg-vs-png-vs-gif-which-image-format-to-use-and-when-c8913ae3e01d">Blog Post JPEG vs. PNG vs. GIF</a>_
 
 JPEG, PNG, & GIF make up 95% of all images.
 
@@ -81,4 +83,4 @@ GIF supports 256 colors. 1 maybe set to transparency, reducing it to 255. Only G
 
 GIF is used for animations.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

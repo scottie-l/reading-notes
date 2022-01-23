@@ -21,7 +21,7 @@
 
 Spaces indicate new commands. Use 'type print' to indicate single item (or); Use \ which nullifies the space to make single item.
 
-[Link to Markdown cheats](https://www.markdownguide.org/basic-syntax/#code)
+**[Link to Markdown cheats](https://www.markdownguide.org/basic-syntax/#code)**
 
 Best text editors should have the following:
 
@@ -32,4 +32,4 @@ Best text editors should have the following:
 
 Editors to look into: Notepad++(Windows); VS Code(Emmet installed extension); Atom(Githubs editor)
 
-[Back](README.md)
+**[Back](README.md)**

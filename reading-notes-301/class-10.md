@@ -1,4 +1,6 @@
-<b><a href = "https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/">"Understanding the JS Call Stack"</a>
+# Notes - Day 10
+
+_<a href = "https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/">"Understanding the JS Call Stack"</a>_
 
 1. What is a ‘call’? A call is a function invocation.
 
@@ -18,7 +20,7 @@ The key takeaways from the call stack are:
   - A function invocation creates a stack frame that occupies a temporary memory.
   - It works as a LIFO — Last In, First Out data structure.
 
-<b><a href = "https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c">"JS error messages"</a>
+_<a href = "https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c">"JS error messages"</a>_
 
 1. What is a ‘reference error’? When you try to use a variable that has not yet been declared.
 
@@ -34,7 +36,7 @@ The key takeaways from the call stack are:
 
 Chrome developer tools - open pg with your JS code (Ctrl + o in Windows) and choose your file to debug, click the line you want to debug and refresh your page again(F5).
 
-<b><a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors">"JS errors ref. on MDN"</a>
+_<a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors">"JS errors ref. on MDN"</a>_
 
 These errors can be helpful debugging aid, but reported problem isn't always immediately clear. The pages will provide additional details about errors. Each error is an object based upon the Error object, and has a name and message. Errors displayed in the Web console may include a link to the corresponding page below to help you quickly comprehend the problem in your code.
 
@@ -44,4 +46,4 @@ These two properties provide a starting point toward understanding and resolving
   - name (the type of error)
   - and message (a more detailed human-readable error message).
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

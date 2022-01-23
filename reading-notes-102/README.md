@@ -11,4 +11,5 @@
 - [Notes](notes.md)
 - [Javascript](javascript.md)
 - [JS Functions & Operations](js_func_oper.md)
-- <a href = "https://github.com/scottie-l/reading-notes">Back to Home</a>
+
+- **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**

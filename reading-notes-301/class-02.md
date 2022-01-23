@@ -1,4 +1,6 @@
-<b><a href = "https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093">"React Lifecycle"</a>
+# Notes - Day 2
+
+_<a href = "https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093">"React Lifecycle"</a>_
 
 1. what happens 1st, the render or the componenetDidMount? The render function happens first, while the componentDidMount happens in the commit phase.
 
@@ -44,7 +46,7 @@ UNSAFE_componentWillUpdate(), instead of componentWillUpdate, use getSnapshotBef
 
 UNSAFE_componentWillReceiveProps(), instead of componentWillReceiveProps, use static getDerivedStateFromProps.
 
-<b><a href = "https://www.youtube.com/watch?v=IYvD9oBCuJI">"React state Vs Props"</a>
+_<a href = "https://www.youtube.com/watch?v=IYvD9oBCuJI">"React state Vs Props"</a>_
 
 1. What types of things can you pass in the props? Things you would pass to a function, like your initialized counter or how you'd like it to render.
 
@@ -54,7 +56,7 @@ UNSAFE_componentWillReceiveProps(), instead of componentWillReceiveProps, use st
 
 4. What are some ex. of things that we could store in state? Things to display something to user.  
 
-<b><a href = "https://reactjs.org/docs/state-and-lifecycle.html">"React Docs - State and Lifecycle"</a>
+_<a href = "https://reactjs.org/docs/state-and-lifecycle.html">"React Docs - State and Lifecycle"</a>_
 
 When `<Clock />` is passed to ReactDOM.render(), React calls the constructor of the Clock component. Since Clock needs to display the current time, it initializes this.state with an object including the current time. We will later update this state.
 
@@ -68,8 +70,8 @@ If the Clock component is ever removed from the DOM, React calls the componentWi
 
 The only place where you can assign this.state is the constructor.
 
-<b><a href = "https://reactjs.org/docs/handling-events.html">"React Docs - Handling Events"</a>
+_<a href = "https://reactjs.org/docs/handling-events.html">"React Docs - Handling Events"</a>_
 
-<b><a href = "https://reactjs.org/tutorial/tutorial.html">"React Docs - Tutorial through Dev tools"</a>
+_<a href = "https://reactjs.org/tutorial/tutorial.html">"React Docs - Tutorial through Dev tools"</a>_
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

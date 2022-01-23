@@ -1,4 +1,6 @@
-<b>Ch.10 "Error Handling & Debugging"
+# Notes - Day 10
+
+_Ch.10 "Error Handling & Debugging"_
 
 Execution context: Global= code is in script, but not in function. Can be called only 1 unique identifier. Function context= code inside a function. Each function has its own context. Eval context= text execute like code in internal function called eval().
 
@@ -56,4 +58,4 @@ try-catch-finally = similar in construction to a else if statement. Code will 't
 
 Debugging tips & common errors = (Ref. on pg 484-485 , Jon Duckett, JavaScript & JQuery.)
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

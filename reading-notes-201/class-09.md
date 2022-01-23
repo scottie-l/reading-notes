@@ -1,4 +1,6 @@
-<b>Ch.7 "Forms" 
+# Notes - Day 9
+
+_Ch.7 "Forms"_
 
 Form controls: Adding text, text input, password input. Making choices: buttons, checkboxes, drop-down boxes. Submitting buttons. File uploads
 
@@ -28,13 +30,13 @@ Forms allow users to submit information.
 
 If long list use drop-down list. If user needs to see all options at once use radio.
 
-`<type-file>`, `<type-submit>` 
+`<type-file>`, `<type-submit>`
 
 `<type-image>`= use for image of `<button>`
 
 `<type-hidden>`= not seen in browser window, unless you view source.
 
-`<label>`= used for screen readers. Best places for labels are above or to the left: `<text-input>`, `<text-area>` `<select-boxes>` `<file-uploads>` 
+`<label>`= used for screen readers. Best places for labels are above or to the left: `<text-input>`, `<text-area>` `<select-boxes>` `<file-uploads>`
 
 To the right; individual checkboxes & radio
 
@@ -52,7 +54,7 @@ To the right; individual checkboxes & radio
 
 `<placeholder>`= text in search box until the user enters input.
 
-<b>Ch.14 "Lists, Tables & Forms"
+_Ch.14 "Lists, Tables & Forms"_
 
 `<list-style-type>`= used to apply to lists
 
@@ -64,7 +66,7 @@ To the right; individual checkboxes & radio
 
 `<border-spacing>`=adds some space between cells `<border-collapse>`= will collapse to 1 line `<separate>`= borders don't touch.
 
-<b>Ch.15 "Events"
+_Ch.15 "Events"_
 
 Different event types (Ref. on pg 246-247, Jon Duckett, JavaScript & JQuery.)
 
@@ -92,4 +94,4 @@ Different DOM types can be ref - (Ref. on pg 271-287, Jon Duckett, JavaScript & 
 
 User interface events, load, focus & blur, mouse, click, keyboard, form, mutations & observers, HTML5.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

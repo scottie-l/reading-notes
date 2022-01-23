@@ -1,4 +1,6 @@
-<b><a href = "https://reactjs.org/docs/lists-and-keys.html">"Lists and Keys"</a>
+# Notes - Day 3
+
+_<a href = "https://reactjs.org/docs/lists-and-keys.html">"Lists and Keys"</a>_
 
 1. What does .map() return? Items in an array.
 
@@ -24,67 +26,49 @@ Rendering Multiple Components: You can build collections of elements and include
 
 We can loop through the numbers array using the JavaScript map() function. We'll return `<li>` element for each item. Then we'll assign resulting array to listItems
 
+~~~
 const numbers = [1, 2, 3, 4, 5];
-
 const listItems = numbers.map((number) =>
-
- `<li>{number}</li>`
-
+ <li>{number}</li>
 );
+~~~
 
 Must be sure to include listItems array inside a `<ul>` element, to render to the DOM:
 
+~~~
 ReactDOM.render(
-
-  `<ul>{listItems}</ul>`,
-
+  <ul>{listItems}</ul>,
   document.getElementById('root')
-
 );
 
 const numbers = [1, 2, 3, 4, 5];
-
 ReactDOM.render(
-
-  `<NumberList numbers = {numbers} />`,
-
+  <NumberList numbers = {numbers} />,
   document.getElementById('root')
-
 );
+~~~
 
 When you run code above, you’ll be given warning that key should be provided for list items. A “key” is special string attribute needed to include when creating lists of elements. Let’s assign a key to our list items inside numbers.map() and fix the missing key issue.
 
+~~~
 function NumberList(props) {
-
   const numbers = props.numbers;
-
   const listItems = numbers.map((number) =>
-
     <li key = {number.toString()}>
-
       {number}
-
     </li>
-
   );
-
   return (
-
     <ul>{listItems}</ul>
-
   );
-
 }
 
 const numbers = [1, 2, 3, 4, 5];
-
 ReactDOM.render(
-
-  `<NumberList numbers = {numbers} />`,
-
+  <NumberList numbers = {numbers} />,
   document.getElementById('root')
-
 );
+~~~
 
 Keys: Keys help React identify which items have changed, added, or removed. Keys should be given to elements inside array to give elements stable identity. Best way to pick key is use a string that uniquely identifies list item among its siblings. Most often you would use IDs from your data as keys. When you don’t have a stable ID for rendered items, you may use item index as key as last resort:
 
@@ -98,23 +82,20 @@ Good rule of thumb is elements inside map() call need keys. Keys must only be un
 
 Keys serve as hint to React, but don’t get passed to components. If you need same value in component, pass it explicitly as prop with different name.
 
+~~~
 const content = posts.map((post) =>
-
-  `<Post`
-
+  <Post
     key = {post.id}
-
     id = {post.id}
-
     title = {post.title} />
-
 );
+~~~
 
 With example above, Post component can read props.id, but not props.key.
 
 Embedding map() in JSX: JSX allows embedding any expression in curly braces so we could inline the map() result. Sometimes this results in clearer code, but style can also be abused. Keep in mind that if the map() body is too nested, it might be a good time to extract a component.
 
-<b><a href = "https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab">"The Spread operator"</a>
+_<a href = "https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab">"The Spread operator"</a>_
 
 1. What is the spread operator? The spread operator is useful and quick syntax for adding items to arrays, combining arrays or objects, and spreading an array out into a function’s arguments.
 
@@ -122,31 +103,30 @@ Embedding map() in JSX: JSX allows embedding any expression in curly braces so w
 
 3. Give an example of using the spread operator to combine two arrays?
 
+~~~
 const myArray = [`crazyFace`,`bear`,`flags`]
-
 const yourArray = [`smiley`,`joy`,`love`]
-
 const ourArray = [...myArray,...yourArray]
-
 console.log(...ourArray) crazyFace bear flags smiley joy love
+~~~
 
 4. Give an example of using the spread operator to add a new item to an array?
+
+~~~
 const fewFruit = ['apple','orange','banana']
-
 const fewMoreFruit = ['watermelon', 'pineapple', ...fewFruit]
-
 console.log(fewMoreFruit) Array(5) ["watermelon", "pineapple", "apple", "orange", "banana"]
+~~~
 
 5. Give an example of using the spread operator to combine two objects into one?
+
+~~~
 const objectOne = {hello}
-
 const objectTwo = {world}
-
 const objectThree = {...objectOne, ...objectTwo, laugh: "😂"}
-
 const objectFour = {...objectOne, ...objectTwo, laugh: () => {console.log("😂".repeat(5))}}
-
 objectFour.laugh() 😂😂😂😂😂
+~~~
 
 How to Use the Spread Operator (…) in JavaScript: The spread operator is useful and quick syntax for adding items arrays, combining arrays or objects, and spreading array out into function’s arguments.
 
@@ -184,7 +164,7 @@ Watch out for the deeply-nested Gotcha! When JavaScript objects, including array
 
 Conclusion: Spread operator can expand another item by splitting an iterable element like string or array into individual elements. The spread operator … is useful for working with arrays and objects in JS.
 
-<b><a href = "https://www.youtube.com/watch?v=c05OL7XbwXU">"How to pass Functions Between Components"</a>
+_<a href = "https://www.youtube.com/watch?v=c05OL7XbwXU">"How to pass Functions Between Components"</a>_
 
 1. In the video, what is the first step that the developer does to pass functions between components? Creates a increment function to loop through array and update it.
 
@@ -194,8 +174,8 @@ Conclusion: Spread operator can expand another item by splitting an iterable ele
 
 4. How does the child component invoke a method that was passed to it from a parent component? Pass the increment function to the child, using this.props.increment(this.props.name)
 
-<b><a href = "https://reactjs.org/tutorial/tutorial.html">"React Docs - Declaring a Winner"</a>
+_<a href = "https://reactjs.org/tutorial/tutorial.html">"React Docs - Declaring a Winner"</a>_
 
-<b><a href = "https://reactjs.org/docs/lifting-state-up.html">"React Docs - Lifting State Up"</a>
+_<a href = "https://reactjs.org/docs/lifting-state-up.html">"React Docs - Lifting State Up"</a>_
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

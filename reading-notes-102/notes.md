@@ -27,4 +27,4 @@ Key Principles:
 
 - *Simplicity*
 
-[Back](README.md)
+**[Back](README.md)**

@@ -1,4 +1,6 @@
-<a href = "https://learn.shayhowe.com/advanced-html-css/css-transforms/">"Transforms"</a>
+# Notes - Day 14
+
+_<a href = "https://learn.shayhowe.com/advanced-html-css/css-transforms/">"Transforms"</a>_
 
 Transform property comes in 2 different settings: 2d & 3d. Each with own properties and values.
 
@@ -70,7 +72,7 @@ When working with three-dimensional transforms, elements will occasionally be tr
 
 Other value to backface-visibility is visible which is default value, & always displaying element.
 
-<a href = "https://learn.shayhowe.com/advanced-html-css/transitions-animations/">"Transitions & Animations"</a>
+_<a href = "https://learn.shayhowe.com/advanced-html-css/transitions-animations/">"Transitions & Animations"</a>_
 
 One evolution with CSS3 was ability to write behaviors for transitions and animations. Front end developers have been asking for ability to design these interactions within HTML and CSS, without use of JavaScript or Flash.
 
@@ -151,7 +153,7 @@ Both value will apply the behaviors from both the forwards and backwards values.
 
 Animations can be written out in shorthand format. Accomplished with one animation property, rather than multiple declarations. The order of values within animation property should be animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, and lastly animation-play-state.
 
-<a href = "https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-usersa ">"8 Simple CSS3 Transitions that will wow your Users"</a>
+_<a href = "https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-usersa ">"8 Simple CSS3 Transitions that will wow your Users"</a>_
 
 Here are 8 really simple effects that to add to your UI.
 
@@ -235,23 +237,23 @@ Inset Border: Ghost button; button with no background and heavy border. Can add 
 
 }
 
-<a href = "https://codepen.io/retyui/pen/ByoaXV">"6 Buttons Animated"</a>
+_<a href = "https://codepen.io/retyui/pen/ByoaXV">"6 Buttons Animated"</a>_
 
 Follow link to view code.
 
-<a href = "https://codepen.io/akshaychauhan/pen/oAfae">"CSS3 Keyframes Animation"</a>
+_<a href = "https://codepen.io/akshaychauhan/pen/oAfae">"CSS3 Keyframes Animation"</a>_
 
 Follow link to view code.
 
-<a href = "https://codepen.io/kieranfivestars/pen/MYdQxX">"404"</a>
+_<a href = "https://codepen.io/kieranfivestars/pen/MYdQxX">"404"</a>_
 
 Follow link to view code.
 
-<a href = "https://codepen.io/dp_lewis/pen/gCfBv">"Pure CSS Bounce Animation"</a>
+_<a href = "https://codepen.io/dp_lewis/pen/gCfBv">"Pure CSS Bounce Animation"</a>_
 
 Follow link to view code.
 
-<a href = "https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">"What Google learned from its quest to build the perfect team"</a>
+_<a href = "https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">"What Google learned from its quest to build the perfect team"</a>_
 
 Google started 'Project Aristotle' to find what made the best teams. The researchers concluded that understanding and influencing group norms were the keys to improving Google’s teams.
 
@@ -265,4 +267,4 @@ Second, the good teams all had high ‘‘average social sensitivity’’ — a
 
 Psychological safety is ‘‘a sense of confidence that the team will not embarrass, reject or punish someone for speaking up’’.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

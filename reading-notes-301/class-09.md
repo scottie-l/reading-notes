@@ -1,4 +1,6 @@
-<b><a href = "https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa">"Functional Programming Concepts"</a>
+# Notes - Day 9
+
+_<a href = "https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa">"Functional Programming Concepts"</a>_
 
 1. What is functional programming? Functional programming is a programming paradigm — a style of building the structure and elements of computer programs — that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. — Wikipedia
 
@@ -10,7 +12,7 @@
 
 5. What is Referential transparency? If a function consistently yields the same result for the same input, it is referentially transparent. Pure functions + Immutable data = Referential transparency.
 
-<b><a href = "https://www.youtube.com/watch?v=xHLd36QoS4k">"Node JS Tutorial for Beginners #6 - Modules & Require()"</a>
+_<a href = "https://www.youtube.com/watch?v=xHLd36QoS4k">"Node JS Tutorial for Beginners #6 - Modules & Require()"</a>_
 
 1. What is a module? A small bit of code that has a certain bit of functionality.
 
@@ -20,4 +22,4 @@
 
 4. What do we have to do to make a module available? var functionName = require('./path);
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

@@ -1,4 +1,6 @@
-<a href = "https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/">"Chart.js API"</a>
+# Notes - Day 12
+
+_<a href = "https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/">"Chart.js API"</a>_
 
 Charts are better for displaying data visually than tables.
 
@@ -37,7 +39,7 @@ Chart.js can be integrated with plain JavaScript or with different module loader
 
 To create a chart, we need to instantiate the chart class. To do, we need to pass in the node, JQuery instance, or 2d context of the canvas of where we want to draw the chart.
 
-<a href = "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage">"Basic Usage of Canvas"</a>
+_<a href = "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage">"Basic Usage of Canvas"</a>_
 
 Canvas only has 2 attributes, height & width; Both are optional and can be set using DOM properties. If no attributes, default is 300px wide x 150px tall.
 
@@ -49,7 +51,7 @@ Use the canvas tag with method called getContext(), used to render the context a
 
 First line in script is the node in the DOM representing canvas using the getElementById() method, followed by the getContext().
 
-<a href = "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes">"Drawing Shapes with Canvas"</a>
+_<a href = "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes">"Drawing Shapes with Canvas"</a>_
 
 With canvas we can draw rectangles, triangles, lines, arcs and curves.
 
@@ -85,7 +87,7 @@ bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y) Draws a cubic Bézier curve from the
 
 Also the rect() method, which adds a rectangular path to a currently open path. rect(x, y, width, height) Draws a rectangle whose top-left corner is specified by x, y with specified width and height.
 
-<a href = "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors">"Applying Styles & colors"</a>
+_<a href = "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors">"Applying Styles & colors"</a>_
 
 fillStyle = color, sets the style used when filling shapes. strokeStyle = color, sets the style for shapes outlines.
 
@@ -125,7 +127,7 @@ The shadowBlur property indicates the size of blurring effect.
 
 The shadowColor property is standard CSS color value indicating the color of the shadow effect.
 
-<a href = "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text">"Drawing text"</a>
+_<a href = "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text">"Drawing text"</a>_
 
 canvas rendering context provides two methods to render text: fillText(text, x, y [, maxWidth]), fills given text at given x, y position. Optionally with a maximum width to draw. strokeText(text, x, y [, maxWidth]), strokes given text at given x,y position. Optionally with a maximum width to draw.
 
@@ -139,4 +141,4 @@ direction = value, directionality; Possible values: ltr, rtl, inherit. The defau
 
 measureText(), returns TextMetrics object containing width, in px, that specified text will be when drawn in the current text style.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

@@ -6,7 +6,7 @@
 
 **Daily Readings**
 
-0. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/Prep.md">Day 0</a>
+0. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/Prep.md">**Day 0**</a>
 
 - <a href = "https://simpleprogrammer.com/solving-problems-breaking-it-down/">"How to Solve Programming Problems"</a>
 - <a href = "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/">"How to think like a programmer"</a>

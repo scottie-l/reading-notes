@@ -1,4 +1,6 @@
-<b>Ch.4 "Links"
+# Notes - Day 4
+
+_Ch.4 "Links"_
 
 Use `<a>` tags to create links with a href = "website" inside quotes. Add some text after the URL, but before closing tag to let user see what the link is.
 
@@ -14,7 +16,7 @@ Target used to open window to external website. `<a href = "http://website.com" 
 
 To link within a page, use `<div>` to divide up page then use h ref=id of div. `<p><a href = "top"></a><p>`
 
-<b>Ch.15 "Layout"
+_Ch.15 "Layout"_
 
 Block level & in-line elements.
 
@@ -40,17 +42,17 @@ Screen resolution & size varies. Standard is 960-1000 pixels.
 
 Designers use Layout grids to help divide page. Downloadable grid @ www.960.gs.(Ref. on pg 389-392, Jon Duckett, HTML & CSS.)
 
-<b>Ch.3 "Functions, Methods, & Objects"
+_Ch.3 "Functions, Methods, & Objects"_
 
 Functions: A series of statements together to perform a specific task. To create, give it a name & then the statements needed to a achieve task.
 
 Make parameters by placing them inside (), then telling what to do with them in the code block. The values inside the code block are called arguments.
-
+_
 Local variables are called within the function and only there.
 
 Global variables are in memory and can be called anywhere.
 
-<b><a href="https://www.codefellows.org/blog/6-reasons-for-pair-programming/">"6 Reasons for Pair Programming"</a>
+_<a href="https://www.codefellows.org/blog/6-reasons-for-pair-programming/">"6 Reasons for Pair Programming"</a>_
 
 2 people programming on same code. 1 person is 'driving' or do the programming, while the other is 'Navigating', or calling out the code to type, looking up solutions, going to other screens, etc. The Driver is the only one who is touching the keyboard.
 
@@ -58,4 +60,4 @@ Global variables are in memory and can be called anywhere.
 
 Pair programming takes slightly more time, but produces much better code, reducing bugs and rework. Thus saving time overall.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

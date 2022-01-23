@@ -1,4 +1,6 @@
-<a href = "http://diveinto.html5doctor.com/storage.html">"The Past, Present & Future of Local Storage for Web Applications"</a>
+# Notes - Day 13
+
+_<a href = "http://diveinto.html5doctor.com/storage.html">"The Past, Present & Future of Local Storage for Web Applications"</a>_
 
 Persistent local storage is an area where native client apps have an advantage over web apps. Native apps, the OS typically provides an abstraction layer for storing and retrieving app-specific data like preferences or runtime state. The values may be stored in the registry, INI files, XML files, or some other place according to platform convention. If native client app needs local storage beyond key/value pairs, can embed your database, invent own file format, or any number of other solutions.
 
@@ -128,4 +130,4 @@ Primary difference is the object store has no structured query language. You don
 
 At time of writing, IndexedDB has only been implemented in beta version of Firefox 4.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

@@ -1,4 +1,6 @@
-<b><a href = "https://reactjs.org/docs/thinking-in-react.html">"Thinking in React"</a>
+# Notes - Day 5
+
+_<a href = "https://reactjs.org/docs/thinking-in-react.html">"Thinking in React"</a>_
 
 1. What is the single responsibility principle and how does it apply to components? A component should ideally only do one thing. It if it grows, it should be decomposed into smaller sub components. Each component should match 1 piece of your data model.
 
@@ -20,21 +22,16 @@
 
 Start With A Mock: Imagine that we already have a JSON API and a mockup from our designer. Our JSON API returns some data that looks like this:
 
+~~~
 [
-
   {category: "Sporting Goods", price: "$49.99", stocked: true, name: "Football"},
-
   {category: "Sporting Goods", price: "$9.99", stocked: true, name: "Baseball"},
-
   {category: "Sporting Goods", price: "$29.99", stocked: false, name: "Basketball"},
-
   {category: "Electronics", price: "$99.99", stocked: true, name: "iPod Touch"},
-
   {category: "Electronics", price: "$399.99", stocked: false, name: "iPhone 5"},
-
   {category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"}
-
 ];
+~~~
 
 `1. Breaking The UI Into A Component Hierarchy:
 
@@ -114,7 +111,7 @@ Add instance property this.state = {filterText: '', inStockOnly: false} to Filte
 
 Want to make sure that whenever user changes form, we update state to reflect user input. Since components should only update own state, FilterableProductTable will pass callbacks to SearchBar that will fire whenever state should be updated. Can use onChange event on inputs to be notified of. Callbacks passed by FilterableProductTable will call setState(), and app will be updated.
 
-<b><a href = "https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK">"Higher Order Functions"</a>
+_<a href = "https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK">"Higher Order Functions"</a>_
 
 1. What is a “higher-order function”? Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
 
@@ -130,27 +127,21 @@ Script data set: One area where higher-order functions shine is data processing.
 
 Filtering arrays: To find scripts in data set that are still in use, following function might be helpful. Filters out elements in array that don’t pass test.
 
+~~~
 function filter(array, test) {
-
   let passed = [];
-
   for (let element of array) {
-
     if (test(element)) {
-
       passed.push(element);
-
     }
-
   }
-
   return passed;
-
 }
 
 console.log(filter(SCRIPTS, script => script.living));
 
 // → [{name: "Adlam", …}, …]
+~~~
 
 Function uses argument named test, a function value, to fill gap in computation. Process of deciding which elements to collect.
 
@@ -160,70 +151,57 @@ Like forEach, filter is standard array method.
 
 Transforming with map: Say we have array of objects representing scripts. But we want an array of names, which is easier to inspect. The map method transforms array by applying function to all of its elements and building new array from returned values. New array will have the same length as input array, but content will have been mapped to new form the function. Like forEach and filter, map is a standard array method.
 
+~~~
 function map(array, transform) {
-
   let mapped = [];
-
   for (let element of array) {
-
     mapped.push(transform(element));
-
   }
-
   return mapped;
-
 }
+~~~
 
 Summarizing with reduce: Another common thing to do with arrays is compute single value from them. Higher-order operation that represents this pattern called reduce (also called fold sometimes). Builds value by repeatedly taking single element from array and combining with current value. When summing numbers, you’d start with number zero and, for each element, add that to sum.
 
 Parameters to reduce are, apart from the array, a combining function and start value. Function is a less straightforward than filter and map.
 
+~~~
 function reduce(array, combine, start) {
-
   let current = start;
-
   for (let element of array) {
-
     current = combine(current, element);
-
   }
-
   return current;
-
 }
 
 console.log(reduce([1, 2, 3, 4], (a, b) => a + b, 0));
-
 // → 10
+~~~
 
 The standard array method reduce, has added convenience. If array contains at least one element, are allowed to leave off the starting argument. The method will take the first element of array as its start value and start reducing at second element.
 
+~~~
 console.log([1, 2, 3, 4].reduce((a, b) => a + b));
-
 // → 10
+~~~
 
 To use reduce, twice, to find the script with most characters.
 
+~~~~
 function characterCount(script) {
-
   return script.ranges.reduce((count, [from, to]) => {
-
     return count + (to - from);
-
   }, 0);
-
 }
 
 console.log(SCRIPTS.reduce((a, b) => {
-
   return characterCount(a) < characterCount(b) ? b : a;
-
 }));
-
 // → {name: "Han", …}
+~~~~
 
 CharacterCount function reduces ranges assigned to a script by summing their sizes. Second call to reduce then uses this to find largest script by repeatedly comparing two scripts and returning larger one.
 
 The Han script has more than 89,000 characters assigned to it in the Unicode standard, making it by far the biggest writing system in the data set. Han is a script (sometimes) used for Chinese, Japanese, and Korean text. Those languages share a lot of characters, though they tend to write them differently. The (U.S.-based) Unicode Consortium decided to treat them as a single writing system to save character codes. This is called Han unification and still makes some people very angry.
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+_<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>_

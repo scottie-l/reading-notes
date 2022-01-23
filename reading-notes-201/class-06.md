@@ -1,4 +1,6 @@
-<b><a href="https://simpleprogrammer.com/understanding-the-problem-domain-is-the-hardest-part-of-programming">"Understanding the problem Domain is the hardest part of programming"</a>
+# Notes - Day 6
+
+_<a href="https://simpleprogrammer.com/understanding-the-problem-domain-is-the-hardest-part-of-programming">"Understanding the problem Domain is the hardest part of programming"</a>_
 
 The reason why some puzzles are so hard, is because you can’t really see what you are trying to build very clearly. Normally when you put together a jigsaw puzzle you follow steps that might look something like this: 1- Figure out major components of the picture. 2- Sort out the pieces. 3-Put together border pieces. 4- Put together each component of the picture from piles created.
 
@@ -12,7 +14,7 @@ Understanding the problem domain is the hardest part of programming. To make it 
 
 2) Take the time to fully understand the whole problem. Do it right the first time.
 
-<b><a href = "https://betterprogramming.pub/intermediate-javascript-whats-the-difference-between-primitive-values-and-object-references-e863d70677b">"What's the difference between Primitive Values and Object References in JavaScript?"</a>
+_<a href = "https://betterprogramming.pub/intermediate-javascript-whats-the-difference-between-primitive-values-and-object-references-e863d70677b">"What's the difference between Primitive Values and Object References in JavaScript?"</a>_
 
 All data types in JavaScript can be put into one of two categories: primitive values and object references. They each run differently.
 
@@ -30,7 +32,7 @@ Loose equality operator (==) will return true if the values of the two items bei
 
 Generally recommended that === be used over == when possible.
 
-<b>Ch.3 "Object Literals"
+_Ch.3 "Object Literals"_
 
 Objects group together variables & functions to create models.
 
@@ -46,7 +48,7 @@ Named functions have a name and value that is set of statements to run when func
 
 Objects have name value pairs.
 
-<b>Ch.5 "Document Object Model"
+_Ch.5 "Document Object Model"_
 
 DOM isn't HTML nor JS. Covers 2 areas.
 
@@ -94,4 +96,4 @@ Use inspect Element in dev tools (Chrome)
 
 1- Add new item to start & end of list. 2- Set a class attribute on all items. 3- Add numbers of list items to heading.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

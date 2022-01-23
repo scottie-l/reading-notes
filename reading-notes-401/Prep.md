@@ -1,4 +1,6 @@
-<b><a href = "https://simpleprogrammer.com/solving-problems-breaking-it-down/">"How to Solve Programming Problems"</a>
+# Notes - Day 0
+
+_<a href = "https://simpleprogrammer.com/solving-problems-breaking-it-down/">"How to Solve Programming Problems"</a>_
 
 Common mistakes: improper allocation of time. Not thinking through problem before beginning coding. Solving problem on 1st iteration.
 
@@ -23,7 +25,7 @@ Any language you expect to be able to solve algorithm type problems in, you shou
 
 Many times you will find that a problem itself involves multiple large steps or is very complicated. In those instances, you will want to try and find a way to cut the problem directly in half and then following the process above for each half. This method of tackling a problem is called “divide and conquer”. A good way to know where to break a problem in half is to think about what part of the problem if already given to you would make solving the rest easy.
 
-<b><a href = "https://anthony-moore.medium.com/pretend-your-time-is-worth-1-000-hour-and-youll-become-100x-more-productive-6ab2302b8e8c">"Act like you make $1000/hr"</a>
+_<a href = "https://anthony-moore.medium.com/pretend-your-time-is-worth-1-000-hour-and-youll-become-100x-more-productive-6ab2302b8e8c">"Act like you make $1000/hr"</a>_
 
 Many people waste much of their time on pointless, low-quality activities that don’t help them reach their true goals — their mission. Truth is, most people value their time at far, far less than it’s worth. They say yes to things they have no business doing. They give away their talents, attention, and effort to others.
 
@@ -51,7 +53,7 @@ You probably need to say “no” more. Every time you say yes to something, it 
 
 This process of weeding out the merely “good” for the truly great opportunities is easier when you value your time at $1,000/hour. Anything you can honestly justify doing for $1,000/hour is probably a good thing.
 
-<b><a href = "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/">"How to think like a programmer"</a>
+_<a href = "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/">"How to think like a programmer"</a>_
 
 The best way involves a) having a framework and b) practicing it
 
@@ -75,7 +77,7 @@ Side note: Programmers have a great tool to help them with this… Comments!
 5. Practice: Practice. Practice. Practice. It’ll only be a matter of time before you recognize that “this problem could easily be solved with <insert concept here>.”
 6. Conclusion: Now, you know better what it means to “think like a programmer.”
 
-<b><a href = "https://www.mindtools.com/pages/article/newTMC_5W.htm">"The 5 Whys"</a>
+_<a href = "https://www.mindtools.com/pages/article/newTMC_5W.htm">"The 5 Whys"</a>_
 
 Sakichi Toyoda, the Japanese industrialist, inventor, and founder of Toyota Industries, developed the 5 Whys technique in the 1930s. It became popular in the 1970s, and Toyota still uses it to solve problems today. The method is remarkably simple: when a problem occurs, drill down to its root cause by asking "Why?" 5 times. Then, when a counter-measure becomes apparent, you follow it through to prevent the issue from recurring.
 
@@ -95,4 +97,4 @@ How to use the 5 whys:
 
 Summary: The 5 Whys strategy is a simple, effective tool for uncovering the root of a problem. You can use it in troubleshooting, problem-solving, and quality-improvement initiatives. Start with a problem and ask why it is occurring. Make sure that your answer is grounded in fact, and then ask the question again. Continue the process until you reach the root cause of the problem, and you can identify a counter-measure that will prevent it from recurring. Bear in mind that this questioning process is best suited to simple or moderately difficult problems. Complex problems may benefit from a more detailed approach, although using 5 Whys will still give you useful insights.
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

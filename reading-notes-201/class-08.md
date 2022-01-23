@@ -1,4 +1,6 @@
-<b>Ch.15 "Layouts" review
+# Notes - Day 8
+
+_Ch.15 "Layouts" review_
 
 float= used to place boxes next to each other. When element floated, it can affect where following elements sit.
 
@@ -18,4 +20,4 @@ For columns, create a div for each column you want. Then set width, float and ma
 
 For multiple style sheets, you can use the @import tag to link other style sheets to your HTML.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

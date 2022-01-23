@@ -1,4 +1,6 @@
-<b>Ch.2 "TEXT"
+# Notes - Day 2
+
+_Ch.2 "TEXT"_
 
     Tags (known as markup) provide extra meaning & allow browsers to show users appropriate structure.
 
@@ -42,7 +44,7 @@ Semantic markup:
         
         `<s>` Item no longer accurate but still needs to be seen on page.
 
-<b>Ch.10 "Introducing CSS"
+_Ch.10 "Introducing CSS"_
 
 Block level elements look like they start on new line where inline elements flow within text.
 
@@ -58,8 +60,7 @@ CSS cascades, meaning it will use the last style for an item. Add: !important to
 
 CSS Selectors can be (Ref. on pg 238, Jon Duckett, HTML & CSS.)
 
-
-<b>Ch.2 Basic JS Instructions
+_Ch.2 Basic JS Instructions_
 
 Script is a series of instructions for a computer to follow 1 by 1. Each step is known as a statement and should be separated by a semi colon.
 
@@ -71,7 +72,8 @@ Variable is keyword used with a variable name (identifier). Once created, you ca
 
 Data types are numeric (numbers) strings (letters and characters) or Booleans( true false) Null & undefined.
 
-Variable naming rules:  
+Variable naming rules:
+
 1. Begin with letter, $, or _. Can't begin with a number.
 2. Can't use - or . in variable names
 3. Can't use keywords or reserved words.
@@ -85,8 +87,7 @@ Expressions evaluate a single value and use operators.
 
 String operators use "+" to join strings together.
 
-
-<b>Ch.4 "Decisions & Loops"
+_Ch.4 "Decisions & Loops"_
 
 2 components of a decision. 1. Expression is evaluated which returns a value.
 
@@ -116,4 +117,4 @@ if statements: evaluates a condition. If evaluates to true any subsequent code b
 
 If else statement: if evaluates to false runs second code block.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

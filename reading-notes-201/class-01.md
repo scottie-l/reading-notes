@@ -1,10 +1,12 @@
-<b>Ch.1 "Structure"
+# Notes - Day 1
+
+_Ch.1 "Structure"_
 
 Structure: headings, sub-headings, drop-down boxes.
 
 HTML describes structure of page. `<html> <head> <body> <h1> <p>` are elements to create structure while also giving more information about it to the computer.
 
-<b>Ch.8 "Extra Markup"
+_Ch.8 "Extra Markup"_
 Extra Markup: HTML4-1997, HTML 1.0-2000 (HTML4 & XML combined), HTML5-current. `<!DOCTYPE html>` id's version.
 
 `<!-- add comments to code -->`
@@ -21,17 +23,17 @@ id attributes= used to uniquely id elements from others. class id= used to id ma
 
 `<meta>`= contains info about elements within the head section.
 
-<b>Ch.17 "HTML5 Layout"
+_Ch.17 "HTML5 Layout"_
 
 HTML 5 Layout: Layout (Ref. on p.445 Jon Duckett, HTML&CSS)  
 
-<b>Ch.18 "Process & Design"
+_Ch.18 "Process & Design"_
 
 Why do people visit your site= motivations or specific goals? What are they trying to achieve? What info will they need? How often will they visit site?
 
 Site maps are diagrams of pages used to build website. Wireframe is the layout of the page. Visual Hierarchy uses size, color, style. Grouping in proximity, closure, continuity, white space, color, borders.
 
-<b>Ch.1 "The ABC of Programming"
+_Ch.1 "The ABC of Programming"_
 
 What's a script? A series of instructions, ex. recipe, handbooks, manuals. Vocabulary is the words computers understand. Syntax is how to put them together to create instructions.
 
@@ -39,4 +41,4 @@ Models= Objects are representations of reality to a computer that have propertie
 
 Each layer builds on previous layer `<html>` {CSS} javaScript() and is popular way to build webpages. JavaScript runs where it's found in the Html code.
 
-<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/blob/main/reading-notes-201/README.md">Back</a>**

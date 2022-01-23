@@ -1,4 +1,6 @@
-<b><a href = "https://reactjs.org/docs/forms.html">"Forms"</a>
+# Notes - Day 4
+
+_<a href = "https://reactjs.org/docs/forms.html">"Forms"</a>_
 
 1. What is a ‘Controlled Component’? A form that acts as setState and the form submission function making a React state a single source of truth and able to control its data.
 
@@ -22,7 +24,7 @@ With controlled component, input’s value is always driven by React state. You 
 
 The textarea Tag:
 
-In HTML, a `<textarea>` element defines its text by its children. In React, `<textarea>` uses value attribute instead. This way, form using a <textarea> can be written very similarly to form that uses a single-line input.
+In HTML, a `<textarea>` element defines its text by its children. In React, `<textarea>` uses value attribute instead. This way, form using a `<textarea>` can be written very similarly to form that uses a single-line input.
 
 The select Tag:
 
@@ -50,21 +52,19 @@ Alternatives to Controlled Components:
 
 Can sometimes be tedious to use controlled components, because need to write event handler for every way data can change and pipe all input state through a React component. Can become annoying when converting preexisting codebase to React, or integrating React application with non-React library. Might want to check out uncontrolled components, alternative technique for implementing input forms.
 
-<b><a href = "https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff">"The Conditional (Ternary) Operator Explained"</a>
+_<a href = "https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff">"The Conditional (Ternary) Operator Explained"</a>_
 
 1. Why would we use a ternary operator? To write a more succinct line of code to evaluate a condition using a Boolean value.
 
 2. Rewrite the following statement using a ternary statement: x === y ? true : false;
 
+~~~
   if(x === y){
-
  console.log(true);
-
   } else {
-
  console.log(false);
-
   }
+~~~
 
 Starting with the Basics — The if statement:
 
@@ -82,15 +82,13 @@ The Conditional (Ternary) Operator:
 
 First, we’ll take a look at the syntax of a typical if statement:
 
+~~~
 if ( condition ) {
-
   value if true;
-
 } else {
-
   value if false;
-
 }
+~~~
 
 Now, the ternary operator:
 
@@ -120,40 +118,33 @@ Example — Nested Ternary: What if a movie theater gives a discount to students
 
 For this scenario, assume tickets are: $12 for the general public, $8 for students, and $6 for seniors. Here’s what the code for a Senior citizen would look like:
 
+~~~
 let isStudent = false;
-
 let isSenior = true;
-
 let price = isStudent ? 8 : isSenior ? 6 : 10
-
 console.log(price);
-
 6
+~~~
 
 Code break down: First, check to see if patron is student. Since isStudent is false, only code after first : is executed. After the : , we have a new conditional. Our second conditional tests, isSenior. Since this is true, only code after the ? but before the : is executed. Price then assigned value of 6 which we later console log to screen.
 
 Example — Multiple operations: Also possible to run multiple operations within ternary. To do, must separate operations with comma. Can also, optional, use parenthesis to help group code:
 
+~~~
 let isStudent = true;
-
 let price = 12;
-
 isStudent ? (
-
   price = 8,
-
   alert('Please check for student ID')
-
 ) : (
-
   alert('Enjoy the movie')
-
 );
+~~~
 
 In above example, price of movie is set to $12. If isStudent is true, we adjust price down to $8 & send alert to cashier to check for student ID. If isStudent is false, above code is skipped, and simply alert to enjoy the movie.
 
-<b><a href = "https://react-bootstrap.github.io/components/forms/">"React Bootstrap Forms"</a>
+_<a href = "https://react-bootstrap.github.io/components/forms/">"React Bootstrap Forms"</a>_
 
-<b><a href = "https://reactjs.org/docs/conditional-rendering.html">"React Docs - Conditional Rendering"</a>
+_<a href = "https://reactjs.org/docs/conditional-rendering.html">"React Docs - Conditional Rendering"</a>_
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

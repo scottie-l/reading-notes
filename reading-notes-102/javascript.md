@@ -24,4 +24,4 @@ Both elements are used in Jaascript. Variables must be identified with unique na
 
 Identifiers can be short names like x, y, or z, or long desriptive names like age or sum.
 
-[Back](README.md)
+**[Back](README.md)**

@@ -1,4 +1,6 @@
-<b><a href = "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design">"RESTful web API design"</a>
+# Notes - Day 8
+
+_<a href = "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design">"RESTful web API design"</a>_
 
 1. What does REST stand for? Representation State Transfer
 
@@ -35,11 +37,11 @@ To adopt OpenAPI for your web APIs, here are some points to consider:
 - Tools like Swagger can generate client libraries or documentation from API contracts. For example, see ASP.NET Web API help pages using Swagger.
 
 More information:
-    - <a href = "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md">Microsoft REST API guidelines.</a> Detailed recommendations for designing public REST APIs.
-    - <a href = "https://mathieu.fenniak.net/the-api-checklist">Web API checklist.</a> A useful list of items to consider when designing and implementing a web API.
-    - <a href = "https://www.openapis.org/">Open API Initiative.</a> Documentation and implementation details on Open API.
+- <a href = "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md">Microsoft REST API guidelines.</a> Detailed recommendations for designing public REST APIs.
+- <a href = "https://mathieu.fenniak.net/the-api-checklist">Web API checklist.</a> A useful list of items to consider when designing and implementing a web API.
+- <a href = "https://www.openapis.org/">Open API Initiative.</a> Documentation and implementation details on Open API.
 
-<b><a href = "https://regexr.com/">"Regexr"</a>
+_<a href = "https://regexr.com/">"Regexr"</a>_
 
 How would you match your name using RegEx? /scott leas.
 
@@ -51,7 +53,7 @@ The side bar includes a Cheatsheet, full Reference, and Help. You can also Save 
 
 Explore results with the Tools. Replace & List output custom results. Details lists capture groups. Explain describes your expression in plain English.
 
-<b><a href = "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285">"Regexer Cheatsheet"</a>
+_<a href = "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285">"Regexer Cheatsheet"</a>_
 
 Summary: As discussed, the application fields of regex can be multiple, here's a quick list:
 
@@ -62,7 +64,6 @@ Summary: As discussed, the application fields of regex can be multiple, here's a
 - string replacement (for example, even during a code session using a common IDE to translate a Java or C# class in the respective JSON object — replace “;” with “,” make it - - - lowercase, avoid type declaration, etc.)
 - syntax highlighting, file renaming, packet sniffing and many other applications involving strings (where data need not be textual)
 
-##### Link for site testing page!
-###### <b><a href = "https://regex101.com/">"Regexr 101"</a>
+#### Link for site testing page! **<a href = "https://regex101.com/">"Regexr 101"</a>**
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**

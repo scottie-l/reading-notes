@@ -1,4 +1,6 @@
-<b><a href = "https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool">"NoSQL vs SQL"</a>
+# Notes - Day 11
+
+_<a href = "https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool">"NoSQL vs SQL"</a>_
 
 1. Fill in the chart below with five differences between SQL and NoSQL databases:
 
@@ -22,15 +24,15 @@
 
 7. Which type of database is best for scalability? NoSQL. The databases are horizontally scalable, so you just add more servers easily in your NoSQL database infrastructure. (SQL, can manage increasing load by increasing CPU, RAM, SSD, etc, on single server).
 
-<b><a href = "https://mongoosejs.com/docs/api.html#Model">"Mongoose API"</a>
+_<a href = "https://mongoosejs.com/docs/api.html#Model">"Mongoose API"</a>_
 
 Docs for the Api.
 
-<b><a href = "https://v5.reactrouter.com/web/api/BrowserRouter">"React Router"</a>
+_<a href = "https://v5.reactrouter.com/web/api/BrowserRouter">"React Router"</a>_
 
 Docs for React route.
 
-<b><a href = "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y">"NoSQL vs SQL (Video)"</a>
+_<a href = "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y">"NoSQL vs SQL (Video)"</a>_
 
 1. What does SQL stand for? Structured Query language.
 
@@ -51,4 +53,4 @@ Docs for React route.
 
 9. What is the disadvantage of a NoSQL database? May have to update collections in multiple places. Limited in how much power you can add to CPU. Can be hard to search because its schema-less.
 
-<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>
+**<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-301">Back</a>**
