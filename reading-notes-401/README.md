@@ -171,4 +171,25 @@ Document the following Vocabulary Terms:
 - Role Based Access Control
 - Capabilities
 
+12. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-12.md">**Day 12**</a>
+
+- What is the benefit of transforming data into packets?
+- UDP is often refereed to as a connectionless protocol. Why is this?
+- Can a socket server application have multiple socket connections?
+- Can a socket connection application be connected to multiple socket servers?
+- Can an application be both a socket server and a socket connection?
+
+Document the following Vocabulary Terms:
+
+- Observer Pattern
+- Listener
+- Event Handler
+- Event Driven Programming
+- Event Loop
+- Event Queue
+- Call Stack
+- Emit/Raise/Trigger
+- Subscribe
+- Database
+
 <a href = "https://github.com/scottie-l/reading-notes">**Back**</a>
