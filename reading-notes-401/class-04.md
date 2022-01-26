@@ -12,15 +12,15 @@
 
 6. Document the following Vocabulary Terms:
 
-- functional programming: A programming paradigm where programs are constructed by applying and composing functions. <a href = "https://en.wikipedia.org/wiki/Functional_programming">"Source"</a>
-- object-oriented programming (OOP): A programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures. <a href = "https://en.wikipedia.org/wiki/Object-oriented_programming">"Source"</a>
-- class: Classes are a template for creating objects. <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">"Source"</a>
-- super: The super keyword in JavaScript acts as a reference variable to the parent class. It is mainly used when we want to access a variable, method, or constructor in the base class from the derived class. <a href = "https://www.educative.io/edpresso/what-is-the-super-keyword-in-javascript">"Source"</a>
-- this: The JavaScript this keyword refers to the object it belongs to. It has different values depending on where it is used: In a method, this refers to the owner object. Alone, this refers to the global object. <a href = "https://www.w3schools.com/js/js_this.asp#:~:text=The%20JavaScript%20this%20keyword%20refers,refers%20to%20the%20global%20object.">"Source"</a>
-- Test Driven Development (TDD):  a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. <a href = "https://en.wikipedia.org/wiki/Test-driven_development">"Source"</a>
-- Jest: Testing Framework with a focus on simplicity.
-- Continuous Integration (CI): Is the practice of automating the integration of code changes from multiple contributors into a single software project. <a href = "https://www.atlassian.com/continuous-delivery/continuous-integration#:~:text=Continuous%20integration%20(CI)%20is%20the,into%20a%20single%20software%20project.&text=Automated%20tools%20are%20used%20to,crux%20of%20the%20CI%20process.">"Source"</a>
-- REST: REpresentational State Transfer. It revolves around resource where every component is a resource and a resource is accessed by a common interface using HTTP standard methods. <a href = "https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm">"Source"</a>
-- Data Model: A standardized method of properties and attributes for objects.
+- *functional programming:* A programming paradigm where programs are constructed by applying and composing functions. <a href = "https://en.wikipedia.org/wiki/Functional_programming">"Source"</a>
+- *object-oriented programming (OOP):* A programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures. <a href = "https://en.wikipedia.org/wiki/Object-oriented_programming">"Source"</a>
+- *class:* Classes are a template for creating objects. <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">"Source"</a>
+- *super:* The super keyword in JavaScript acts as a reference variable to the parent class. It is mainly used when we want to access a variable, method, or constructor in the base class from the derived class. <a href = "https://www.educative.io/edpresso/what-is-the-super-keyword-in-javascript">"Source"</a>
+- *this:* The JavaScript this keyword refers to the object it belongs to. It has different values depending on where it is used: In a method, this refers to the owner object. Alone, this refers to the global object. <a href = "https://www.w3schools.com/js/js_this.asp#:~:text=The%20JavaScript%20this%20keyword%20refers,refers%20to%20the%20global%20object.">"Source"</a>
+- *Test Driven Development (TDD):*  a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. <a href = "https://en.wikipedia.org/wiki/Test-driven_development">"Source"</a>
+- *Jest:* Testing Framework with a focus on simplicity.
+- *Continuous Integration (CI):* Is the practice of automating the integration of code changes from multiple contributors into a single software project. <a href = "https://www.atlassian.com/continuous-delivery/continuous-integration#:~:text=Continuous%20integration%20(CI)%20is%20the,into%20a%20single%20software%20project.&text=Automated%20tools%20are%20used%20to,crux%20of%20the%20CI%20process.">"Source"</a>
+- *REST:* REpresentational State Transfer. It revolves around resource where every component is a resource and a resource is accessed by a common interface using HTTP standard methods. <a href = "https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm">"Source"</a>
+- *Data Model:* A standardized method of properties and attributes for objects.
 
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

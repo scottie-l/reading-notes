@@ -50,13 +50,13 @@ A Linked List is a sequence of Nodes that are connected/linked to each other. Th
 
 Terminology:
 
-- Linked List: A data structure that contains nodes that links/points to the next node in the list.
-- Singly: Refers to the number of references the node has. A Singly linked list means that there is only one reference, and the reference points to the Next node in a linked list.
-- Doubly -Refers to there being two references within the node. A Doubly linked list means that there is a reference to both the Next and Previous node.
-- Node: The individual items/links that live in a linked list. Each node contains the data for each link.
-- Next: Each node contains a property called Next. This property contains the reference to the next node.
-- Head: A reference of type Node to the first node in a linked list.
-- Current - Reference of type Node to the node that is currently being looked at. When traversing, you create a new Current variable at the Head to guarantee you are starting from the beginning of the linked list.
+- *Linked List:* A data structure that contains nodes that links/points to the next node in the list.
+- *Singly:* Refers to the number of references the node has. A Singly linked list means that there is only one reference, and the reference points to the Next node in a linked list.
+- *Doubly:* -Refers to there being two references within the node. A Doubly linked list means that there is a reference to both the Next and Previous node.
+- *Node:* The individual items/links that live in a linked list. Each node contains the data for each link.
+- *Next:* Each node contains a property called Next. This property contains the reference to the next node.
+- *Head:* A reference of type Node to the first node in a linked list.
+- *Current:* - Reference of type Node to the node that is currently being looked at. When traversing, you create a new Current variable at the Head to guarantee you are starting from the beginning of the linked list.
 
 When traversing a linked list, you are not able to use a foreach or for loop. We depend on the Next value in each node to guide us where the next reference is pointing. The best way to approach a traversal is through the use of a while() loop. This allows us to continually check that the Next node in the list is not null. The Current variable will tell us where exactly in the linked list we are.
 

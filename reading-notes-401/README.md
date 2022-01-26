@@ -192,4 +192,26 @@ Document the following Vocabulary Terms:
 - Subscribe
 - Database
 
+13. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-13.md">**Day 13**</a>
+
+- What does it mean that web sockets are bidirectional? Why is this useful?
+- Does socket.io use HTTP? Why?
+- What happens when a client emits an event?
+- What happens when a server emits an event?
+- What happens if a client “misses” an event?
+- How can we mitigate this?
+
+Document the following Vocabulary Terms:
+
+- Socket
+- Web Socket
+- Socket.io
+- Client
+- Server
+- OSI Model
+- TCP Model
+- TCP
+- UDP
+- Packets
+
 <a href = "https://github.com/scottie-l/reading-notes">**Back**</a>
