@@ -26,4 +26,5 @@
 - *Authorization Code:*  An authorization code is typically a sequence of letters, numbers, or a combination of both, that validates a person's identity, approves a transaction or provides access to a secured area. <a href = "https://www.investopedia.com/terms/a/authorization-code.asp">"Source"</a>
 - *Access Token:* In computer systems, an access token contains the security credentials for a login session and identifies the user, the user's groups, the user's privileges, and, in some cases, a particular application. <a href = "https://en.wikipedia.org/wiki/Access_token">"Source"</a>
 
+---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

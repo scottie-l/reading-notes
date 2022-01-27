@@ -25,6 +25,5 @@
 - *UDP:* User Datagram Protocol uses a simple connectionless communication model with a minimum of protocol mechanisms. UDP provides checksums for data integrity, and port numbers for addressing different functions at the source and destination of the datagram. <a href = "https://en.wikipedia.org/wiki/User_Datagram_Protocol">"Source"</a>
 - *Packets:* In networking, a packet is a small segment of a larger message. Data sent over computer networks is divided into packets. These packets are then recombined by the computer or device that receives them. <a href = "https://www.cloudflare.com/learning/network-layer/what-is-a-packet/">"Source"</a>
 
-<a href = "">"Source"</a>
-
+---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

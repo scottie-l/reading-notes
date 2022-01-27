@@ -1,5 +1,8 @@
 # Notes - Day 5
 
+---
+## Quiz:
+
 1. What are 4 key areas to that are used to analyze the effiecentcy of an algorithm?
 2. What does n signify in O(1)?
 3. What is the difference between a singly and doubly node?
@@ -11,6 +14,8 @@
 9. Are Space time and Time compleity measured the same.
 10. Why is computing time not constant for calculating the algorithmic efficiency?
 
+---
+---
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
 
 Big O(oh) notation is used to describe the efficiency of an algorithm or function. This efficiency is evaluated based on 2 factors:
@@ -94,9 +99,7 @@ Print Out Nodes:
 
 Printing out all of the nodes in a Linked List is very similar to what we did in the Includes() method. This is because we are leveraging our Current node and a while loop to traverse through the existing linked list. Much like in Includes, we are creating a while loop to check and make sure we are not at the end of a linked list. Right before the while loop restarts, we move Current to equal the next node in the list. Once we hit the end, we write out the null pointed to by the last node.
 
-When constructing your code, a few things to keep in mind. When making your Node class, consider requiring a value to be passed in to require that each node has a value.
-
-<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Source"</a>
+When constructing your code, a few things to keep in mind. When making your Node class, consider requiring a value to be passed in to require that each node has a value. <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Source"</a>
 
 <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
 
@@ -138,8 +141,7 @@ To grow all we really need to do is rearrange our pointers. Inserting an element
 
 But inserting an element at the end of a linked list is a different story. The interesting thing here is that the steps you take to actually do the inserting are the exact same. However, there’s an added complexity here: we’re not adding something to the beginning of the list, at the head node. We’re adding something after the last node. We’ll need to traverse through the entire linked list to find it.
 
-A good rule of thumb for remember the characteristics of linked lists is this: A linked list is usually efficient when it comes to adding and removing most elements, but can be very slow to search and find a single element. If you ever find yourself having to do something that requires a lot of traversal, iteration, or quick index-level access, a linked list could be your worst enemy. However, if you find yourself wanting to add a bunch of elements to a list and aren’t worried about finding elements again later, or if you know that you won’t need to traverse through the entirety of the list, a linked list could be your new best friend.
+A good rule of thumb for remember the characteristics of linked lists is this: A linked list is usually efficient when it comes to adding and removing most elements, but can be very slow to search and find a single element. If you ever find yourself having to do something that requires a lot of traversal, iteration, or quick index-level access, a linked list could be your worst enemy. However, if you find yourself wanting to add a bunch of elements to a list and aren’t worried about finding elements again later, or if you know that you won’t need to traverse through the entirety of the list, a linked list could be your new best friend. <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"Source"</a>
 
-<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"Source"</a>
-
+---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

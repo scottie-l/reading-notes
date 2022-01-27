@@ -214,4 +214,16 @@ Document the following Vocabulary Terms:
 - UDP
 - Packets
 
+14. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-14.md">**Day 14**</a>
+
+- What’s the difference between a FIFO and a standard queue?
+- How can the server be assured a message was properly received?
+- What classic design pattern is best represented by event driven programming?
+- How do you test an event driven system?
+
+- Document the following Vocabulary Terms:
+
+- FIFO Queue
+- Pub/Sub
+
 <a href = "https://github.com/scottie-l/reading-notes">**Back**</a>

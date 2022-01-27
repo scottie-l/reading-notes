@@ -24,4 +24,5 @@
 - *Subscribe:* The subscribe() method of the PushManager interface subscribes to a push service. It returns a Promise that resolves to a PushSubscription object containing details of a push subscription. A new push subscription is created if the current service worker does not have an existing subscription. <a href = "https://developer.mozilla.org/en-US/docs/Web/API/PushManager/subscribe">"Source" </a> <a href = "https://jsmanifest.com/the-publish-subscribe-pattern-in-javascript/"> "Ref Material"</a>
 - *Database:* An organized collection of data stored and accessed electronically. <a href = "https://en.wikipedia.org/wiki/Database">"Source"</a>
 
+---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

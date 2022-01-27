@@ -12,4 +12,5 @@
 - *User Roles:* User controls are containers into which you can put markup and Web server controls. <a href = "https://docs.microsoft.com/en-us/previous-versions/aspnet/fb3w5b53(v=vs.100)#:~:text=User%20controls%20are%20containers%20into,derives%20from%20Control%20or%20WebControl.">"Source"</a>
 - *JWT Token:* JSON Web Token is a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims. The tokens are signed either using a private secret or a public/private key. <a href = "https://en.wikipedia.org/wiki/JSON_Web_Token">"Source"</a>
 
+---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

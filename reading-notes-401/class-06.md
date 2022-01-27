@@ -14,4 +14,5 @@
 - *CRUD -> REST Method Matches:* Create = POST(Create new data) or PATCH(Selected amount of data only); Read = GET(no change to data); Update = PUT(overwrite entire file) or PATCH(overwrite a select amount in file) or POST(create new data); delete = DELETE(remove data). <a href = "https://medium.com/@ritika.atal.work/crud-mapping-to-http-verbs-354a3c0009f5">"Source"</a>
 - *Mock Testing:* Mocking means creating a fake version of an external or internal service that can stand in for the real one, helping your tests run more quickly and more reliably. When your implementation interacts with an object's properties, rather than its function or behavior, a mock can be used. <a href = "https://circleci.com/blog/how-to-test-software-part-i-mocking-stubbing-and-contract-testing/#:~:text=What%20is%20mock%20testing%3F,a%20mock%20can%20be%20used.">"Source"</a>
 
+---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

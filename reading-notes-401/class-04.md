@@ -23,4 +23,5 @@
 - *REST:* REpresentational State Transfer. It revolves around resource where every component is a resource and a resource is accessed by a common interface using HTTP standard methods. <a href = "https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm">"Source"</a>
 - *Data Model:* A standardized method of properties and attributes for objects.
 
+---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>

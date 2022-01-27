@@ -14,4 +14,5 @@
 - *Role Based Access Control(RBAC):* RBAC allows you to create and enforce advanced access by assigning a set of permissions. The permissions are based on what level of access specific user categories require to perform their duties. <a href = "https://www.sailpoint.com/identity-library/what-is-role-based-access-control/?elqct=PaidMedia&elqchannel=GoogleSearch&elqcta=CjwKCAiAlrSPBhBaEiwAuLSDUIXa3nNPXZ7m4DTufVavWQ3psabSNXoP9H-OdxVTb5DlwOeTqLNRbRoC4gsQAvD_BwE&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUIXa3nNPXZ7m4DTufVavWQ3psabSNXoP9H-OdxVTb5DlwOeTqLNRbRoC4gsQAvD_BwE">"Source"</a>
 - *Capabilities:* A capability is defined as a set of tasks that a system is potentially able to perform (acquired skills) at a certain performance level (available capacity). Often only with the use of external resources. <a href = "https://www.dragon1.com/terms/capability-definition">"Source"</a>
 
+---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**
