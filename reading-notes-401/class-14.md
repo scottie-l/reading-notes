@@ -2,7 +2,7 @@
 
 1. What’s the difference between a FIFO and a standard queue? Standard queues provide at-least-once delivery, which means that each message is delivered at least once. FIFO queues provide exactly-once processing, which means that each message is delivered once and remains available until a consumer processes it and deletes it. <a href = "https://aws.amazon.com/sqs/faqs/#:~:text=Standard%20queues%20provide%20at%2Dleast,processes%20it%20and%20deletes%20it.">"Source"</a>
 
-2. How can the server be assured a message was properly received? Through the request, response and use of checksums on the packets. <a href = "https://stackoverflow.com/questions/36048164/message-queue-architecture-client-to-web-server-to-worker-and-back">"Rel. art"</a>
+2. How can the server be assured a message was properly received? Through the request, response and use of checksums on the packets.
 
 3. What classic design pattern is best represented by event driven programming? The observer pattern is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used for implementing distributed event handling systems, in "event driven" software. <a href = "https://en.wikipedia.org/wiki/Observer_pattern">"Source"</a>
 
