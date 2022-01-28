@@ -7,11 +7,11 @@
 2. What's the biggest difference between each of the traversals of Pre-order, In-order, & Post-order?
 3. How does Breadth first iterate through the tree?
 4. How many children can be in a Binary Trees?
-5. What is the Big(0) for inseting a new node?
+5. What is the Big(0) for inserting a new node?
 6. When searching a BST, if the value is smaller, which side will you traverse?
 7. How are BST's structured?
-8. What's the differene between a K-ary tree and a Binary tree?
-9. Is there a specific sortin order for a Binary tree?
+8. What's the difference between a K-ary tree and a Binary tree?
+9. Is there a specific sorting order for a Binary tree?
 10. What is one suggested strategy for adding a new node to a binary tree?
 
 ---
@@ -208,9 +208,9 @@ If we traversed this tree Breadth First we should see the output: Output: A, B, 
 - We will still start at the root Node, and we will add it to our queue: A
 - Much like before, as long as we have a node in our queue we can dequeue: A
 - With every Node we dequeue, we check it’s list of children and enqueue each one: A = B, C, D
-- Once these are queued up, can move on to Node B at the front of the queue, which we can dequeue followed by enqueing Node B’s children: ~~B~~, D, C = Front
-- This process of dequeuing and processing the Nodes at the front of the queue, followed by enqueing the current Node’s children continues until our queue is empty of child Nodes: ~~C~~, D = Front
-- This continues until teh queue is empty.
+- Once these are queued up, can move on to Node B at the front of the queue, which we can dequeue followed by enqueuing Node B’s children: ~~B~~, D, C = Front
+- This process of dequeuing and processing the Nodes at the front of the queue, followed by enqueuing the current Node’s children continues until our queue is empty of child Nodes: ~~C~~, D = Front
+- This continues until the queue is empty.
 
 This process is very similar to our binary tree traversal, but now we check a list of children instead of a left and right child properties. It should look something like this:
 
@@ -258,7 +258,7 @@ Here is how we would change our Binary Tree example into a Binary Search Tree:
 |   |   |   | / |   | \ |   |   |   |   | \ |   |
 |   |   |15 |   |   |   |22 |   |   |   |   |105|
 
-Seaching a BST: Searching a BST can be done quickly, because all you do is compare the node you are searching for against the root of the tree or sub-tree. If the value is smaller, you only traverse the left side. If the value is larger, you only traverse the right side.
+Searching a BST: Searching a BST can be done quickly, because all you do is compare the node you are searching for against the root of the tree or sub-tree. If the value is smaller, you only traverse the left side. If the value is larger, you only traverse the right side.
 
 Let’s say we are searching 15. We start by comparing the value 15 to the value of the root, 23.
 
