@@ -226,4 +226,9 @@ Document the following Vocabulary Terms:
 - FIFO Queue
 - Pub/Sub
 
+15. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-15.md">**Day 15**</a>
+
+[Quiz](class-15.md)
+- Binary Trees, Binary Search Trees, & K-ary Trees.
+
 <a href = "https://github.com/scottie-l/reading-notes">**Back**</a>
