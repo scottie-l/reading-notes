@@ -232,4 +232,16 @@ Document the following Vocabulary Terms:
 
 - Binary Trees, Binary Search Trees, & K-ary Trees.
 
+16. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-16.md">**Day 16**</a>
+
+- Describe the Web-Request-Response-Cycle
+- Explain what a “server” is, as it relates to the WRRC
+- What does it mean to “deploy” an application?
+
+- Document the following Vocabulary Terms:
+
+- Server
+- Pub/Sub
+- WRRC
+
 <a href = "https://github.com/scottie-l/reading-notes">**Back**</a>
