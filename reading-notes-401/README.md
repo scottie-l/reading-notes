@@ -244,4 +244,21 @@ Document the following Vocabulary Terms:
 - Pub/Sub
 - WRRC
 
+17. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-17.md">**Day 17**</a>
+
+- Describe “The Cloud”
+- What is a container (as it relates to computers and servers)?
+- What is auto-scaling?
+- What is bandwidth?
+- How do cloud providers compute service costs?
+
+- Document the following Vocabulary Terms
+
+- Server Instances
+- Containers
+- Cloud Services
+- Cloud Architecture
+- AWS
+- EC2/Beanstalk vs Heroku
+
 <a href = "https://github.com/scottie-l/reading-notes">**Back**</a>
