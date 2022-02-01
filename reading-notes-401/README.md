@@ -252,7 +252,7 @@ Document the following Vocabulary Terms:
 - What is bandwidth?
 - How do cloud providers compute service costs?
 
-- Document the following Vocabulary Terms
+- Document the following Vocabulary Terms:
 
 - Server Instances
 - Containers
