@@ -273,4 +273,18 @@ Document the following Vocabulary Terms:
 - Cloud Storage
 - CDN
 
-<a href = "https://github.com/scottie-l/reading-notes">**Back**</a>
+19. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-19.md">**Day 19**</a>
+
+- Describe the similarities between AWS API Gateway + Lambda functions and an ExpressJS Server?
+- List the AWS Database offerings and talk about the pros and cons of each?
+- What’s the difference between a FIFO and a standard queue?
+- How can the server be assured a message was properly received?
+
+- Document the following Vocabulary Terms:
+
+- Serverless API
+- Triggers
+- Dynamo vs Mongo
+- Dynamoose vs Mongoose
+
+**<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
