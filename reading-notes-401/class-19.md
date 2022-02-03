@@ -10,7 +10,7 @@
 - Amazon Aurora, RDS, Redshift are relational: Traditional applications, enterprise resource planning, customer relationship management ecommerce.
 - Amazon DynamoDB uses key-value: High-traffic web applications, ecommerce systems, gaming applications.
 - Amazon ElastiCache, MemoryDB for Redis use in-memory: Caching, session management, gaming leaderboards, geospatial applications.
-- Amazon DocumentDB for Dcoument: Content management, catalogs, user profiles.
+- Amazon DocumentDB for Document: Content management, catalogs, user profiles.
 - Amazon Keyspaces for wide Column: High-scale industrial apps for equipment maintenance, fleet management, and route optimization.
 - Amazon Neptune with graph: Fraud detection, social networking, recommendation engine.
 - Amazon Timestream time series: Internet of Things (IoT) applications, DevOps, industrial telemetry.
@@ -18,7 +18,7 @@
 
 3. What’s the difference between a FIFO and a standard queue? Standard queues provide at-least-once delivery, which means that each message is delivered at least once. FIFO queues provide exactly-once processing, which means that each message is delivered once and remains available until a consumer processes it and deletes it. Duplicates are not introduced into the queue. <a href = "https://aws.amazon.com/sqs/faqs/#:~:text=Standard%20queues%20provide%20at%2Dleast,processes%20it%20and%20deletes%20it.">"Source"</a>
 
-4. How can the server be assured a message was properly received? The packets are numbered and given a checksum value. The packets are asembled in order by number and the checksums are compared against an expected checksum. If any packet is missing or data is not complete or mutatated, the packet numbers and checksums won't match. The server can then send a request for the missing data.
+4. How can the server be assured a message was properly received? The packets are numbered and given a checksum value. The packets are assembled in order by number and the checksums are compared against an expected checksum. If any packet is missing or data is not complete or mutated, the packet numbers and checksums won't match. The server can then send a request for the missing data.
 
 5. Document the following Vocabulary Terms:
 
