@@ -287,4 +287,15 @@ Document the following Vocabulary Terms:
 - Dynamo vs Mongo
 - Dynamoose vs Mongoose
 
+20. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-20.md">**Day 20**</a>
+
+- Name 5 Javascript UI Frameworks (other than React)
+- What’s the difference between a framework and a library?
+
+Document the following Vocabulary Terms:
+
+- Rendering
+- Templates
+- State
+
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
