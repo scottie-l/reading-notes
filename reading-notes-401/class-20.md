@@ -1,8 +1,8 @@
 # Notes - Day 20
 
-1. Name 5 Javascript UI Frameworks (other than React)? Angular, jQuery, Node.js, Ember.js, & Polymer. <a href = "https://www.geeksforgeeks.org/top-10-most-popular-javascript-frameworks-for-web-development/">"Source"</a>
+1. Name 5 JavaScript UI Frameworks (other than React)? Angular, jQuery, Node.js, Ember.js, & Polymer. <a href = "https://www.geeksforgeeks.org/top-10-most-popular-javascript-frameworks-for-web-development/">"Source"</a>
 
-2. What’s the difference between a framework and a library? A library is essentially a set of functions that you can call, these days usually organized into classes. Each call does some work and returns control to the client. A framework embodies some abstract design, with more behavior built in. In order to use it you need to insert your behavior into various places in the framework either by subclassing or by plugging in your own classes. The framework's code then calls your code at these points.<a href = "https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library">"Source"</a>
+2. What’s the difference between a framework and a library? A library is essentially a set of functions that you can call, these days usually organized into classes. Each call does some work and returns control to the client. A framework embodies some abstract design, with more behavior built in. In order to use it you need to insert your behavior into various places in the framework either by sub-classing or by plugging in your own classes. The framework's code then calls your code at these points. <a href = "https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library">"Source"</a>
 
 3. Document the following Vocabulary Terms:
   
