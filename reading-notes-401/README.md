@@ -298,4 +298,14 @@ Document the following Vocabulary Terms:
 - Templates
 - State
 
+21. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-21.md">**Day 21**</a>
+
+- How does React differ from vanilla JS/HTML/CSS?
+- What is the primary difference between a function component and a class component?
+
+Document the following Vocabulary Terms:
+
+- Functional Components
+- Children / Child Components
+
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
