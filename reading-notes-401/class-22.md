@@ -3,7 +3,7 @@
 1. Why do we not need more .html pages in a multi-page React app? Because the page is updated dynamically from supplied state data to render.
 
 2. If we wanted a component to show up on every page, where would we put it and why?
-    - Inside the <BrowserRouter />, outside a <Route />? It will have access to our components to rendee the page.
+    - Inside the <BrowserRouter />, outside a <Route />? It will have access to our components to render the page.
 
 3. What does routing do with the components that were rendered when a new route is requested? It re-renders the page with the new component.
 
