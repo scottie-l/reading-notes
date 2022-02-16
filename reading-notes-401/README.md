@@ -308,4 +308,20 @@ Document the following Vocabulary Terms:
 - Functional Components
 - Children / Child Components
 
+22. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-22.md">**Day 22**</a>
+
+- Why do we not need more .html pages in a multi-page React app?
+- If we wanted a component to show up on every page, where would we put it and why?
+        - Outside the <BrowserRouter/>?
+        - Inside the <BrowserRouter />, outside a <Route />?
+        - Inside a <Route />?
+- What does routing do with the components that were rendered when a new route is requested?
+- What does props.children contain?
+- How do useState() and this.setState() differ?
+
+Document the following Vocabulary Terms:
+
+- State Hook
+- Mounting and Un-Mounting
+
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
