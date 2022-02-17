@@ -324,4 +324,15 @@ Document the following Vocabulary Terms:
 - State Hook
 - Mounting and Un-Mounting
 
+23. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-23.md">**Day 23**</a>
+
+- How can we ensure that an effect hook runs only once?
+- Can useState() update more than one state variable at the same time?
+- Is useState() synchronous?
+
+Document the following Vocabulary Terms:
+
+- State Hook
+- Component Lifecycle
+
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
