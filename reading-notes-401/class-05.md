@@ -32,7 +32,7 @@ In order to analyze these limiting factors, we should consider 4 Key Areas for a
     - The time in milliseconds from the start of a function execution until it ends. Big O won’t be considering this measurement since different machines will have different individual run times.
     - The number of operations that are executed. Think of this as the number of lines of code that are executed from start to finish of a function.
     - The number of “Basic Operations” that are executed. Basic Operation refers to operation that is contributing the most to total time. Usually the most time consuming operation within the inner most loop.
-- In order to quantify Memory Space, consider Four Sources of Memory Usage during function run-time:
+    - In order to quantify Memory Space, consider Four Sources of Memory Usage during function run-time:
     - The amount of space needed to hold the code for the algorithm. This is the number of bytes required to store the characters for your function.
     - The amount of space needed to hold the input data. May just refer to this as Additional Memory Space since not all functions have direct input values.
     - The amount of space needed for the output data.

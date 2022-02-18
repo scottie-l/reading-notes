@@ -1,18 +1,19 @@
-# Code 401 Reading-notes
+# **Code 401 Reading-notes**
 
-### All reading notes can be navigated to from here for code 401
+-  *All reading notes can be navigated to from here for code 401*
 
-## ***Table of Contents***
+- # ***Table of Contents***
 
-**Daily Readings**
+## **Daily Readings**
 
-0. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/Prep.md">**Day 0**</a>
+---
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/Prep.md">**Day 0**</a>
 
 - <a href = "https://simpleprogrammer.com/solving-problems-breaking-it-down/">"How to Solve Programming Problems"</a>
 - <a href = "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/">"How to think like a programmer"</a>
 - <a href = "https://www.mindtools.com/pages/article/newTMC_5W.htm">"The 5 Whys"</a>
 
-1. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-01.md">**Day 1**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-01.md">**Day 1**</a>
 
 - Describe what `Array.map()`, `Array.reduce()` does?
 - Code snippets showing how to use superagent() to fetch data from a URL and log the result.
@@ -21,21 +22,21 @@
 - Explain promises as though you were mentoring a Code 301 level student?
 - Are all callback functions considered to be Asynchronous? Why or Why Not?
 
-2. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-02.md">**Day 2**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-02.md">**Day 2**</a>
 
 - What’s the difference between PUT and PATCH?
 - Provide links to 3 services or tools that allow you to “mock” an API for development like json-server?
 - Compare and contrast Swagger and APIDoc.js 1 Which HTTP status codes should be sent with each type of (un)successful API call?
 - Compare and contrast SOAP and ReST?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Web Server
-- Express
-- Routing
-- WRRC
+  - Web Server
+  - Express
+  - Routing
+  - WRRC
 
-3. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">**Day 3**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">**Day 3**</a>
 
 - Name 3 real world use cases where you’d want to change the request with custom middleware?
 - True or false: The route handler is middleware?
@@ -43,18 +44,18 @@ Document the following Vocabulary Terms:
 - At what point in the request lifecycle can you “inject” middleware?
 - What can cause express to error with “Request headers sent twice, cannot start a second response”?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Term
-- Middleware
-- Request Object
-- Response Object
-- Application Middleware
-- Routing Middleware
-- Test Driven Development
-- Behavioral Testing
+  - Term
+  - Middleware
+  - Request Object
+  - Response Object
+  - Application Middleware
+  - Routing Middleware
+  - Test Driven Development
+  - Behavioral Testing
 
-4. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-04.md">**Day 4**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-04.md">**Day 4**</a>
 
 - Name 3 advantages to Test Driven Development?
 - In what case would you need to use beforeEach() or afterEach() in a test suite?
@@ -62,46 +63,46 @@ Document the following Vocabulary Terms:
 - What’s the primary difference between ES6 Classes and Constructor/Prototype Classes?
 - Why REST?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- functional programming
-- object-oriented programming (OOP)
-- class
-- super
-- this
-- Test Driven Development (TDD)
-- Jest
-- Continuous Integration (CI)
-- REST
-- Data Model
+  - functional programming
+  - object-oriented programming (OOP)
+  - class
+  - super
+  - this
+  - Test Driven Development (TDD)
+  - Jest
+  - Continuous Integration (CI)
+  - REST
+  - Data Model
 
-5. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-05.md">**Day 5**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-05.md">**Day 5**</a>
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-05.md">Quiz</a>
+*[Quiz](/class-05.md)*
 
-<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
+- <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
 
-<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
+- <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
 
-<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
+- <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
 
-<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
+- <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
 
-6. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-06.md">**Day 6**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-06.md">**Day 6**</a>
 
 - Explain what a “Singleton” is (in Computer Science terms)?
 - Explain how the Singleton pattern can be used with Node modules, specifically with classes?
 - If you were tasked with building a middleware system like Express uses, what approach might you take to construct/operate it?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Router Middleware
-- Dynamic Module Loading
-- Singleton Pattern
-- CRUD -> REST Method Matches
-- Mock Testing
+  - Router Middleware
+  - Dynamic Module Loading
+  - Singleton Pattern
+  - CRUD -> REST Method Matches
+  - Mock Testing
 
-7. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-07.md">**Day 7**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-07.md">**Day 7**</a>
 
 - Write the following steps in the correct order:
 
@@ -117,61 +118,62 @@ Document the following Vocabulary Terms:
 - What can you do with an access token?
 - What’s a benefit of using OAuth instead of your own basic authentication?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Client ID
-- Client Secret
-- Authentication Endpoint
-- Access Token Endpoint
-- API Endpoint
-- Authorization Code
-- Access Token
+  - Client ID
+  - Client Secret
+  - Authentication Endpoint
+  - Access Token Endpoint
+  - API Endpoint
+  - Authorization Code
+  - Access Token
 
-8. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-08.md">**Day 8**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-08.md">**Day 8**</a>
 
 - When is Basic Authorization used vs. Bearer Authorization?
 - What does the JSON Web Token package do?
 - What considerations should we make when creating and storing a SECRET?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- encryption
-- token
-- bearer
-- secret
-- JSON Web Token
+  - encryption
+  - token
+  - bearer
+  - secret
+  - JSON Web Token
 
-9. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-09.md">**Day 9**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-09.md">**Day 9**</a>
 
 - What header(s) are used in authentication and authorization?
 - What is safe to put into a JWT?
 - How are JWTs validated?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- RBAC
-- User Roles
-- JWT Token
+  - RBAC
+  - User Roles
+  - JWT Token
 
-10. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-10.md">**Day 10**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-10.md">**Day 10**</a>
 
-- <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-10.md">Quiz</a>
+*[Quiz](/class-10.md)*
+
 - Stacks and Queues
 
-11. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-11.md">**Day 11**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-11.md">**Day 11**</a>
 
 - Why is access control important?
 - Describe an application that would need access control?
 - What is a role used for?
 - Why is role based access control more scalable than discretionary or mandatory access control?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Authorization
-- Role Based Access Control
-- Capabilities
+  - Authorization
+  - Role Based Access Control
+  - Capabilities
 
-12. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-12.md">**Day 12**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-12.md">**Day 12**</a>
 
 - What is the benefit of transforming data into packets?
 - UDP is often refereed to as a connectionless protocol. Why is this?
@@ -179,20 +181,20 @@ Document the following Vocabulary Terms:
 - Can a socket connection application be connected to multiple socket servers?
 - Can an application be both a socket server and a socket connection?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Observer Pattern
-- Listener
-- Event Handler
-- Event Driven Programming
-- Event Loop
-- Event Queue
-- Call Stack
-- Emit/Raise/Trigger
-- Subscribe
-- Database
+  - Observer Pattern
+  - Listener
+  - Event Handler
+  - Event Driven Programming
+  - Event Loop
+  - Event Queue
+  - Call Stack
+  - Emit/Raise/Trigger
+  - Subscribe
+  - Database
 
-13. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-13.md">**Day 13**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-13.md">**Day 13**</a>
 
 - What does it mean that web sockets are bidirectional? Why is this useful?
 - Does socket.io use HTTP? Why?
@@ -201,20 +203,20 @@ Document the following Vocabulary Terms:
 - What happens if a client “misses” an event?
 - How can we mitigate this?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Socket
-- Web Socket
-- Socket.io
-- Client
-- Server
-- OSI Model
-- TCP Model
-- TCP
-- UDP
-- Packets
+  - Socket
+  - Web Socket
+  - Socket.io
+  - Client
+  - Server
+  - OSI Model
+  - TCP Model
+  - TCP
+  - UDP
+  - Packets
 
-14. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-14.md">**Day 14**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-14.md">**Day 14**</a>
 
 - What’s the difference between a FIFO and a standard queue?
 - How can the server be assured a message was properly received?
@@ -223,16 +225,16 @@ Document the following Vocabulary Terms:
 
 - Document the following Vocabulary Terms:
 
-- FIFO Queue
-- Pub/Sub
+  - FIFO Queue
+  - Pub/Sub
 
-15. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-15.md">**Day 15**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-15.md">**Day 15**</a>
 
-[Quiz](class-15.md)
+*[Quiz](class-15.md)*
 
 - Binary Trees, Binary Search Trees, & K-ary Trees.
 
-16. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-16.md">**Day 16**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-16.md">**Day 16**</a>
 
 - Describe the Web-Request-Response-Cycle?
 - Explain what a “server” is, as it relates to the WRRC?
@@ -240,11 +242,11 @@ Document the following Vocabulary Terms:
 
 - Document the following Vocabulary Terms:
 
-- Server
-- Pub/Sub
-- WRRC
+  - Server
+  - Pub/Sub
+  - WRRC
 
-17. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-17.md">**Day 17**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-17.md">**Day 17**</a>
 
 - Describe “The Cloud”?
 - What is a container (as it relates to computers and servers)?
@@ -254,14 +256,14 @@ Document the following Vocabulary Terms:
 
 - Document the following Vocabulary Terms:
 
-- Server Instances
-- Containers
-- Cloud Services
-- Cloud Architecture
-- AWS
-- EC2/Beanstalk vs Heroku
+  - Server Instances
+  - Containers
+  - Cloud Services
+  - Cloud Architecture
+  - AWS
+  - EC2/Beanstalk vs Heroku
 
-18. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-18.md">**Day 18**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-18.md">**Day 18**</a>
 
 - Describe a use case for a serverless function?
 - If you were to create a system that emulated Lambda functions, how would you do it?
@@ -269,11 +271,11 @@ Document the following Vocabulary Terms:
 
 - Document the following Vocabulary Terms:
 
-- Serverless Functions
-- Cloud Storage
-- CDN
+  - Serverless Functions
+  - Cloud Storage
+  - CDN
 
-19. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-19.md">**Day 19**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-19.md">**Day 19**</a>
 
 - Describe the similarities between AWS API Gateway + Lambda functions and an ExpressJS Server?
 - List the AWS Database offerings and talk about the pros and cons of each?
@@ -282,57 +284,75 @@ Document the following Vocabulary Terms:
 
 - Document the following Vocabulary Terms:
 
-- Serverless API
-- Triggers
-- Dynamo vs Mongo
-- Dynamoose vs Mongoose
+  - Serverless API
+  - Triggers
+  - Dynamo vs Mongo
+  - Dynamoose vs Mongoose
 
-20. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-20.md">**Day 20**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-20.md">**Day 20**</a>
 
 - Name 5 Javascript UI Frameworks (other than React)
 - What’s the difference between a framework and a library?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Rendering
-- Templates
-- State
+  - Rendering
+  - Templates
+  - State
 
-21. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-21.md">**Day 21**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-21.md">**Day 21**</a>
 
 - How does React differ from vanilla JS/HTML/CSS?
 - What is the primary difference between a function component and a class component?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- Functional Components
-- Children / Child Components
+  - Functional Components
+  - Children / Child Components
 
-22. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-22.md">**Day 22**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-22.md">**Day 22**</a>
 
 - Why do we not need more .html pages in a multi-page React app?
 - If we wanted a component to show up on every page, where would we put it and why?
-        - Outside the <BrowserRouter/>?
-        - Inside the <BrowserRouter />, outside a <Route />?
-        - Inside a <Route />?
+
+        - Outside the `<BrowserRouter/>`?
+        - Inside the `<BrowserRouter />`, outside a `<Route />`?
+        - Inside a `<Route />`?
+
 - What does routing do with the components that were rendered when a new route is requested?
 - What does props.children contain?
 - How do useState() and this.setState() differ?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- State Hook
-- Mounting and Un-Mounting
+  - State Hook
+  - Mounting and Un-Mounting
 
-23. <a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-23.md">**Day 23**</a>
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-23.md">**Day 23**</a>
 
 - How can we ensure that an effect hook runs only once?
 - Can useState() update more than one state variable at the same time?
 - Is useState() synchronous?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
-- State Hook
-- Component Lifecycle
+  - State Hook
+  - Component Lifecycle
 
+<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-24.md">**Day 24**</a>
+
+*[Quiz](/class-24.md)*
+
+- <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-30/resources/Hashtables.html">Intro to Hash Tables</a>
+
+- <a href = "https://www.youtube.com/watch?v=MfhjkfocRR0">What is a Hash table?</a>
+
+- <a href = "https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/">Basics of Hash Tables</a>
+
+- <a href = "https://en.wikipedia.org/wiki/Hash_table">Hash Table Wiki</a>
+
+---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
+
+---
+<!-- EOF -->
