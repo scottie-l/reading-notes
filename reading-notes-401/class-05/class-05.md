@@ -1,21 +1,5 @@
 # Notes - Day 5
 
----
-## Quiz:
-
-1. What are 4 key areas to that are used to analyze the effiecentcy of an algorithm?
-2. What does n signify in O(1)?
-3. What is the difference between a singly and doubly node?
-4. Describe a linked list?
-5. True or False, you can traverse backwards in a singly by using the `AddBefore`?
-6. What are two major points to consider when thinking about how an algorithm performs?
-7. Would you use an array to search for a single element? Why or why not?
-8. True or False, a linear data structure has consecutive blocks of code placed together in memory?
-9. Are Space time and Time compleity measured the same.
-10. Why is computing time not constant for calculating the algorithmic efficiency?
-
----
----
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
 
 Big O(oh) notation is used to describe the efficiency of an algorithm or function. This efficiency is evaluated based on 2 factors:
@@ -145,3 +129,5 @@ A good rule of thumb for remember the characteristics of linked lists is this: A
 
 ---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>
+
+---

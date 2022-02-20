@@ -1,24 +1,6 @@
 # Notes - Day 10
 
----
-## Quiz:
-
-1. What command would you use to remove a node from the top of the stack?
-2. How many directions can we traverse through our nodes in a stack?
-3. If we added "node 5" to a queue, what command would we use?
-4. Why do we reset the `temp` when `pop`ping a node off the stack?
-5. What could you tell me about the term Front in pertaining to queues?
-6. Where does `pop` remove from the stack?
-7. What do you need to create to remove a node from the stack?
-8. What is the Big(0h) factor? of a `push`?
-9. What does FILO stand for?
-10. What does LIFO stand for?
-
----
----
 ### <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html">"Stacks and Queues."</a>
-
----
 
 1. *Stacks:*
 
@@ -57,7 +39,7 @@ Pushing a Node onto a stack will always be an O(1) operation. Let’s walk throu
 - Technically at this point, your new Node is added to your stack, but there is no indication that it is the first Node in the stack. To make this happen, you have to re-assign our reference top to the newly added Node, Node 5. `TOP⇨ = Node 5, value: "Grey", next = 4`
 - Here is the pseudocode to push a value onto a stack:
 
-~~~
+~~~js
 ALOGORITHM push(value)
 // INPUT <-- value to add, wrapped in Node internally
 // OUTPUT <-- none
@@ -89,7 +71,7 @@ When conducting a pop, the top Node will be re-assigned to the Node that lives b
 - Finally, we return the value of the temp Node that was just popped off. `Return = Temp`
 - Here is the pseudocode to push a value onto a stack:
 
-~~~
+~~~js
 ALGORITHM pop()
 // INPUT <-- No input
 // OUTPUT <-- value of top Node in stack
@@ -104,7 +86,7 @@ Peek: When conducting a peek, you will only be inspecting the top Node of the st
 
 Here is the pseudocode for a peek:
 
-~~~
+~~~js
 ALGORITHM peek()
 // INPUT <-- none
 // OUTPUT <-- value of top Node in stack
@@ -116,12 +98,13 @@ We do not re-assign the next property when we peek because we want to keep the r
 
 IsEmpty: Here is the pseudocode for isEmpty:
 
-~~~
+~~~js
 ALGORITHM isEmpty()
 // INPUT <-- none
 // OUTPUT <-- boolean
 return top = NULL
 ~~~
+
 ----
 2. *Queues.*
 
@@ -163,7 +146,8 @@ Here is Our New Queue:
 ||Rear⇧||||Front⇧||
 
 Here is the pseudocode for the enqueue method:
-~~~
+
+~~~js
 ALGORITHM enqueue(value)
 // INPUT <-- value to add to queue (will be wrapped in Node internally)
 // OUTPUT <-- none
@@ -183,7 +167,7 @@ Let’s walk through the process of removing a Node from a queue.
 
 Here is the pseudocode for the dequeue method:
 
-~~~
+~~~js
 ALGORITHM dequeue()
 // INPUT <-- none
 // OUTPUT <-- value of the removed Node
@@ -198,7 +182,7 @@ Peek: When conducting a peek, you will only be inspecting the front Node of the 
 
 Here is the pseudocode for a peek:
 
-~~~
+~~~js
 ALGORITHM peek()
 // INPUT <-- none
 // OUTPUT <-- value of the front Node in Queue
@@ -210,13 +194,16 @@ We do not re-assign the next property when we peek because we want to keep the r
 
 Here is the pseudocode for isEmpty:
 
-~~~
+~~~js
 ALGORITHM isEmpty()
 // INPUT <-- none
 // OUTPUT <-- boolean
 return front = NULL
 ~~~
+
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html">"Source"</a>
 
----
+---;
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>
+
+---;

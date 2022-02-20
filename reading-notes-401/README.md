@@ -7,13 +7,13 @@
 ## **Daily Readings**
 
 ---
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/Prep.md">**Day 0**</a>
+**[Day 00](Prep.md)**
 
 - <a href = "https://simpleprogrammer.com/solving-problems-breaking-it-down/">"How to Solve Programming Problems"</a>
 - <a href = "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/">"How to think like a programmer"</a>
 - <a href = "https://www.mindtools.com/pages/article/newTMC_5W.htm">"The 5 Whys"</a>
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-01.md">**Day 1**</a>
+**[Day 01](class-01.md)**
 
 - Describe what `Array.map()`, `Array.reduce()` does?
 - Code snippets showing how to use superagent() to fetch data from a URL and log the result.
@@ -22,7 +22,7 @@
 - Explain promises as though you were mentoring a Code 301 level student?
 - Are all callback functions considered to be Asynchronous? Why or Why Not?
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-02.md">**Day 2**</a>
+**[Day 02](class-02.md)**
 
 - What’s the difference between PUT and PATCH?
 - Provide links to 3 services or tools that allow you to “mock” an API for development like json-server?
@@ -36,7 +36,7 @@
   - Routing
   - WRRC
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-03.md">**Day 3**</a>
+**[Day 03](class-03.md)**
 
 - Name 3 real world use cases where you’d want to change the request with custom middleware?
 - True or false: The route handler is middleware?
@@ -55,7 +55,7 @@
   - Test Driven Development
   - Behavioral Testing
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-04.md">**Day 4**</a>
+**[Day 04](class-04.md)**
 
 - Name 3 advantages to Test Driven Development?
 - In what case would you need to use beforeEach() or afterEach() in a test suite?
@@ -76,9 +76,9 @@
   - REST
   - Data Model
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-05.md">**Day 5**</a>
+**[Day 05](/class-05/class-05.md)**
 
-*[Quiz](/class-05.md)*
+*[Quiz](/class-05/quiz-05.md)*
 
 - <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
 
@@ -88,7 +88,7 @@
 
 - <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-06.md">**Day 6**</a>
+**[Day 06](class-06.md)**
 
 - Explain what a “Singleton” is (in Computer Science terms)?
 - Explain how the Singleton pattern can be used with Node modules, specifically with classes?
@@ -102,17 +102,17 @@
   - CRUD -> REST Method Matches
   - Mock Testing
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-07.md">**Day 7**</a>
+**[Day 07](class-07.md)**
 
 - Write the following steps in the correct order:
 
-        - Register your application to get a client_id and client_secret
-        - Ask the client if they want to sign in via a third party
-        - Make a request to a third-party API endpoint
-        - Receive access token
-        - Receive authorization code
-        - Make a request to the access token endpoint
-        - Redirect to a third party authentication endpoint
+  - Register your application to get a client_id and client_secret
+  - Ask the client if they want to sign in via a third party
+  - Make a request to a third-party API endpoint
+  - Receive access token
+  - Receive authorization code
+  - Make a request to the access token endpoint
+  - Redirect to a third party authentication endpoint
 
 - What can you do with an authorization code?
 - What can you do with an access token?
@@ -128,7 +128,7 @@
   - Authorization Code
   - Access Token
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-08.md">**Day 8**</a>
+**[Day 08](class-08.md)**
 
 - When is Basic Authorization used vs. Bearer Authorization?
 - What does the JSON Web Token package do?
@@ -142,7 +142,7 @@
   - secret
   - JSON Web Token
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-09.md">**Day 9**</a>
+**[Day 09](class-09.md)**
 
 - What header(s) are used in authentication and authorization?
 - What is safe to put into a JWT?
@@ -154,13 +154,13 @@
   - User Roles
   - JWT Token
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-10.md">**Day 10**</a>
+**[Day 10](/class-10/class-10.md)**
 
-*[Quiz](/class-10.md)*
+*[Quiz](/class-10/quiz-10.md)*
 
 - Stacks and Queues
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-11.md">**Day 11**</a>
+**[Day 11](class-11.md)**
 
 - Why is access control important?
 - Describe an application that would need access control?
@@ -173,7 +173,7 @@
   - Role Based Access Control
   - Capabilities
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-12.md">**Day 12**</a>
+**[Day 12](class-12.md)**
 
 - What is the benefit of transforming data into packets?
 - UDP is often refereed to as a connectionless protocol. Why is this?
@@ -194,7 +194,7 @@
   - Subscribe
   - Database
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-13.md">**Day 13**</a>
+**[Day 13](class-13.md)**
 
 - What does it mean that web sockets are bidirectional? Why is this useful?
 - Does socket.io use HTTP? Why?
@@ -216,7 +216,7 @@
   - UDP
   - Packets
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-14.md">**Day 14**</a>
+**[Day 14](class-14.md)**
 
 - What’s the difference between a FIFO and a standard queue?
 - How can the server be assured a message was properly received?
@@ -228,13 +228,13 @@
   - FIFO Queue
   - Pub/Sub
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-15.md">**Day 15**</a>
+**[Day 15](/class-15/class-15.md)**
 
-*[Quiz](class-15.md)*
+*[Quiz](/class-15/quiz-15.md)*
 
 - Binary Trees, Binary Search Trees, & K-ary Trees.
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-16.md">**Day 16**</a>
+**[Day 16](class-16.md)**
 
 - Describe the Web-Request-Response-Cycle?
 - Explain what a “server” is, as it relates to the WRRC?
@@ -246,7 +246,7 @@
   - Pub/Sub
   - WRRC
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-17.md">**Day 17**</a>
+**[Day 17](class-17.md)**
 
 - Describe “The Cloud”?
 - What is a container (as it relates to computers and servers)?
@@ -263,7 +263,7 @@
   - AWS
   - EC2/Beanstalk vs Heroku
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-18.md">**Day 18**</a>
+**[Day 18](class-18)**
 
 - Describe a use case for a serverless function?
 - If you were to create a system that emulated Lambda functions, how would you do it?
@@ -275,7 +275,7 @@
   - Cloud Storage
   - CDN
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-19.md">**Day 19**</a>
+**[Day 19](class-19.md)**
 
 - Describe the similarities between AWS API Gateway + Lambda functions and an ExpressJS Server?
 - List the AWS Database offerings and talk about the pros and cons of each?
@@ -289,7 +289,7 @@
   - Dynamo vs Mongo
   - Dynamoose vs Mongoose
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-20.md">**Day 20**</a>
+**[Day 20](class-20.md)**
 
 - Name 5 Javascript UI Frameworks (other than React)
 - What’s the difference between a framework and a library?
@@ -300,7 +300,7 @@
   - Templates
   - State
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-21.md">**Day 21**</a>
+**[Day 21](class-21.md)**
 
 - How does React differ from vanilla JS/HTML/CSS?
 - What is the primary difference between a function component and a class component?
@@ -310,14 +310,14 @@
   - Functional Components
   - Children / Child Components
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-22.md">**Day 22**</a>
+**[Day 22](class-22.md)**
 
 - Why do we not need more .html pages in a multi-page React app?
 - If we wanted a component to show up on every page, where would we put it and why?
 
-        - Outside the `<BrowserRouter/>`?
-        - Inside the `<BrowserRouter />`, outside a `<Route />`?
-        - Inside a `<Route />`?
+  - Outside the `<BrowserRouter/>`?
+  - Inside the `<BrowserRouter />`, outside a `<Route />`?
+  - Inside a `<Route />`?
 
 - What does routing do with the components that were rendered when a new route is requested?
 - What does props.children contain?
@@ -328,7 +328,7 @@
   - State Hook
   - Mounting and Un-Mounting
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-23.md">**Day 23**</a>
+**[Day 23](class-23.md)**
 
 - How can we ensure that an effect hook runs only once?
 - Can useState() update more than one state variable at the same time?
@@ -339,9 +339,9 @@
   - State Hook
   - Component Lifecycle
 
-<a href="https://github.com/scottie-l/reading-notes/blob/main/reading-notes-401/class-24.md">**Day 24**</a>
+**[Day 24](/class-24/class-24.md)**
 
-*[Quiz](/class-24.md)*
+*[Quiz](/class-24/quiz-24.md)*
 
 - <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-30/resources/Hashtables.html">Intro to Hash Tables</a>
 
@@ -350,6 +350,18 @@
 - <a href = "https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/">Basics of Hash Tables</a>
 
 - <a href = "https://en.wikipedia.org/wiki/Hash_table">Hash Table Wiki</a>
+
+**[Day 25](class-25.md)**
+
+- Describe use cases useState() vs useReducer()
+- Why do custom hooks need the use prefix?
+- What do custom hooks usually do?
+- Using any list of custom hooks, research and name one that you think will be useful in your applications
+- Describe how a hook that fetches API data might work
+
+- Document the following Vocabulary Terms:
+  - Term
+  - reducer
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**

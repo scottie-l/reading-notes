@@ -1,21 +1,5 @@
 # Notes - Day 24
 
----
-## Quiz:
-
-1. What is a hash?
-2. Why is it important that hash codes are deterministic?
-3. What do "buckets" hold?
-4. What is the worst possible hash?
-5. How are Collisions solved?
-6. What is the load factor of a bucket?
-7. What should you do if a key/value pair exists in the bucket you want to add to?
-8. What is Quadratic Probing?
-9. What is a hash code?
-10. What does `GetHash` do?
-
----
----
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-30/resources/Hashtables.html">Intro to Hash Tables</a>
 
 **Terminology:**
@@ -323,7 +307,7 @@ Quadratic probing is similar to linear probing and the only difference is the in
 
 Double hashing
 
-Double hashing is similar to linear probing and the only difference is the interval between successive probes. Here, the interval between probes is computed by using two hash functions.<a href = "">"Source"</a>
+Double hashing is similar to linear probing and the only difference is the interval between successive probes. Here, the interval between probes is computed by using two hash functions.
 
 <a href = "https://en.wikipedia.org/wiki/Hash_table">Hash Table Wiki</a>
 
@@ -337,3 +321,5 @@ In many situations, hash tables turn out to be on average more efficient than se
 
 ---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>
+
+---

@@ -1,21 +1,5 @@
 # Notes - Day 5
 
----
-## Quiz:
-
-1. What are 2 categories of traversals?
-2. What's the biggest difference between each of the traversals of Pre-order, In-order, & Post-order?
-3. How does Breadth first iterate through the tree?
-4. How many children can be in a Binary Trees?
-5. What is the Big(0) for inserting a new node?
-6. When searching a BST, if the value is smaller, which side will you traverse?
-7. How are BST's structured?
-8. What's the difference between a K-ary tree and a Binary tree?
-9. Is there a specific sorting order for a Binary tree?
-10. What is one suggested strategy for adding a new node to a binary tree?
-
----
----
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/Trees.html">"Trees”"</a>
 
 Binary Trees
@@ -25,6 +9,7 @@ K-ary Trees
 Binary Search Trees
 
 Common Terminology:
+
 - Node - A Tree node is a component which may contain it’s own values, and references to other nodes
 - Root - The root is the node at the beginning of the tree
 - K - A number that specifies the maximum number of children any node may have in a k-ary tree. In a binary tree, k = 2.
@@ -60,7 +45,7 @@ Given the sample tree above, our traversals would result in different paths. The
 
 Pre-order: Let’s break down the pre-order traversal. Here is the pseudocode for this traversal method:
 
-~~~
+~~~js
 ALGORITHM preOrder(root)
 
   OUTPUT <-- root.value
@@ -78,8 +63,9 @@ ALGORITHM preOrder(root)
 - This process continues until we reach a leaf node. Here’s the state of our tree when we hit our first leaf, D: A, B, D
 
 It’s important to note a few things that are about to happen: The program will look for both a root.left and a root.right. Both will return null, so it will end the execution of that method call
+
 - D will pop off of the call stack and the root will be reassigned back to B
-    - This is the heart of recursion: when we complete a function call, we pop it off the stack and are able to continue execution through the previous function call. The code block will now pick up where it left off when B was the root. Since it already looked for root.left, it will now look for root.right. E will output to the console. Since E is a leaf, it will complete the method code block, and pop E off of the call stack and make its way back up to B.
+  - This is the heart of recursion: when we complete a function call, we pop it off the stack and are able to continue execution through the previous function call. The code block will now pick up where it left off when B was the root. Since it already looked for root.left, it will now look for root.right. E will output to the console. Since E is a leaf, it will complete the method code block, and pop E off of the call stack and make its way back up to B.
 - In the function call, B has already checked for root.left, and root.right. There are no further lines of code to execute, so B will be popped off the call stack, so that we can resume execution of A.
 - Following the same pattern as we did with the other nodes, A’s call stack frame will pick up where it left off, and check out root.right. C will be added to the call stack frame, and it will the new function’s root. C will be outputted to the console, and root.left will be evaluated. Because C has a left child, preOrder will be called, with the parameter root.left.
 - At this point, the program will find that F does not have any children and it will make its way back up the call stack up to C. C does not have a root.right, so it will pop off the call stack and return to A. Pre-order traversal is completed!
@@ -87,7 +73,8 @@ It’s important to note a few things that are about to happen: The program will
 Here is the pseudocode for all three of the depth first traversals:
 
 Pre-order
-~~~
+
+~~~js
 ALGORITHM preOrder(root)
 // INPUT <-- root node
 // OUTPUT <-- pre-order output of tree node's values
@@ -100,8 +87,10 @@ ALGORITHM preOrder(root)
     if root.right is not NULL
         preOrder(root.right)
 ~~~
+
 In-order
-~~~
+
+~~~js
 ALGORITHM inOrder(root)
 // INPUT <-- root node
 // OUTPUT <-- in-order output of tree node's values
@@ -114,8 +103,10 @@ ALGORITHM inOrder(root)
     if root.right is not NULL
         inOrder(root.right)
 ~~~
+
 Post-order
-~~~
+
+~~~js
 ALGORITHM postOrder(root)
 // INPUT <-- root node
 // OUTPUT <-- post-order output of tree node's values
@@ -128,6 +119,7 @@ ALGORITHM postOrder(root)
 
     OUTPUT <-- root.value
 ~~~
+
 Notice the similarities between the three different traversals above. The biggest difference between each of the traversals is when you are looking at the root node.
 
 - Breadth First:
@@ -155,7 +147,8 @@ Traditionally, breadth first traversal uses a queue (instead of the call stack v
 - And we continue onwards. When we reach a node that doesn’t have any children, we just dequeue it without any further enqueue.
 
 Here is the pseudocode, utilizing a built-in queue to implement a breadth first traversal.
-~~~
+
+~~~js
 ALGORITHM breadthFirst(root)
 // INPUT  <-- root node
 // OUTPUT <-- front node of queue to console
@@ -173,6 +166,7 @@ ALGORITHM breadthFirst(root)
     if front.right is not NULL
       breadth.enqueue(front.right)
 ~~~
+
 **Binary Tree Vs K-ary Trees:**
 
 In all of our examples, we’ve been using a Binary Tree. Trees can have any number of children per node, but Binary Trees restrict the number of children to two (hence our left and right children). There is no specific sorting order for a binary tree. Nodes can be added into a binary tree wherever space allows. Here is what a binary tree looks like:
@@ -188,7 +182,6 @@ Sample Tree:
 |15 |   |   |   |85 |   |   |42 |   |22 |   |   |
 |   |   |   | / |   | \ |   |   |   |   | \ |   |
 |   |   |16 |   |   |   |23 |   |   |   |   |27 |
-
 
 K-ary Trees
 If Nodes are able have more than 2 child nodes, we call the tree that contains them a K-ary Tree. In this type of tree we use K to refer to the maximum number of children that each Node is able to have.
@@ -215,7 +208,8 @@ If we traversed this tree Breadth First we should see the output: Output: A, B, 
 This process is very similar to our binary tree traversal, but now we check a list of children instead of a left and right child properties. It should look something like this:
 
 Pseudocode
-~~~
+
+~~~js
 ALGORITHM breadthFirst(root)
 // INPUT  <-- root node
 // OUTPUT <-- front node of queue to console
@@ -230,6 +224,7 @@ ALGORITHM breadthFirst(root)
     for child in front.children
         breadth.enqueue(child)
 ~~~
+
 Adding a node: Because there are no structural rules for where nodes are “supposed to go” in a binary tree, it really doesn’t matter where a new node gets placed.
 
 One strategy for adding a new node to a binary tree is to fill all “child” spots from the top down. To do so, we would leverage the use of breadth first traversal. During the traversal, we find the first node that does not have all it’s children filled, and insert the new node as a child. We fill the child slots from left to right.
@@ -276,3 +271,5 @@ The Big O space complexity of a BST search would be O(1). During a search, we ar
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**
+
+---;
