@@ -360,8 +360,20 @@
 - Describe how a hook that fetches API data might work
 
 - Document the following Vocabulary Terms:
-  - Term
+
   - reducer
+
+**[Day 26](class-26.md)**
+
+- When you have multiple contexts, what component type should you use (class/function) and why?
+- What are some good use cases for using the Context API for global state?
+- How can you best test context?
+
+Document the following Vocabulary Terms:
+
+  - context
+  - useContext()
+  - static context
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
