@@ -369,11 +369,25 @@
 - What are some good use cases for using the Context API for global state?
 - How can you best test context?
 
-Document the following Vocabulary Terms:
+- Document the following Vocabulary Terms:
 
   - context
   - useContext()
   - static context
+
+**[Day 26](class-26.md)**
+
+- Why is the Context API useful?
+- Can a component outside of a provider get its context?
+- What are some common use cases for using the Context API?
+- Describe “Context Hell”
+
+- Document the following Vocabulary Terms:
+
+  - global state
+  - global context
+  - provider
+  - consumer
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
