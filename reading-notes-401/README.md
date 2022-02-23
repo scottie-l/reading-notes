@@ -356,8 +356,8 @@
 - Describe use cases useState() vs useReducer()
 - Why do custom hooks need the use prefix?
 - What do custom hooks usually do?
-- Using any list of custom hooks, research and name one that you think will be useful in your applications
-- Describe how a hook that fetches API data might work
+- Using any list of custom hooks, research and name one that you think will be useful in your applications?
+- Describe how a hook that fetches API data might work?
 
 - Document the following Vocabulary Terms:
 
@@ -375,12 +375,12 @@
   - useContext()
   - static context
 
-**[Day 26](class-26.md)**
+**[Day 27](class-27.md)**
 
 - Why is the Context API useful?
 - Can a component outside of a provider get its context?
 - What are some common use cases for using the Context API?
-- Describe “Context Hell”
+- Describe “Context Hell”?
 
 - Document the following Vocabulary Terms:
 
@@ -388,6 +388,17 @@
   - global context
   - provider
   - consumer
+
+**[Day 28](class-28.md)**
+
+- How do bearer tokens work?
+- Describe express middleware?
+- What is a JWT?
+
+- Document the following Vocabulary Terms:
+
+  - role based access control
+  - http cookies
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
