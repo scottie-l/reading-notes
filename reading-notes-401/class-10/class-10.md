@@ -203,7 +203,7 @@ return front = NULL
 
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html">"Source"</a>
 
----;
+---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">**Back**</a>
 
----;
+---

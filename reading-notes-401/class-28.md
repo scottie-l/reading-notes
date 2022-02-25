@@ -4,7 +4,7 @@
 
 2. Describe express middleware? Express middleware are functions that execute during the lifecycle of a request to the Express server. Each middleware has access to the HTTP request and response for each route (or path) it's attached to. This “chaining” of middleware allows you to compartmentalize your code and create reusable middleware. <a href = "https://developer.okta.com/blog/2018/09/13/build-and-understand-express-middleware-through-examples#:~:text=Express%20middleware%20are%20functions%20that,or%20path)%20it's%20attached%20to.&text=This%20%E2%80%9Cchaining%E2%80%9D%20of%20middleware%20allows,code%20and%20create%20reusable%20middleware.">"Source"</a>  
 
-3. What is a JWT? JSON Web Token or "JWT" is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. JWTs can be signed using a secret or a public/private key pair using RSA or ECDSA.<a href = "https://jwt.io/introduction">"Source"</a>
+3. What is a JWT? JSON Web Token or "JWT" is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. JWTs can be signed using a secret or a public/private key pair using RSA or ECDSA. <a href = "https://jwt.io/introduction">"Source"</a>
 
 4. Document the following Vocabulary Terms:
 
