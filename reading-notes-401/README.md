@@ -400,6 +400,11 @@
   - role based access control
   - http cookies
 
+  
+**[Day 29](/class-29/class-29.md)**
+
+*[Quiz](/class-29/quiz-29.md)*
+
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
 

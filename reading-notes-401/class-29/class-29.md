@@ -1,24 +1,5 @@
 # Notes - Day 29
 
-# Quiz - Day 29
-
----
-## Quiz: Graphs
-
-1. What's a DAG?
-2. What is a Digraph?
-3. What is a Cyclic Graph?
-4. What's a weighted graph?
-5. What is a Completed graph?
-6. How is an adjacency array represented?
-7. What are the methods for traversing through a graph?
-8. Explain what a "vertex" is?
-9. If you have a standalone node, what it might be called?
-10. Graphs are represented in 2 ways, what are they?
-
----
----
-
 ## <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html">Graphs</a>
 
 A graph is a non-linear data structure that can be looked at as a collection of vertices, or nodes, potentially connected by line segments, named, edges.
@@ -85,7 +66,7 @@ In the visual above, this looks a lot more than what you are used to seeing. If 
 
 ![graphsquiz](../assets/img/graphs/graphs-3.png)
 
-In the above visual, the disconnected graph shows that some nodes may not always be connected to other nodes or vertices of the graph. It is complelty possible to have standalone nodes or edges (also known as islands) in a graph data structure.
+In the above visual, the disconnected graph shows that some nodes may not always be connected to other nodes or vertices of the graph. It is complelety possible to have standalone nodes or edges (also known as islands) in a graph data structure.
 
 ### Acyclic vs Cyclic
 
