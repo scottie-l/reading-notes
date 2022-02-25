@@ -10,8 +10,8 @@
 
 5. Document the following Vocabulary Terms:
 
-- *FIFO Queue:* A FIFO queue is a queue that operates on a first-in, first-out (FIFO) principle. <a href = "https://queue-it.com/queue-first-in-first-out/">"Source"</a>
-- *Pub/Sub:* Publisher/Subscriber, a form of asynchronous service-to-service communication used in serverless and microservices architectures.  <a href = "https://aws.amazon.com/pub-sub-messaging/">"Source"</a>
+- <u>*FIFO Queue:*</u> A FIFO queue is a queue that operates on a first-in, first-out (FIFO) principle. <a href = "https://queue-it.com/queue-first-in-first-out/">"Source"</a>
+- <u>*Pub/Sub:*</u> Publisher/Subscriber, a form of asynchronous service-to-service communication used in serverless and microservices architectures.  <a href = "https://aws.amazon.com/pub-sub-messaging/">"Source"</a>
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

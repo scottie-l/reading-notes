@@ -6,9 +6,9 @@
 
 3. Document the following Vocabulary Terms:
 
-- *Functional Components:* A functional component is basically a JavaScript/ES6 function that returns a React element (JSX). <a href = "https://www.freecodecamp.org/news/react-components-jsx-props-for-beginners/">"Source"</a>
-- *Children:* Children is a prop, and can be passed in to components in different ways. Children can be an object or an array. <a href = "https://www.netlify.com/blog/2020/12/17/react-children-the-misunderstood-prop/">"Source"</a>
-- *Child Components:* A child component is a more specific part inside a parent component. Example would be a parent component being a PERSON. ARMS and LEGS are child components of it. <a href = "https://stackoverflow.com/questions/44092105/what-is-the-difference-between-child-and-parent-component-in-angular-2">"Source"</a>
+- <u>*Functional Components:*</u> A functional component is basically a JavaScript/ES6 function that returns a React element (JSX). <a href = "https://www.freecodecamp.org/news/react-components-jsx-props-for-beginners/">"Source"</a>
+- <u>*Children:*</u> Children is a prop, and can be passed in to components in different ways. Children can be an object or an array. <a href = "https://www.netlify.com/blog/2020/12/17/react-children-the-misunderstood-prop/">"Source"</a>
+- <u>*Child Components:*</u> A child component is a more specific part inside a parent component. Example would be a parent component being a PERSON. ARMS and LEGS are child components of it. <a href = "https://stackoverflow.com/questions/44092105/what-is-the-difference-between-child-and-parent-component-in-angular-2">"Source"</a>
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

@@ -10,9 +10,9 @@
 
 5. Document the following Vocabulary Terms:
 
-- *Authorization:* Authorization is the function of specifying access rights/privileges to resources, which is related to general information security and computer security, and to access control in particular. <a href = "https://en.wikipedia.org/wiki/Authorization">"Source"</a>
-- *Role Based Access Control(RBAC):* RBAC allows you to create and enforce advanced access by assigning a set of permissions. The permissions are based on what level of access specific user categories require to perform their duties. <a href = "https://www.sailpoint.com/identity-library/what-is-role-based-access-control/?elqct=PaidMedia&elqchannel=GoogleSearch&elqcta=CjwKCAiAlrSPBhBaEiwAuLSDUIXa3nNPXZ7m4DTufVavWQ3psabSNXoP9H-OdxVTb5DlwOeTqLNRbRoC4gsQAvD_BwE&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUIXa3nNPXZ7m4DTufVavWQ3psabSNXoP9H-OdxVTb5DlwOeTqLNRbRoC4gsQAvD_BwE">"Source"</a>
-- *Capabilities:* A capability is defined as a set of tasks that a system is potentially able to perform (acquired skills) at a certain performance level (available capacity). Often only with the use of external resources. <a href = "https://www.dragon1.com/terms/capability-definition">"Source"</a>
+- <u>*Authorization:*</u> Authorization is the function of specifying access rights/privileges to resources, which is related to general information security and computer security, and to access control in particular. <a href = "https://en.wikipedia.org/wiki/Authorization">"Source"</a>
+- <u>*Role Based Access Control(RBAC):*</u> RBAC allows you to create and enforce advanced access by assigning a set of permissions. The permissions are based on what level of access specific user categories require to perform their duties. <a href = "https://www.sailpoint.com/identity-library/what-is-role-based-access-control/?elqct=PaidMedia&elqchannel=GoogleSearch&elqcta=CjwKCAiAlrSPBhBaEiwAuLSDUIXa3nNPXZ7m4DTufVavWQ3psabSNXoP9H-OdxVTb5DlwOeTqLNRbRoC4gsQAvD_BwE&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUIXa3nNPXZ7m4DTufVavWQ3psabSNXoP9H-OdxVTb5DlwOeTqLNRbRoC4gsQAvD_BwE">"Source"</a>
+- <u>*Capabilities:*</u> A capability is defined as a set of tasks that a system is potentially able to perform (acquired skills) at a certain performance level (available capacity). Often only with the use of external resources. <a href = "https://www.dragon1.com/terms/capability-definition">"Source"</a>
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

@@ -399,11 +399,23 @@
 
   - role based access control
   - http cookies
-
   
 **[Day 29](/class-29/class-29.md)**
 
 *[Quiz](/class-29/quiz-29.md)*
+
+**[Day 30](/class-30.md)**
+
+- What are the advantages of storing tokens in “Cookies” vs “Local Storage”
+- Explain 3rd party cookies.
+- How do pixel tags work?
+
+- Document the following Vocabulary Terms:
+
+  - cookies
+  - authorization
+  - access control
+  - conditional rendering
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**

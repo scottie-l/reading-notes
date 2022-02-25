@@ -8,9 +8,9 @@
 
 4. Document the following Vocabulary Terms:
 
-- *Serverless Functions:* Serverless functions are a single-purpose, programmatic feature of serverless computing; a cloud computing execution model where the cloud provider provisions computing resources on demand for its customers and manages all architectures, including cloud infrastructure. <a href = "https://www.splunk.com/en_us/data-insider/what-are-serverless-functions.html">"Source"</a>
-- *Cloud Storage:* Cloud storage is a model of computer data storage in which the digital data is stored in logical pools, said to be on "the cloud". The physical storage spans multiple servers (sometimes in multiple locations), and the physical environment is typically owned and managed by a hosting company. <a href = "https://en.wikipedia.org/wiki/Cloud_storage">"Source"</a>
-- *CDN:* A content delivery network, or content distribution network (CDN), is a geographically distributed network of proxy servers and their data centers. <a href = "https://en.wikipedia.org/wiki/Content_delivery_network">"Source"</a>
+- <u>*Serverless Functions:*</u> Serverless functions are a single-purpose, programmatic feature of serverless computing; a cloud computing execution model where the cloud provider provisions computing resources on demand for its customers and manages all architectures, including cloud infrastructure. <a href = "https://www.splunk.com/en_us/data-insider/what-are-serverless-functions.html">"Source"</a>
+- <u>*Cloud Storage:*</u> Cloud storage is a model of computer data storage in which the digital data is stored in logical pools, said to be on "the cloud". The physical storage spans multiple servers (sometimes in multiple locations), and the physical environment is typically owned and managed by a hosting company. <a href = "https://en.wikipedia.org/wiki/Cloud_storage">"Source"</a>
+- <u>*CDN:*</u> A content delivery network, or content distribution network (CDN), is a geographically distributed network of proxy servers and their data centers. <a href = "https://en.wikipedia.org/wiki/Content_delivery_network">"Source"</a>
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

@@ -6,9 +6,9 @@
 
 3. Document the following Vocabulary Terms:
   
-- *Rendering:* Rendering is a process used in web development that turns website code into the interactive pages users see when they visit a website. <a href = "seobility.net/en/wiki/Rendering">"Source"</a>
-- *Templates:* A template is a chunk of HTML that you need to inject onto the page. Often templates are created “server side” – in that they come to the JavaScript fully formed and just need to be put into the DOM. <a href = "https://css-tricks.com/video-screencasts/127-basics-of-javascript-templating/#:~:text=A%20template%20is%20a%20chunk,be%20put%20into%20the%20DOM.&text=In%20that%20case%20having%20the%20template%20right%20in%20JavaScript%20is%20ideal.">"Source"</a>
-- *State:* State is a plain JavaScript object used by React to represent an information about the component’s current situation. It’s managed in the component just like any variable declared in a function. <a href = "https://medium.com/edonec/state-in-react-an-overview-a182675cee2c#:~:text=State%20is%20a%20plain%20JavaScript%20object%20used%20by%20React%20to,variable%20declared%20in%20a%20function).">"Source"</a>
+- <u>*Rendering:*</u> Rendering is a process used in web development that turns website code into the interactive pages users see when they visit a website. <a href = "seobility.net/en/wiki/Rendering">"Source"</a>
+- <u>*Templates:*</u> A template is a chunk of HTML that you need to inject onto the page. Often templates are created “server side” – in that they come to the JavaScript fully formed and just need to be put into the DOM. <a href = "https://css-tricks.com/video-screencasts/127-basics-of-javascript-templating/#:~:text=A%20template%20is%20a%20chunk,be%20put%20into%20the%20DOM.&text=In%20that%20case%20having%20the%20template%20right%20in%20JavaScript%20is%20ideal.">"Source"</a>
+- <u>*State:*</u> State is a plain JavaScript object used by React to represent an information about the component’s current situation. It’s managed in the component just like any variable declared in a function. <a href = "https://medium.com/edonec/state-in-react-an-overview-a182675cee2c#:~:text=State%20is%20a%20plain%20JavaScript%20object%20used%20by%20React%20to,variable%20declared%20in%20a%20function).">"Source"</a>
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

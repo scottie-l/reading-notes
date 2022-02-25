@@ -8,8 +8,8 @@
 
 4. Document the following Vocabulary Terms:
 
-- *role based access control:* RBAC allows you to create and enforce advanced access by assigning a set of permissions. The permissions are based on what level of access specific user categories require to perform their duties. <a href = "https://www.sailpoint.com/identity-library/what-is-role-based-access-control/?elqct=PaidMedia&elqchannel=GoogleSearch&elqcta=Cj0KCQiA09eQBhCxARIsAAYRiylgO1QQsM_EzNGLs15l7-XO8DtNYJOrlHmVbEvG-oK8AJ7U6MQGrPYaAmg5EALw_wcB&gclid=Cj0KCQiA09eQBhCxARIsAAYRiylgO1QQsM_EzNGLs15l7-XO8DtNYJOrlHmVbEvG-oK8AJ7U6MQGrPYaAmg5EALw_wcB">"Source"</a>
-- *http cookies:* An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to a user's web browser. The browser may store the cookie and send it back to the same server with later requests. Typically, an HTTP cookie is used to tell if two requests come from the same browser—keeping a user logged in, for example. <a href = "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">"Source"</a>
+- <u>*role based access control:*</u> RBAC allows you to create and enforce advanced access by assigning a set of permissions. The permissions are based on what level of access specific user categories require to perform their duties. <a href = "https://www.sailpoint.com/identity-library/what-is-role-based-access-control/?elqct=PaidMedia&elqchannel=GoogleSearch&elqcta=Cj0KCQiA09eQBhCxARIsAAYRiylgO1QQsM_EzNGLs15l7-XO8DtNYJOrlHmVbEvG-oK8AJ7U6MQGrPYaAmg5EALw_wcB&gclid=Cj0KCQiA09eQBhCxARIsAAYRiylgO1QQsM_EzNGLs15l7-XO8DtNYJOrlHmVbEvG-oK8AJ7U6MQGrPYaAmg5EALw_wcB">"Source"</a>
+- <u>*http cookies:*</u> An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to a user's web browser. The browser may store the cookie and send it back to the same server with later requests. Typically, an HTTP cookie is used to tell if two requests come from the same browser—keeping a user logged in, for example. <a href = "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">"Source"</a>
 
 ---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>

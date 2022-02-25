@@ -8,8 +8,8 @@
 
 4. Document the following Vocabulary Terms:
 
-- *State Hook:* The React useState Hook allows us to track state in a function component. State generally refers to data or properites that need to be tracking in an application. <a href = "https://www.w3schools.com/react/react_usestate.asp">"Source"</a>
-- *Component Lifecycle:* Every React Component has a lifecycle of its own, lifecycle of a component can be defined as the series of methods that are invoked in different stages of the component's existence. <a href = "https://www.geeksforgeeks.org/reactjs-lifecycle-components/#:~:text=Every%20React%20Component%20has%20a,stages%20of%20the%20component's%20existence.">"Source"</a>
+- <u>*State Hook:*</u> The React useState Hook allows us to track state in a function component. State generally refers to data or properites that need to be tracking in an application. <a href = "https://www.w3schools.com/react/react_usestate.asp">"Source"</a>
+- <u>*Component Lifecycle:*</u> Every React Component has a lifecycle of its own, lifecycle of a component can be defined as the series of methods that are invoked in different stages of the component's existence. <a href = "https://www.geeksforgeeks.org/reactjs-lifecycle-components/#:~:text=Every%20React%20Component%20has%20a,stages%20of%20the%20component's%20existence.">"Source"</a>
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**

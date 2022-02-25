@@ -8,9 +8,9 @@
 
 4. Document the following Vocabulary Terms:
 
-- *Server:* A server is a computer program or device that provides a service to another computer program and its user, also known as the client. <a href = "https://whatis.techtarget.com/definition/server">"Source"</a>
-- *Pub/Sub:* In software architecture, publish–subscribe is a messaging pattern where senders of messages, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers, but instead categorize published messages into classes without knowledge of which subscribers, if any, there may be. <a href = "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern">"Source"</a>
-- *WRRC:* Web Response & Request Cycle. <a href = "https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047">"Source"</a>
+- <u>*Server:*</u> A server is a computer program or device that provides a service to another computer program and its user, also known as the client. <a href = "https://whatis.techtarget.com/definition/server">"Source"</a>
+- <u>*Pub/Sub:*</u> In software architecture, publish–subscribe is a messaging pattern where senders of messages, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers, but instead categorize published messages into classes without knowledge of which subscribers, if any, there may be. <a href = "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern">"Source"</a>
+- <u>*WRRC:*</u> Web Response & Request Cycle. <a href = "https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047">"Source"</a>
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>**
