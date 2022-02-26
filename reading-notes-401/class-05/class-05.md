@@ -1,6 +1,6 @@
 # Notes - Day 5
 
-<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
+### <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Big O: Analysis of Algorithm Efficiency, through “Linear Complexity Growth”"</a>
 
 Big O(oh) notation is used to describe the efficiency of an algorithm or function. This efficiency is evaluated based on 2 factors:
 
@@ -33,23 +33,23 @@ Always be aware that Space Complexity and Time Complexity are measured different
 
 <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html">"Source"</a>
 
-<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
+### <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Linked LIsts"</a>
 
 A Linked List is a sequence of Nodes that are connected/linked to each other. The most defining feature of a Linked List is that each Node references the next Node in the link. There are two types of Linked List - Singly and Doubly.
 
 Terminology:
 
-- *Linked List:* A data structure that contains nodes that links/points to the next node in the list.
-- *Singly:* Refers to the number of references the node has. A Singly linked list means that there is only one reference, and the reference points to the Next node in a linked list.
-- *Doubly:* -Refers to there being two references within the node. A Doubly linked list means that there is a reference to both the Next and Previous node.
-- *Node:* The individual items/links that live in a linked list. Each node contains the data for each link.
-- *Next:* Each node contains a property called Next. This property contains the reference to the next node.
-- *Head:* A reference of type Node to the first node in a linked list.
-- *Current:* - Reference of type Node to the node that is currently being looked at. When traversing, you create a new Current variable at the Head to guarantee you are starting from the beginning of the linked list.
+- <u>*Linked List:*</u> A data structure that contains nodes that links/points to the next node in the list.
+- <u>*Singly:*</u> Refers to the number of references the node has. A Singly linked list means that there is only one reference, and the reference points to the Next node in a linked list.
+- <u>*Doubly:*</u> -Refers to there being two references within the node. A Doubly linked list means that there is a reference to both the Next and Previous node.
+- <u>*Node:*</u> The individual items/links that live in a linked list. Each node contains the data for each link.
+- <u>*Next:*</u> Each node contains a property called Next. This property contains the reference to the next node.
+- <u>*Head:*</u> A reference of type Node to the first node in a linked list.
+- <u>*Current:*</u> - Reference of type Node to the node that is currently being looked at. When traversing, you create a new Current variable at the Head to guarantee you are starting from the beginning of the linked list.
 
 When traversing a linked list, you are not able to use a foreach or for loop. We depend on the Next value in each node to guide us where the next reference is pointing. The best way to approach a traversal is through the use of a while() loop. This allows us to continually check that the Next node in the list is not null. The Current variable will tell us where exactly in the linked list we are.
 
-Adding 0(1)
+**Adding 0(1)**
 
 Order of operations is extremely important when it comes to working with a Linked List.
 
@@ -59,7 +59,7 @@ Here are the required steps to add a new node with an O(1) efficiency.
 - newNode.Next by default is set to null. We want to set newNode.Next property to the same location that the Head node is pointing towards. Because Head is just a reference type, we will be assigning it to the same allocation in memory as the node it is pointing too. In this case, it’s Node1.
 - At this point in the program we now “technically” have newNode at the beginning of the linked list, but we are not done yet. We now have to re-assign where Head is pointing too. Since Node1 is no longer the first node in the list, we want to re-assign Head to point at newNode.
 
-Adding a Node O(n)
+**Adding a Node O(n)**
 
 Adding a node to the middle of a linked list is a bit different than adding to the beginning. This is because we are working with more nodes and must re-allocate to make room for the new node.
 
@@ -67,7 +67,7 @@ Adding a node to the middle of a linked list is a bit different than adding to t
 - Now let’s create a new node (node6). We will set the value of node6 to be 16. The Next will be null because we haven’t yet attached it into the linked list.
 - Now let’s start the adding. We can do an AddBefore method or an AddAfter. For this documentation, we will do an AddBefore. The AddAfter is extremely similar.
 
-AddBefore:
+**AddBefore:**
 
 - Current is pointing to node3.
 - node3.Next property is equal to node4.
@@ -79,13 +79,13 @@ The time efficiency of this transaction would be O(n) because we could be insert
 
 Space efficiency would stay at an O(1) because, like before, no additional space is being used allocated outside of what is given to us on the input.
 
-Print Out Nodes:
+**Print Out Nodes:**
 
 Printing out all of the nodes in a Linked List is very similar to what we did in the Includes() method. This is because we are leveraging our Current node and a while loop to traverse through the existing linked list. Much like in Includes, we are creating a while loop to check and make sure we are not at the end of a linked list. Right before the while loop restarts, we move Current to equal the next node in the list. Once we hit the end, we write out the null pointed to by the last node.
 
 When constructing your code, a few things to keep in mind. When making your Node class, consider requiring a value to be passed in to require that each node has a value. <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html">"Source"</a>
 
-<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
+### <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"What's a Linked List Anyway pt. 1"</a>
 
 One characteristic of linked lists is that they are linear data structures, which means that there is a sequence and an order to how they are constructed and traversed.
 
@@ -109,7 +109,7 @@ A circular linked list is a little odd in that it doesn’t end with a node poin
 
 <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d">"Source"</a>
 
-<a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
+### <a href = "https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996">"What's a Linked List Anyway pt. 2"</a>
 
 Big O Notation is a way of evaluating the performance of an algorithm.
 

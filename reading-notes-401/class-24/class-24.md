@@ -1,12 +1,12 @@
 # Notes - Day 24
 
-<a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-30/resources/Hashtables.html">Intro to Hash Tables</a>
+### <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-30/resources/Hashtables.html">Intro to Hash Tables</a>
 
 **Terminology:**
 
-- *Hash:* - A hash is the result of some algorithm taking an incoming string and converting it into a value that could be used for either security or some other purpose. In the case of a hashtable, it is used to determine the index of the array.
-- *Buckets:* - A bucket is what is contained in each index of the array of the hashtable. Each index is a bucket. An index could potentially contain multiple key/value pairs if a collision occurs.
-- *Collisions:* - A collision is what happens when more than one key gets hashed to the same location of the hashtable.
+- <u>*Hash:*</u> - A hash is the result of some algorithm taking an incoming string and converting it into a value that could be used for either security or some other purpose. In the case of a hashtable, it is used to determine the index of the array.
+- <u>*Buckets:*</u> - A bucket is what is contained in each index of the array of the hashtable. Each index is a bucket. An index could potentially contain multiple key/value pairs if a collision occurs.
+- <u>*Collisions:*</u> - A collision is what happens when more than one key gets hashed to the same location of the hashtable.
 
 Why do we use them?
 
@@ -14,7 +14,7 @@ Why do we use them?
   2. Dictionary
   3. Library
 
-**What is a Hashtable?**
+### What is a Hashtable?
 
 Hashtables are a data structure that utilize key value pairs. This means every `Node` or `Bucket` has both a key, and a value.
 
@@ -38,7 +38,7 @@ Basically, the hash function takes a key and returns an integer. We use the inte
 
 The hash code is used again to read something from the hash map. Take the key, run it through the hash code to get a number, use that number to index the array. Calculating the hash code and reading an array at that index is all constant time to the hash map has `O(1)` read access!
 
-## Structure
+### Structure
 
 **Hashing**
 
@@ -119,7 +119,7 @@ Hash maps do this to read value:
 - use the array index to access the short LinkedList representing a bucket
 - search through the bucket looking for a node with a key/value pair that matches the key you were given
 
-**Hashmap Example:**
+### Hashmap Example:
 
 *Hash Code Examples*
 
@@ -153,7 +153,7 @@ MULT INDEX: 1062823936 % 99 = 31
 MULT INDEX:  578867200 % 99 = 43
 ~~~
 
-**Bucket Sizes**
+### Bucket Sizes
 
 Hash Maps can have any number of buckets. If a hash map has only a few buckets it will be densely full and have many collisions. If a hash map has more buckets it will be more sparsely populated, there will be less collisions, but there may be a lot of extra empty space.
 
@@ -242,9 +242,9 @@ Bucket 97: []
 Bucket 98: []
 ~~~
 
-**Internal Methods**
+### Internal Methods
 
-*Add()*
+**Add()**
 
 When adding a new key/value pair to a hashtable:
 
@@ -253,21 +253,21 @@ When adding a new key/value pair to a hashtable:
 3. Check if something exists at that index already, if it doesn’t, add it with the key/value pair.
 4. If something does exist, add the new key/value pair to the data structure within that bucket.
 
-*Find()*
+**Find()**
 
 The `Find` takes in a key, gets the Hash, and goes to the index location specified. Once at the index location is found in the array, it is then the responsibility of the algorithm the iterate through the bucket and see if the key exists and return the value.
 
-*Contains()*
+**Contains()**
 
 The `Contains` method will accept a key, and return a bool on if that key exists inside the hashtable. The best way to do this is to have the contains call the `GetHash` and check the hashtable if the key exists in the table given the index returned.
 
-*GetHash()*
+**GetHash()**
 
 The `GetHash` will accept a key as a string, conduct the hash, and then return the index of the array where the key/value should be placed. <a href = "https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-30/resources/Hashtables.html">"Source"</a>
 
-<a href = "https://www.youtube.com/watch?v=MfhjkfocRR0">What is a Hash table? - video</a>
+### <a href = "https://www.youtube.com/watch?v=MfhjkfocRR0">What is a Hash table? - video</a>
 
-<a href = "https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/">Basics of Hash Tables</a>
+### <a href = "https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/">Basics of Hash Tables</a>
 
 Hashing is a technique that is used to uniquely identify a specific object from a group of similar objects. Some examples of how hashing is used in our lives include:
 
@@ -283,33 +283,33 @@ Hashing is implemented in two steps:
 hash = hashfunc(key)
 index = hash % array_size
 
-Hash function
+**Hash function**
 
 A hash function is any function that can be used to map a data set of an arbitrary size to a data set of a fixed size, which falls into the hash table. The values returned by a hash function are called hash values, hash codes, hash sums, or simply hashes.
 
-Hash table
+**Hash table**
 
 A hash table is a data structure that is used to store keys/value pairs. It uses a hash function to compute an index into an array in which an element will be inserted or searched. By using a good hash function, hashing can work well. Under reasonable assumptions, the average time required to search for an element in a hash table is O(1).
 
-Collision resolution techniques
+### Collision resolution techniques
 
-Separate chaining (open hashing)
+**Separate chaining (open hashing)**
 
 Separate chaining is one of the most commonly used collision resolution techniques. It is usually implemented using linked lists. In separate chaining, each element of the hash table is a linked list. To store an element in the hash table you must insert it into a specific linked list. If there is any collision (i.e. two different elements have same hash value) then store both the elements in the same linked list.
 
-Linear probing (open addressing or closed hashing)
+**Linear probing (open addressing or closed hashing)**
 
 In open addressing, instead of in linked lists, all entry records are stored in the array itself. When a new entry has to be inserted, the hash index of the hashed value is computed and then the array is examined (starting with the hashed index). If the slot at the hashed index is unoccupied, then the entry record is inserted in slot at the hashed index else it proceeds in some probe sequence until it finds an unoccupied slot.
 
-Quadratic Probing
+**Quadratic Probing**
 
 Quadratic probing is similar to linear probing and the only difference is the interval between successive probes or entry slots. Here, when the slot at a hashed index for an entry record is already occupied, you must start traversing until you find an unoccupied slot. The interval between slots is computed by adding the successive value of an arbitrary polynomial in the original hashed index.
 
-Double hashing
+**Double hashing**
 
 Double hashing is similar to linear probing and the only difference is the interval between successive probes. Here, the interval between probes is computed by using two hash functions.
 
-<a href = "https://en.wikipedia.org/wiki/Hash_table">Hash Table Wiki</a>
+### <a href = "https://en.wikipedia.org/wiki/Hash_table">Hash Table Wiki</a>
 
 In computing, a hash table (hash map) is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.
 

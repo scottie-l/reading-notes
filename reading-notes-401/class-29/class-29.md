@@ -6,10 +6,10 @@ A graph is a non-linear data structure that can be looked at as a collection of 
 
 ### Terminology:
 
-- *Vertex:* A vertex, also called a “node”, is a data object that can have zero or more adjacent vertices.
-- *Edge:* An edge is a connection between two nodes.
-- *Neighbor:* - The neighbors of a node are its adjacent nodes, i.e., are connected via an edge.
-- *Degree:* - The degree of a vertex is the number of edges connected to that vertex.
+- <u>*Vertex:*</u> A vertex, also called a “node”, is a data object that can have zero or more adjacent vertices.
+- <u>*Edge:*</u> An edge is a connection between two nodes.
+- <u>*Neighbor:*</u> - The neighbors of a node are its adjacent nodes, i.e., are connected via an edge.
+- <u>*Degree:*</u> - The degree of a vertex is the number of edges connected to that vertex.
 
 ### Directed vs Undirected
 
@@ -151,7 +151,7 @@ Looking at the original graph that we are representing, we can see that Vertex '
 - Each index or node (depending on the data structure you choose to represent the adjacency list) will be a vertex within the graph.
 - Every time you add an edge, you will find the appropriate vertices in the data structure and add it to the appropriate location.
 
-**Weighted Graphs**
+### Weighted Graphs
 
 A weighted graph is a graph with numbers assigned to its edges. These numbers are called weights.
 
@@ -303,11 +303,6 @@ Graphs are extremely popular when it comes to it’s uses. Here are just a few e
 - Social Networks
 - Airline Traffic
 - Netflix uses graphs for suggestions of products
-
-
-
-
-
 
 ---
 <a href = "https://github.com/scottie-l/reading-notes/tree/main/reading-notes-401">Back</a>
