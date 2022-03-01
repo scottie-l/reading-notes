@@ -417,6 +417,21 @@
   - access control
   - conditional rendering
 
+**[Day 31](/class-31.md)**
+
+- Why choose Redux instead of the Context API for global state?
+- What is the purpose of a reducer?
+- What does an action contain?
+- Why do we need to copy the state in a reducer?
+
+- Document the following Vocabulary Terms:
+
+  - immutable state
+  - time travel in redux
+  - action creator
+  - reducer
+  - dispatch
+
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
 
