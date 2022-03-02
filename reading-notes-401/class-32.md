@@ -4,7 +4,7 @@
 
 2. Pro or Con – Multiple reducers can “fire” when a commonly named action is dispatched? Pro since we have to change multiple states in multiple components; Reducers can listen when an action is dispatched which can reduce a lot of work, and each reducer can provide a different logic to the same dispatcher. The downside is, now, you have no history of why the changes are happening, so debugging gets really difficult. <a href = "https://redux.ruanyifeng.com/faq/Actions.html#should-i-dispatch-multiple-actions-in-a-row-from-one-action-creator">"Source"</a>
 
-3. Name a strategy for preventing the above? Make a reducer for each component affected by the dispacher, then you're only targeting a specific instance of the state.
+3. Name a strategy for preventing the above? Make a reducer for each component affected by the dispatcher, then you're only targeting a specific instance of the state.
 
 4. Document the following Vocabulary Terms:
 
