@@ -432,6 +432,17 @@
   - reducer
   - dispatch
 
+**[Day32](/class-32.md)**
+
+- How granular should your reducers be?
+- Pro or Con – multiple reducers can “fire” when a commonly named action is dispatched
+- Name a strategy for preventing the above
+
+- Document the following Vocabulary Terms:
+
+  - store
+  - combined reducers
+
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
 
