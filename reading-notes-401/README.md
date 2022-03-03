@@ -432,7 +432,7 @@
   - reducer
   - dispatch
 
-**[Day32](/class-32.md)**
+**[Day 32](/class-32.md)**
 
 - How granular should your reducers be?
 - Pro or Con – multiple reducers can “fire” when a commonly named action is dispatched
@@ -442,6 +442,16 @@
 
   - store
   - combined reducers
+
+**[Day 33](/class-33.md)**
+
+- What’s the best practice for “pre-loading” data into the store (on application start) in a Redux application?
+- When using a thunk/async action that dispatches the actual action, which do you export from your reducer?
+
+- Document the following Vocabulary Terms:
+
+  - middleware
+  - thunk
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
