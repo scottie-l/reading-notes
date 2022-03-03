@@ -453,6 +453,36 @@
   - middleware
   - thunk
 
+**[Day 34](class-34.md)**
+
+- Compare and Contrast Redux Toolkit with Redux “Ducks”
+- What is the principle advantage of Redux Toolkit
+
+- Document the following Vocabulary Terms:
+
+  - redux toolkit slices
+  - namespace
+
+<!-- **[Day 35](class-35.md)**
+
+- Code of Ethics
+  - Skim: Code of Ethics
+  - Skim: Software Engineering Code of Ethics
+- Ethics in the workplace
+- Ethics in Technology
+- Tech Company Principles
+  - Microsoft AI Principles
+  - Ethical OS Toolkit
+  - Google AI Principles -->
+
+<!-- **[Day 36](class-36.md)**
+
+- Open-Source Software Contribution
+  - First Timers Only
+  - GitHub’s Guide to Open Source
+  - What Motivates a Developer to Contribute to Open-Source Software?
+  - Review: List of Beginner-Friendly Projects (select your language of choice, also search for label:first-timers-only) -->
+
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
 
