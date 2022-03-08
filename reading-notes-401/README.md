@@ -466,14 +466,30 @@
 **[Day 35](class-35.md)**
 
 - Code of Ethics
-  - Skim: Code of Ethics
-  - Skim: Software Engineering Code of Ethics
+  - <a href = "https://www.acm.org/code-of-ethics">Code of Ethics</a>
+  - <a href = "https://ethics.acm.org/code-of-ethics/software-engineering-code/">Software Engineering Code of Ethics</a>
+
 - Ethics in the workplace
+
+  - <a href = "https://www.freecodecamp.org/news/the-code-im-still-ashamed-of-e4c021dff55e">The code I’m still ashamed of</a>
+  - *<a href = "https://www.vox.com/2018/8/17/17704526/google-dragonfly-censored-search-engine-china">Project Dragonfly, Google’s censored search engine</a>*
+  - <a href = "https://gizmodo.com/amazon-workers-demand-jeff-bezos-cancel-face-recognitio-1827037509">Amazon workers demand Jeff Bezos cancel “Recognition” software</a>
+  - <a href = "https://gizmodo.com/in-reversal-google-says-its-ai-will-not-be-used-for-we-1826649327">Google and AI</a>
+  - <a href = "https://web.archive.org/web/20211124172013/https://www.nytimes.com/2018/06/19/technology/tech-companies-immigration-border.html">Microsoft Employees demand end of ICE contract</a>
+  - <a href = "https://www.businessinsider.com/microsoft-employees-protest-contract-us-army-hololens-2019-2">Microsoft and the DoD</a>
+
 - Ethics in Technology
+
+  - <a href = "https://www.freep.com/story/money/cars/2017/11/21/self-driving-cars-ethics/804805001/">Self Driving Car Ethics</a>
+  - <a href = "https://www.theglobeandmail.com/globe-drive/culture/technology/the-ethical-dilemmas-of-self-drivingcars/article37803470/">Ethical dilemma of self driving cars</a>
+  - <a href = "https://phys.org/news/2017-02-cybersecurity-self-driving-cars.html">Cyber-Security of self driving cars</a>
+  - *<a href = "http://solveforinteresting.com/big-data-is-our-generations-civil-rights-issue-and-we-dont-know-it/">Big Data is our Civil Rights issue</a>*
+  - <a href = "https://www.scientificamerican.com/article/will-democracy-survive-big-data-and-artificial-intelligence/">Will democracy survive big data and AI?</a>
+
 - Tech Company Principles
-  - Microsoft AI Principles
-  - Ethical OS Toolkit
-  - Google AI Principles
+  - <a href = "https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6">Microsoft AI Principles</a>
+  - <a href = "https://ethicalos.org/">Ethical OS Toolkit</a>
+  - <a href = "https://www.blog.google/technology/ai/ai-principles/">Google AI Principles</a>
 
 <!-- **[Day 36](class-36.md)**
 
