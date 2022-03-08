@@ -463,7 +463,7 @@
   - redux toolkit slices
   - namespace
 
-<!-- **[Day 35](class-35.md)**
+**[Day 35](class-35.md)**
 
 - Code of Ethics
   - Skim: Code of Ethics
@@ -473,7 +473,7 @@
 - Tech Company Principles
   - Microsoft AI Principles
   - Ethical OS Toolkit
-  - Google AI Principles -->
+  - Google AI Principles
 
 <!-- **[Day 36](class-36.md)**
 
