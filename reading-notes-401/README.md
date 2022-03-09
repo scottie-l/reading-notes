@@ -491,13 +491,13 @@
   - <a href = "https://ethicalos.org/">Ethical OS Toolkit</a>
   - <a href = "https://www.blog.google/technology/ai/ai-principles/">Google AI Principles</a>
 
-<!-- **[Day 36](class-36.md)**
+**[Day 36](class-36.md)**
 
 - Open-Source Software Contribution
-  - First Timers Only
-  - GitHub’s Guide to Open Source
-  - What Motivates a Developer to Contribute to Open-Source Software?
-  - Review: List of Beginner-Friendly Projects (select your language of choice, also search for label:first-timers-only) -->
+  - <a href = "https://www.firsttimersonly.com/">First Timers Only</a>
+  - <a href = "https://github.com/open-source">GitHub’s Guide to Open Source</a>
+  - <a href = "https://clearcode.cc/blog/why-developers-contribute-open-source-software/">What Motivates a Developer to Contribute to Open-Source Software?</a>
+  - <a href = "https://github.com/search?q=label%3Agood-first-issue+archived%3Afalse">Review: List of Beginner-Friendly Projects</a>
 
 ---
 **<a href = "https://github.com/scottie-l/reading-notes">Back</a>**
