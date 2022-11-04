@@ -29,5 +29,3 @@ body {
 <a href = "https://jones-trae.github.io/join_the_rebels/">Join_the_Rebels</a>
 
 [Back](README.md)
-
-<!-- Test notes to push into new addy -->
